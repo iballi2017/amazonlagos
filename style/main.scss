@@ -1,0 +1,279 @@
+// Import Font-family
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+// SCSS Variables
+$grey_color: #e5e5e5;
+$white_color: #ffffff;
+$lemon_color: #c3df34;
+$black_color: #2d2d2d;
+$deepGreen_color: #1f3200;
+$yellow_color: #ffbf43;
+$primary_fontFamily: "Roboto", sans-serif;
+
+body {
+    background-color: $grey_color;
+    font-size: 13px;
+    font-family: $primary_fontFamily;
+}
+
+// TYPOGRAPHY
+.text_upper {
+    text-transform: uppercase;
+}
+.text_lower {
+    text-transform: lowercase;
+}
+.text_capital {
+    text-transform: capitalize;
+}
+// ......
+
+// GLOBAL
+a {
+    transition: all 250ms ease-in-out;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.right_0 {
+    right: 0;
+}
+.left_0 {
+    left: 0;
+}
+
+.align_center {
+    align-items: center;
+}
+
+.flex_just_spb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inline_flex {
+    display: inline-flex;
+}
+
+.margin-auto-0 {
+    margin: 0 auto;
+}
+.relative_position {
+    position: relative;
+}
+.absolute_position {
+    position: absolute;
+}
+
+.cont_wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.y_btn {
+    background-color: $yellow_color;
+    color: $white_color;
+    transition: all 250ms ease-in-out;
+    &:hover {
+        background-color: $lemon_color;
+    }
+}
+
+// ......
+
+.main_nav_lg {
+    display: none;
+    .main_nav_inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.main_nav_cateory_wrapper {
+    display: none;
+    background-color: $deepGreen_color;
+    .category_title {
+        color: $white_color;
+        padding: 1em 1em;
+    }
+    .category_dropdown_list {
+        line-height: 30px;
+        a {
+            color: $black_color;
+            &:hover {
+                color: $lemon_color;
+            }
+        }
+        li {
+            list-style-type: disc !important;
+        }
+    }
+}
+.category_dropdown_list {
+    background-color: $white_color;
+    z-index: 2;
+    right: 0;
+    left: 0;
+    margin-top: 0.5em;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: all 300ms ease-in-out;
+}
+.navbar-brand {
+    img {
+        width: 150px;
+    }
+}
+
+.product_card {
+    a {
+        color: $black_color;
+        &:hover {
+            color: $lemon_color;
+        }
+    }
+}
+.shopping_cart_icon {
+    font-size: 1rem;
+}
+
+.cust_nav_link_dropdown {
+    display: flex;
+    justify-content: space-between;
+    color: $black_color;
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: $black_color;
+    }
+}
+
+.category_list_wrapper {
+    li {
+        list-style-type: disc;
+    }
+}
+
+.green_btn {
+    background: $lemon_color;
+    color: $white_color;
+}
+
+.white_btn {
+    border: 1px solid $lemon_color;
+    background-color: $white_color;
+    color: $lemon_color;
+}
+
+.cust_nav {
+    background-color: $grey_color;
+    padding: 0.5rem 1rem;
+}
+
+button {
+    border: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+#entertainment,
+#householdAppliances,
+#cooling,
+#kitchenAppliances,
+#power,
+#groceries {
+    &.collapse {
+        background-color: $black_color;
+        color: $white_color;
+        a {
+            color: inherit;
+        }
+    }
+}
+
+// .access_btn {
+//     border: 1px solid red;
+//     display: block;
+//     padding: 0.4em;
+// }
+
+.prod_price {
+    font-weight: 900;
+}
+.custom_prod_nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    z-index: 2;
+    span {
+        cursor: pointer;
+        &::before {
+            font-family: "font Awesome 5 Free";
+            font-weight: 900;
+            color: $lemon_color;
+            font-size: 2rem;
+        }
+    }
+    .latest_product_nav_prev::before {
+        content: "\f137";
+    }
+    .latest_product_nav_next::before {
+        content: "\f138";
+    }
+}
+
+footer {
+    background-color: $black_color;
+    color: $white_color;
+    li {
+        list-style: none;
+        a {
+            color: $white_color;
+            line-height: 30px;
+        }
+    }
+    .newsletter_form {
+        input {
+            width: 63%;
+            &:focus {
+                outline: 0;
+            }
+        }
+        button {
+            width: 35%;
+        }
+    }
+
+    .social_icons_wrapper {
+        display: flex;
+        align-items: center;
+        li + li {
+            margin-left: 2em;
+        }
+    }
+}
+
+@media (min-width: 900px) {
+}
+
+@media (min-width: 850px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 778px) {
+    .main_nav_lg,
+    .main_nav_cateory_wrapper {
+        display: block;
+    }
+    .cust_nav,
+    .search_input_wrapper {
+        display: none;
+    }
+}
