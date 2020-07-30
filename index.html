@@ -26,15 +26,22 @@
                 <a class="navbar-brand" href="#">AmazonLagos</a>
                 <nav class="nav">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link custom_dropdown_toggle pseudo_after" href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Help
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
+                            <!-- <a class="dropdown-item" href="#">FAQ</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="dropdown-item" href="#">Contact Us</a> -->
+                            <ul>
+                                <li>
+                                    <a href="#">FAQ</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact Us</a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
                     <a class="nav-link" href="#">Shopping List</a>
@@ -47,15 +54,20 @@
                 </form>
                 <ul class="nav justify-content-end">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link custom_dropdown_toggle pseudo_after" href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Login
                         </a>
-                        <div class="dropdown-menu px-3" aria-labelledby="navbarDropdown">
-                            <!-- <a class="dropdown-item" href="#">Login</a> -->
-                            <a href="#" class="p-2 dropdown-item rounded text_capital green_btn text-center">Login</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item text-center" href="#">Sign Up</a>
+                        <div class="dropdown-menu px-3 border-0" aria-labelledby="navbarDropdown">
+                            <ul class="category_list_lg_scrn">
+                                <li class="text-center rounded p-0">
+                                    <a href="#">Login</a>
+                                </li>
+                                <div class="dropdown-divider"></div>
+                                <li class="text-center rounded p-0">
+                                    <a href="#">Sign Up</a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -76,10 +88,36 @@
                 <i class="fas fa-bars text-white my-0"></i>
             </span> -->
             <ul class="nav" style="width: 100%; justify-content: space-between;">
-                <li class="nav-item category_dropdown">
-                    <div class="category_title"><span style="display: flex; align-items: center">
-                            <h6 class="mr-3 text-white my-0">All Categories</h6>
-                            <a class="" href="#"><i class="fas fa-bars text-white my-0"></i></a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link category_dropdown_toggle pseudo_after category_title pl-0" href="#"
+                        id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        All Categories
+                    </a>
+                    <div class="dropdown-menu border-0 p-0" aria-labelledby="navbarDropdown">
+                        <!-- <a class="dropdown-item" href="#">FAQ</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Contact Us</a> -->
+                        <ul class="category_list_lg_scrn">
+                            <li>
+                                <a href="#">Entertainment</a>
+                            </li>
+                            <li>
+                                <a href="#">Household/Appliances</a>
+                            </li>
+                            <li>
+                                <a href="#">Cooling</a>
+                            </li>
+                            <li>
+                                <a href="#">Kitchen appliances</a>
+                            </li>
+                            <li>
+                                <a href="#">Power</a>
+                            </li>
+                            <li>
+                                <a href="#">Groceries</a>
+                            </li>
+                        </ul>
                     </div>
                 </li>
 
@@ -642,7 +680,7 @@
     <section>
         <div class="cont_wrapper bg-white section_inner my-3 rounded">
             <div class="border-bottom px-md-4">
-                <h4 class="py-2 mx-2 text_capital">Latest Products</h4>
+                <h6 class="py-2 mx-2 text_capital">Latest Products</h6>
             </div>
             <!-- <hr> -->
             <div class="py-md-2 px-md-4">
@@ -785,7 +823,7 @@
     <section>
         <div class="cont_wrapper section_inner bg-white my-3">
             <div class="border-bottom px-md-4">
-                <h4 class="py-2 mx-2 text_capital">Top Brands</h4>
+                <h6 class="py-2 mx-2 text_capital">Top Brands</h6>
             </div>
             <div>
                 <div class="owl-carousel brand_slider_one cont_wrapper">
@@ -813,7 +851,7 @@
     <section>
         <div class="cont_wrapper bg-white py-3 my-2">
             <div class="cont_wrapper">
-                <h4 class="m-0 text_capital">About lagos Nigeria’s Largest Online Mall – Amazon lagos</h4>
+                <h6 class="m-0 text_capital">About lagos Nigeria’s Largest Online Mall – Amazon lagos</h6>
                 <br>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, aspernatur, sed delectus iusto
@@ -836,7 +874,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-6 col-md-4">
-                    <h6 class="text_upper">Company</h6>
+                    <h6 class="text_upper footer_col_title">Company</h6>
                     <ul class="p-0">
                         <li>
                             <a href="#">Privacy policy</a>
@@ -856,7 +894,7 @@
                     </ul>
                 </div>
                 <div class="col-6 col-md-4">
-                    <h6 class="text_upper">Payment Metthod</h6>
+                    <h6 class="text_upper footer_col_title">Payment Metthod</h6>
                 </div>
                 <div class="col-12 col-md-4">
                     <h6>SUBSCRIBE TO OUR NEWS LETTER</h6>
@@ -866,7 +904,7 @@
                     </form>
                     <br>
                     <br>
-                    <h6 class="text_upper">CONNECT WITH US</h6>
+                    <h6 class="text_upper footer_col_title">CONNECT WITH US</h6>
                     <ul class="p-0 social_icons_wrapper">
                         <li>
                             <a href="#">

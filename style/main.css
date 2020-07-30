@@ -89,6 +89,8 @@ a {
 .navbar-brand img {
   width: 150px; }
 
+.product_card .card-title {
+  font-size: 0.8rem; }
 .product_card a {
   color: #2d2d2d; }
   .product_card a:hover {
@@ -168,6 +170,8 @@ button:focus {
 footer {
   background-color: #2d2d2d;
   color: #ffffff; }
+  footer .footer_col_title {
+    font-size: 0.8rem; }
   footer li {
     list-style: none; }
     footer li a {
@@ -181,20 +185,75 @@ footer {
     width: 35%; }
   footer .social_icons_wrapper {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    font-size: 1rem; }
     footer .social_icons_wrapper li + li {
       margin-left: 2em; }
 
+@media (min-width: 900px) {
+  body {
+    font-size: 14px; } }
 @media (min-width: 850px) {
   body {
     font-size: 15px; } }
 @media (min-width: 778px) {
   .main_nav_lg,
   .main_nav_cateory_wrapper {
-    display: block; }
+    display: block;
+    font-size: 13px; }
+    .main_nav_lg a,
+    .main_nav_cateory_wrapper a {
+      color: #2d2d2d; }
+
+  .nav-item .dropdown-menu a {
+    font-size: 0.8rem; }
 
   .cust_nav,
   .search_input_wrapper {
-    display: none; } }
+    display: none; }
+
+  .cust_dropdown-toggle {
+    display: flex;
+    align-items: center; }
+    .cust_dropdown-toggle::after {
+      content: "\f0c9";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      margin-left: 0.4em; }
+
+  .category_dropdown_toggle {
+    display: flex;
+    align-items: center; }
+    .category_dropdown_toggle + div {
+      transition: all 300ms ease-in-out; }
+    .category_dropdown_toggle::after {
+      content: "\f0c9"; }
+
+  .custom_dropdown_toggle {
+    display: flex;
+    align-items: center;
+    transition: all 300ms ease-in-out; }
+    .custom_dropdown_toggle + div {
+      transition: all 300ms ease-in-out; }
+    .custom_dropdown_toggle::after {
+      content: "\f107"; }
+
+  .pseudo_after::after, .pseudo_after::before,
+  .pseudo_before::after,
+  .pseudo_before::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: 0.4em; }
+
+  .category_list_lg_scrn {
+    list-style: none;
+    padding: 0; }
+    .category_list_lg_scrn li {
+      line-height: 35px;
+      padding: 0.3em 1em; }
+      .category_list_lg_scrn li:hover {
+        background-color: #c3df34; }
+        .category_list_lg_scrn li:hover a {
+          color: #ffffff; } }
 
 /*# sourceMappingURL=main.css.map */

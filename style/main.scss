@@ -127,6 +127,9 @@ a {
 }
 
 .product_card {
+    .card-title {
+        font-size: 0.8rem;
+    }
     a {
         color: $black_color;
         &:hover {
@@ -230,6 +233,9 @@ button:focus {
 footer {
     background-color: $black_color;
     color: $white_color;
+    .footer_col_title {
+        font-size: 0.8rem;
+    }
     li {
         list-style: none;
         a {
@@ -252,6 +258,7 @@ footer {
     .social_icons_wrapper {
         display: flex;
         align-items: center;
+        font-size: 1rem;
         li + li {
             margin-left: 2em;
         }
@@ -259,6 +266,9 @@ footer {
 }
 
 @media (min-width: 900px) {
+    body {
+        font-size: 14px;
+    }
 }
 
 @media (min-width: 850px) {
@@ -271,9 +281,71 @@ footer {
     .main_nav_lg,
     .main_nav_cateory_wrapper {
         display: block;
+        font-size: 13px;
+        a {
+            color: $black_color;
+        }
+    }
+    .nav-item .dropdown-menu a {
+        font-size: 0.8rem;
     }
     .cust_nav,
     .search_input_wrapper {
         display: none;
+    }
+    .cust_dropdown-toggle {
+        display: flex;
+        align-items: center;
+        &::after {
+            // content: "\f107";
+            content: "\f0c9";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            margin-left: 0.4em;
+        }
+    }
+    .category_dropdown_toggle {
+        display: flex;
+        align-items: center;
+        + div {
+            transition: all 300ms ease-in-out;
+        }
+        &::after {
+            content: "\f0c9";
+        }
+    }
+    .custom_dropdown_toggle {
+        display: flex;
+        align-items: center;
+        transition: all 300ms ease-in-out;
+        + div {
+            transition: all 300ms ease-in-out;
+        }
+        &::after {
+            content: "\f107";
+        }
+    }
+    .pseudo_after,
+    .pseudo_before {
+        &::after,
+        &::before {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            margin-left: 0.4em;
+        }
+    }
+    .category_list_lg_scrn {
+        list-style: none;
+        padding: 0;
+        li {
+            line-height: 35px;
+            padding: 0.3em 1em;
+            &:hover {
+                background-color: $lemon_color;
+                a {
+                    color: $white_color;
+                }
+            }
+        }
     }
 }
