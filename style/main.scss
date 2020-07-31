@@ -301,6 +301,16 @@ footer {
             justify-content: flex-end;
         }
     }
+    footer {
+        background-color: $black_color;
+        color: $white_color;
+        .footer_col_title {
+            font-size: inherit;
+        }
+        li{
+            font-size: .8rem;
+        }
+    }
 }
 
 @media (max-width: 900px) {
