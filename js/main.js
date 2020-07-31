@@ -101,3 +101,27 @@ categoryDropdown.forEach(drop => {
 
     })
 })
+
+
+
+// styling dropdown toggler
+var custom_dropdown_toggle = document.querySelectorAll(".top_nav_dropdown");
+
+custom_dropdown_toggle.forEach(dropdown => {
+    dropdown.addEventListener("mouseover", () => {
+        console.log(dropdown.firstElementChild.nextElementSibling)
+        dropdown.firstElementChild.nextElementSibling.style.transform = "scaleY(1)"
+        dropdown.firstElementChild.style.backgroundColor = "#1f3200"
+        dropdown.firstElementChild.style.color = "#fff"
+        dropdown.firstElementChild.classList.add("rmps")
+
+    })
+    dropdown.addEventListener("mouseout", () => {
+        console.log(dropdown.firstElementChild.nextElementSibling)
+        dropdown.firstElementChild.nextElementSibling.style.transform = "scaleY(0)"
+        dropdown.firstElementChild.style.backgroundColor = "unset"
+        dropdown.firstElementChild.style.color = "unset"
+        dropdown.firstElementChild.classList.remove("rmps")
+
+    })
+})

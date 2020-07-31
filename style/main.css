@@ -167,6 +167,11 @@ button:focus {
   .custom_prod_nav_wrapper .latest_product_nav_next::before {
     content: "\f138"; }
 
+.top_nav_dropdown .dropdown-menu {
+  display: block;
+  transform: scaleY(0);
+  transform-origin: top; }
+
 footer {
   background-color: #2d2d2d;
   color: #ffffff; }
@@ -201,9 +206,20 @@ footer {
   .main_nav_cateory_wrapper {
     display: block;
     font-size: 13px; }
-    .main_nav_lg a,
-    .main_nav_cateory_wrapper a {
-      color: #2d2d2d; }
+    .main_nav_lg .top_nav_dropdown a,
+    .main_nav_cateory_wrapper .top_nav_dropdown a {
+      color: #1f3200; }
+      .main_nav_lg .top_nav_dropdown a::after,
+      .main_nav_cateory_wrapper .top_nav_dropdown a::after {
+        color: #1f3200; }
+    .main_nav_lg .top_nav_dropdown .rmps,
+    .main_nav_cateory_wrapper .top_nav_dropdown .rmps {
+      transition: 250ms ease-in-out; }
+      .main_nav_lg .top_nav_dropdown .rmps::after,
+      .main_nav_cateory_wrapper .top_nav_dropdown .rmps::after {
+        content: "\f077";
+        color: #ffffff;
+        font-size: 0.7rem; }
 
   .nav-item .dropdown-menu a {
     font-size: 0.8rem; }
@@ -251,6 +267,8 @@ footer {
     .category_list_lg_scrn li {
       line-height: 35px;
       padding: 0.3em 1em; }
+      .category_list_lg_scrn li a {
+        color: #1f3200; }
       .category_list_lg_scrn li:hover {
         background-color: #c3df34; }
         .category_list_lg_scrn li:hover a {

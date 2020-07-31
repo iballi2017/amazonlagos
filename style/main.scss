@@ -230,6 +230,12 @@ button:focus {
     }
 }
 
+.top_nav_dropdown .dropdown-menu {
+    display: block;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
 footer {
     background-color: $black_color;
     color: $white_color;
@@ -282,8 +288,21 @@ footer {
     .main_nav_cateory_wrapper {
         display: block;
         font-size: 13px;
-        a {
-            color: $black_color;
+        .top_nav_dropdown {
+            a {
+                color: $deepGreen_color;
+                &::after {
+                    color: $deepGreen_color;
+                }
+            }
+            .rmps {
+                transition: 250ms ease-in-out;
+                &::after {
+                    content: "\f077";
+                    color: $white_color;
+                    font-size: 0.7rem;
+                }
+            }
         }
     }
     .nav-item .dropdown-menu a {
@@ -340,6 +359,9 @@ footer {
         li {
             line-height: 35px;
             padding: 0.3em 1em;
+            a {
+                color: $deepGreen_color;
+            }
             &:hover {
                 background-color: $lemon_color;
                 a {
