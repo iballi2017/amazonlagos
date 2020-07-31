@@ -11,7 +11,7 @@
         <div class="row no-gutters">
             <div class="col-12 col-sm-3 filter_sidenav">
                 <h6>Search Results - Washing Machine</h6>
-                <section>
+                <section class="mr-1">
                     <div class="filt_title_cont">
                         <h6 class="m-0 text_upper">Category</h6>
                     </div>
@@ -22,7 +22,7 @@
                         <li>Washing machine </li>
                     </ul>
                 </section>
-                <section class="">
+                <section class="mr-1">
                     <form>
                         <div class="filt_title_cont">
                         <h6 class="m-0 text_upper">Brand</h6>
@@ -42,7 +42,7 @@
                         </ul>
                     </form>
                 </section>
-                <section>
+                <section class="mr-1">
                     <div class="filt_title_cont">
                     <h6 class="m-0 text_upper">Price</h6></div>
                     <ul>
@@ -67,7 +67,7 @@
                         </li>
                     </ul>
                 </section>
-                <section>
+                <section class="mr-1">
                 <form>
                     <div class="filt_title_cont">
                     <h6 class="m-0 text_upper">Rating</h6>
