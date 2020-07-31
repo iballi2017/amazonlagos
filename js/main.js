@@ -58,6 +58,7 @@ $(document).ready(function () {
         console.log("Next")
     })
 
+    // wishlist active icon
 
 });
 
@@ -138,9 +139,8 @@ custom_dropdown_toggle.forEach(dropdown => {
     })
 })
 
+// All Category dropdown
 var category_dropdown_alt = document.querySelector(".category_dropdown_alt");
-
-console.log(category_dropdown_alt.children)
 category_dropdown_alt.addEventListener("mouseover", ()=>{
     category_dropdown_alt.firstElementChild.nextElementSibling.style.transform = "scaleY(1)"
     category_dropdown_alt.firstElementChild.style.backgroundColor = "#fff"

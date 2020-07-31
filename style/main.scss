@@ -7,6 +7,7 @@ $lemon_color: #c3df34;
 $black_color: #2d2d2d;
 $deepGreen_color: #1f3200;
 $yellow_color: #ffbf43;
+$danger_color:#dc3545;
 $primary_fontFamily: "Roboto", sans-serif;
 
 body {
@@ -82,6 +83,14 @@ a {
         background-color: $lemon_color;
     }
 }
+.light_grn_btn{
+    background-color: $lemon_color;
+    color: $white_color;
+    transition: all 250ms ease-in-out;
+    &:hover {
+        background-color: $yellow_color;
+    }
+}
 
 .shopping_cart_icon{
     color: $deepGreen_color;
@@ -149,6 +158,26 @@ a.txt_green:hover{
         &:hover {
             color: $lemon_color;
         }
+    }
+}
+.product_card_search_output{
+    .fa-heart{
+        // color: $grey_color;
+        cursor: pointer;
+        font-size: 1.2rem;
+    }
+    .fa-star{
+        font-size: .7rem;
+        color: $yellow_color;
+    }
+    .wish_form{
+       #wish_btn{
+           background-color: unset;
+           color: $grey_color;
+           &.active{
+               color: $danger_color;
+           }
+       } 
     }
 }
 .shopping_cart_icon {
@@ -466,4 +495,102 @@ footer {
             }
         }
     }
+}
+
+
+// breadcrumb
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: unset;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+    font-size: .9rem;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+//   filter_sidenav
+.filter_sidenav{
+    ul{
+        list-style: none;
+        padding:0;
+
+        .check_rej{
+            position: absolute;
+            opacity: 0;
+
+            ~ label {
+                display: flex;
+                flex-wrap: wrap;
+                cursor: pointer;
+            }
+        }
+        .custom_check {
+            --size: 1.3em;
+            display: inline-block;
+            // background-color: #e5e5e5;
+            width: var(--size);
+            height: var(--size);
+            margin-right: var(--size);
+            cursor: pointer;
+            border: 1px solid $black_color;
+            border-radius: 5px;
+            transform: scale(1);
+            transition: transform 300ms ease-in-out;
+        }
+
+        .check_rej[type="checkbox"]:checked + label .custom_check {
+            background: $lemon_color;
+            &::before{
+            content: "\f00c";
+            color: $white_color;
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            }
+        } 
+        label{
+            margin: 0;
+        } 
+    }
+
+    .filt_title_cont,li{
+            background-color: $white_color;
+            padding: .7em;
+            margin: .2em 0;
+        }
+        .fa-star{
+            color: $yellow_color;
+        }
+        .filt_title_cont {h6{
+            display: flex;
+            justify-content: space-between;
+            &::after{
+                content: "\f068";
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+            }
+        }}
 }
