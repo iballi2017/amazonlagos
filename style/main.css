@@ -99,7 +99,7 @@ a.txt_green:hover {
   transition: all 300ms ease-in-out; }
 
 .navbar-brand img {
-  width: 80px; }
+  width: 120px; }
 
 .product_card .card-title {
   font-size: 0.8rem; }
@@ -142,7 +142,7 @@ a.txt_green:hover {
   #next::before, #prev::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #c3df34;
     opacity: .3;
     transition: all 300ms ease-in-out; }
@@ -240,6 +240,9 @@ footer {
     display: flex;
     flex-basis: 15%;
     justify-content: flex-end; }
+
+  #next::before, #prev::before {
+    font-size: 3rem; }
 
   footer {
     background-color: #2d2d2d;
