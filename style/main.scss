@@ -280,6 +280,14 @@ button:focus {
     transform-origin: top;
 }
 
+.category_dropdown_alt{
+    .dropdown-menu{
+        display: block;
+        transform: scaleY(0);
+        transform-origin: top;
+    }
+}
+
 footer {
     background-color: $black_color;
     color: $white_color;

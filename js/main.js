@@ -137,3 +137,17 @@ custom_dropdown_toggle.forEach(dropdown => {
 
     })
 })
+
+var category_dropdown_alt = document.querySelector(".category_dropdown_alt");
+
+console.log(category_dropdown_alt.children)
+category_dropdown_alt.addEventListener("mouseover", ()=>{
+    category_dropdown_alt.firstElementChild.nextElementSibling.style.transform = "scaleY(1)"
+    category_dropdown_alt.firstElementChild.style.backgroundColor = "#fff"
+    category_dropdown_alt.firstElementChild.style.color = "#1f3200"
+})
+category_dropdown_alt.addEventListener("mouseout", ()=>{
+    category_dropdown_alt.firstElementChild.nextElementSibling.style.transform = "scaleY(0)"
+    category_dropdown_alt.firstElementChild.style.backgroundColor = "unset"
+    category_dropdown_alt.firstElementChild.style.color = "#fff"
+})
