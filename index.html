@@ -22,8 +22,10 @@
     <!-- a. large screen header -->
     <nav class="main_nav_lg bg-white sticky-top d-none d-md-block py-2">
         <div class="cont_wrapper main_nav_inner">
-            <div calss="" style="display: flex; align-items: center;">
-                <a class="navbar-brand" href="#">AmazonLagos</a>
+            <div class="fl_itm_1">
+                <!-- <a class="navbar-brand" href="#">AmazonLagos</a> -->
+                <a href="#" class="navbar-brand">
+                    <img src="./images/brandLogo.png" alt="AmazonLagos"></a>
                 <nav class="nav">
                     <li class="nav-item dropdown top_nav_dropdown">
                         <a class="nav-link custom_dropdown_toggle pseudo_after" href="#" id="navbarDropdown"
@@ -31,9 +33,6 @@
                             Help
                         </a>
                         <div class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
-                            <!-- <a class="dropdown-item" href="#">FAQ</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Contact Us</a> -->
                             <ul class="category_list_lg_scrn">
                                 <li>
                                     <a href="#">FAQ</a>
@@ -44,15 +43,22 @@
                             </ul>
                         </div>
                     </li>
-                    <a class="nav-link" href="#">Shopping List</a>
+                    <a class="nav-link txt_green" href="#">Shopping List</a>
                 </nav>
             </div>
-            <div style="display: flex;">
-                <form class="search_form_lg-scrn" action="#" style="display: flex">
-                    <input class="mr-2 rounded-left py-0" type="text" placeholder="SEARCH" name="searchItem">
+            <div class="fl_itm_2">
+                <form class="search_form_lg-scrn" action="#" style="display: flex;">
+                    <input class="mr-2 rounded-left py-2 px-1" type="text" placeholder="SEARCH" name="searchItem"
+                        style="width: 85%">
                     <button class="px-3 rounded-right text_upper y_btn">Search</button>
                 </form>
-                <ul class="nav justify-content-end mx-1">
+            </div>
+            <div class="fl_itm_3">
+                <!-- <form class="search_form_lg-scrn" action="#" style="display: flex">
+                    <input class="mr-2 rounded-left py-0" type="text" placeholder="SEARCH" name="searchItem">
+                    <button class="px-3 rounded-right text_upper y_btn">Search</button>
+                </form> -->
+                <ul class="nav justify-content-end">
                     <li class="nav-item dropdown top_nav_dropdown">
                         <a class="nav-link custom_dropdown_toggle pseudo_after" href="#" id="navbarDropdown"
                             role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -71,9 +77,9 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Cart
+                        <a class="nav-link txt_green" href="#">
                             <i class="fas fa-shopping-bag shopping_cart_icon">
-                                <span class="badge badge-primary">0</span>
+                                <span class="badge badge-primary" id="cart_count">0</span>
                             </i></a>
                     </li>
                 </ul>
@@ -313,12 +319,12 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <a class="navbar-brand" href="#">
-                        <img src="./images/amazonLagos_brandlogo.png" alt="AmazonLagos">
+                        <img src="./images/brandLogo.png" alt="AmazonLagos">
                     </a></span>
                 <span>
                     <!-- <i class="fas fa-shopping-cart"> -->
                     <i class="fas fa-shopping-bag shopping_cart_icon">
-                        <span class="badge badge-primary">0</span>
+                        <span class="badge" id="cart_count">0</span>
                     </i>
                 </span>
             </div>
