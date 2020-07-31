@@ -188,6 +188,29 @@ a.txt_green:hover{
     padding: 0.5rem 1rem;
 }
 
+#next, #prev{
+    cursor: pointer;
+    &:hover{
+        &::before{
+            opacity: .6;
+        }
+    }
+    &::before{
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 3rem;
+        color: $lemon_color;
+        opacity: .3;
+        transition: all 300ms ease-in-out;
+    }
+}
+#prev::before{
+    content: "\f137";
+}
+#next::before{
+    content: "\f138";
+}
+
 button {
     border: none;
 }
@@ -229,11 +252,18 @@ button:focus {
     z-index: 2;
     span {
         cursor: pointer;
+        &:hover{
+            &::before{
+                opacity: .6;
+            }
+        }
         &::before {
             font-family: "font Awesome 5 Free";
             font-weight: 900;
             color: $lemon_color;
             font-size: 2rem;
+            opacity: .3;
+            transition: all 300ms ease-in-out;
         }
     }
     .latest_product_nav_prev::before {
@@ -307,7 +337,7 @@ footer {
         .footer_col_title {
             font-size: inherit;
         }
-        li{
+        li a{
             font-size: .8rem;
         }
     }

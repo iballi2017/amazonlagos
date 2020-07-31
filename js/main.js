@@ -47,6 +47,18 @@ $(document).ready(function () {
         }
     });
 
+    
+    // ###### custom bootstrap carousel events
+    $("#prev").on("click", function () {
+        $('.carousel').carousel("prev")
+        console.log("Previous")
+    })
+    $("#next").on("click", function () {
+        $('.carousel').carousel("next")
+        console.log("Next")
+    })
+
+
 });
 
 

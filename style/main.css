@@ -135,6 +135,24 @@ a.txt_green:hover {
   background-color: #e5e5e5;
   padding: 0.5rem 1rem; }
 
+#next, #prev {
+  cursor: pointer; }
+  #next:hover::before, #prev:hover::before {
+    opacity: .6; }
+  #next::before, #prev::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 3rem;
+    color: #c3df34;
+    opacity: .3;
+    transition: all 300ms ease-in-out; }
+
+#prev::before {
+  content: "\f137"; }
+
+#next::before {
+  content: "\f138"; }
+
 button {
   border: none; }
 
@@ -169,11 +187,15 @@ button:focus {
   z-index: 2; }
   .custom_prod_nav_wrapper span {
     cursor: pointer; }
+    .custom_prod_nav_wrapper span:hover::before {
+      opacity: .6; }
     .custom_prod_nav_wrapper span::before {
       font-family: "font Awesome 5 Free";
       font-weight: 900;
       color: #c3df34;
-      font-size: 2rem; }
+      font-size: 2rem;
+      opacity: .3;
+      transition: all 300ms ease-in-out; }
   .custom_prod_nav_wrapper .latest_product_nav_prev::before {
     content: "\f137"; }
   .custom_prod_nav_wrapper .latest_product_nav_next::before {
@@ -224,7 +246,7 @@ footer {
     color: #ffffff; }
     footer .footer_col_title {
       font-size: inherit; }
-    footer li {
+    footer li a {
       font-size: .8rem; } }
 @media (max-width: 900px) {
   .main_nav_inner .fl_itm_1 {
