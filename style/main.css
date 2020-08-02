@@ -314,10 +314,17 @@ ul.breadcrumb li a {
       font-size: .6rem; }
   #search_page .filter_sidenav ul label {
     margin: 0; }
-#search_page .filter_sidenav .filt_title_cont, #search_page .filter_sidenav li {
+#search_page .filter_sidenav .filt_title_cont, #search_page .filter_sidenav .list_sect {
   background-color: #ffffff;
   padding: .7em;
   margin: .2em 0; }
+  #search_page .filter_sidenav .filt_title_cont .product_category::before, #search_page .filter_sidenav .list_sect .product_category::before {
+    content: "\f104";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: .5em; }
+  #search_page .filter_sidenav .filt_title_cont .tv_size::after, #search_page .filter_sidenav .list_sect .tv_size::after {
+    content: '"'; }
 #search_page .filter_sidenav .fa-star {
   color: #ffbf43; }
 #search_page .filter_sidenav .filt_title_cont h6 {

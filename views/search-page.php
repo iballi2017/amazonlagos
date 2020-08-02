@@ -27,10 +27,13 @@
                         <h6 class="m-0 text_upper">Category</h6>
                     </div>
                     <ul>
-                        <li>
-                            <h6 class="m-0">Household Appliances</h6>
+                        <li class="list_sect">
+                            <h6 class="m-0 searched_product product_category">Household Appliances</h6>
                         </li>
-                        <li>Washing machine </li>
+                        <li class="list_sect">
+                            <ul class="pl-4">
+                                <li>Washing machine</li>
+                            </ul> </li>
                     </ul>
                 </section>
                 <section class="mr-1 toggledNavItem d-none d-md-block">
@@ -39,13 +42,13 @@
                         <h6 class="m-0 text_upper">Brand</h6>
                                     </div>
                         <ul>
-                            <li>
+                            <li class="list_sect">
                                 <input type="checkbox" name="Nexus" id="nexusCheckbox" class="check_rej">
                                 <label for="nexusCheckbox">
                                 <span class="custom_check"></span>    
                                 Nexus</label>
                             </li>
-                            <li>
+                            <li class="list_sect">
                                 <input type="checkbox" name="Scanfrost" id="scanfrostCheckbox" class="check_rej">
                                 <label for="scanfrostCheckbox">
                                 <span class="custom_check"></span> Scanfrost</label>
@@ -57,7 +60,7 @@
                     <div class="filt_title_cont">
                     <h6 class="m-0 text_upper">Price</h6></div>
                     <ul>
-                        <li class="container">
+                        <li class="container list_sect">
                             <form class="row" action="#">
                             <div class="container-fluid">
                                 <div class="row">
@@ -84,7 +87,7 @@
                     <h6 class="m-0 text_upper">Rating</h6>
                                 </div>
                     <ul>
-                        <li>
+                        <li class="list_sect">
                         <br/>
                             <input type="checkbox" name="four_stars" id="four_starsCheckbox" class="check_rej">
                             <label for="four_starsCheckbox">
@@ -132,6 +135,136 @@
                         </li>
                     </ul>
                 </form>
+                </section>
+                <!-- tv sizes -->
+                <section class="mr-1 toggledNavItem d-none d-md-block">
+                    <form>
+                        <div class="filt_title_cont">
+                        <h6 class="m-0 text_upper">Screen Sizes</h6>
+                                    </div>
+                        <ul>
+                            <li class="">
+                            
+                            <ul>
+                                <li class="list_sect">                                    
+                                    <input type="checkbox" name="32_inches" id="32" class="check_rej">
+                                    <label for="32">
+                                        <span class="custom_check"></span>
+                                        <span class="tv_size">32</span>
+                                    </label>
+                                </li>
+                                <li class="list_sect">                                    
+                                    <input type="checkbox" name="55_inches" id="55" class="check_rej">
+                                    <label for="55">
+                                        <span class="custom_check"></span>
+                                        <span class="tv_size">55</span>
+                                    </label>
+                                </li>
+                                <li class="list_sect">                                    
+                                    <input type="checkbox" name="43_inches" id="43" class="check_rej">
+                                    <label for="43">
+                                        <span class="custom_check"></span>
+                                        <span class="tv_size">43</span>
+                                    </label>
+                                </li>
+                                <li class="list_sect">                                    
+                                    <input type="checkbox" name="65_inches" id="65" class="check_rej">
+                                    <label for="65">
+                                        <span class="custom_check"></span>
+                                        <span class="tv_size">65</span>
+                                    </label>
+                                </li>
+                                <li class="list_sect">                                    
+                                    <input type="checkbox" name="40_inches" id="40" class="check_rej">
+                                    <label for="40">
+                                        <span class="custom_check"></span>
+                                        <span class="tv_size">40</span>
+                                    </label>
+                                </li>
+                                <li class="list_sect">                                    
+                                    <input type="checkbox" name="50_inches" id="50" class="check_rej">
+                                    <label for="50">
+                                        <span class="custom_check"></span>
+                                        <span class="tv_size">50</span>
+                                    </label>
+                                </li>
+                                <li class="list_sect">                                    
+                                    <input type="checkbox" name="75_inches" id="75" class="check_rej">
+                                    <label for="75">
+                                        <span class="custom_check"></span>
+                                        <span class="tv_size">75</span>
+                                    </label>
+                                </li>
+                                <li class="list_sect">                                    
+                                    <input type="checkbox" name="49_inches" id="49" class="check_rej">
+                                    <label for="49">
+                                        <span class="custom_check"></span>
+                                        <span class="tv_size">49</span>
+                                    </label>
+                                </li>
+                                <li class="list_sect">                                    
+                                    <input type="checkbox" name="24_inches" id="24" class="check_rej">
+                                    <label for="24">
+                                        <span class="custom_check"></span>
+                                        <span class="tv_size">24</span>
+                                    </label>
+                                </li>
+                                <li class="list_sect">                                    
+                                    <input type="checkbox" name="90_inches" id="90" class="check_rej">
+                                    <label for="90">
+                                        <span class="custom_check"></span>
+                                        <span class="tv_size">90</span>
+                                    </label>
+                                </li>
+                            </ul>
+                            
+                            </li>
+                        </ul>
+                    </form>
+                </section>
+                <!-- operating system -->
+                <section class="mr-1 toggledNavItem d-none d-md-block">
+                    <form>
+                        <div class="filt_title_cont">
+                        <h6 class="m-0 text_upper">Screen Sizes</h6>
+                                    </div>
+                        <ul>
+                            <li class="">
+                            
+                            <ul>
+                                <li class="list_sect">                                    
+                                    <input type="checkbox" name="android" id="android" class="check_rej">
+                                    <label for="android">
+                                        <span class="custom_check"></span>
+                                        <span class="os_name">Android</span>
+                                    </label>
+                                </li>
+                                <li class="list_sect">                                    
+                                    <input type="checkbox" name="linux" id="linux" class="check_rej">
+                                    <label for="linux">
+                                        <span class="custom_check"></span>
+                                        <span class="os_name">Linus</span>
+                                    </label>
+                                </li>
+                                <li class="list_sect">                                    
+                                    <input type="checkbox" name="other" id="other" class="check_rej">
+                                    <label for="other">
+                                        <span class="custom_check"></span>
+                                        <span class="os_name">Other</span>
+                                    </label>
+                                </li>
+                                <li class="list_sect">                                    
+                                    <input type="checkbox" name="none" id="none" class="check_rej">
+                                    <label for="none">
+                                        <span class="custom_check"></span>
+                                        <span class="os_name">None</span>
+                                    </label>
+                                </li>
+                            </ul>
+                            
+                            </li>
+                        </ul>
+                    </form>
                 </section>
             </div>
             <div class="col-12 col-md-9">

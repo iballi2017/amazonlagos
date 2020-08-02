@@ -438,10 +438,25 @@ ul.breadcrumb {
             } 
         }
     
-        .filt_title_cont,li{
+        .filt_title_cont,.list_sect{
                 background-color: $white_color;
                 padding: .7em;
                 margin: .2em 0;
+
+                .product_category{
+                    &::before{
+                        content: "\f104";
+                        font-family: "Font Awesome 5 Free";
+                        font-weight: 900;
+                        margin-right: .5em;
+                    }
+                }
+
+                .tv_size{
+                    &::after{
+                        content: '"';
+                    }
+                }
             }
             .fa-star{
                 color: $yellow_color;
