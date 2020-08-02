@@ -242,7 +242,7 @@
                                                 </button>
                                             </div>
                                         </form>
-                                        <img src="../images/Nexus_NEXUS_ELECTRIC_OVEN_STAINLESS_STEEL_NX-936SS.png"
+                                        <img src="../images/Nexus_1000VA_Digital_Stabilizer_With_AVR_Function.png"
                                             class="card-img-top" alt="...">
                                     </div>
                                     <div class="col-6 col-sm-12">
@@ -277,7 +277,7 @@
                                                 </button>
                                             </div>
                                         </form>
-                                        <img src="../images/Nexus_NEXUS_ELECTRIC_OVEN_STAINLESS_STEEL_NX-936SS.png"
+                                        <img src="../images/Scanfrost_5.1_Channel Home_Theatre_System_1200W.png"
                                             class="card-img-top" alt="...">
                                     </div>
                                     <div class="col-6 col-sm-12">
@@ -316,7 +316,7 @@
                                                 </button>
                                             </div>
                                         </form>
-                                        <img src="../images/Nexus_NEXUS_ELECTRIC_OVEN_STAINLESS_STEEL_NX-936SS.png"
+                                        <img src="../images/Nexus_7KG_Washing_Machine_Semi_Auto.png"
                                             class="card-img-top" alt="...">
                                     </div>
                                     <div class="col-6 col-sm-12">

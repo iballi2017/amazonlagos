@@ -252,10 +252,8 @@ button:focus {
   transform: scaleY(0);
   transform-origin: top; }
 
-.search_input_grp input[type="text"], .search_input_grp button {
-  box-shadow: none;
-  outline: 0;
-  border-color: red; }
+.search_input_grp input[type="text"] {
+  box-shadow: none; }
 
 /* Style the list */
 ul.breadcrumb {

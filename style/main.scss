@@ -352,10 +352,8 @@ button:focus {
 }
 
 .search_input_grp{
-    input[type="text"], button{
+    input[type="text"]{
         box-shadow: none;
-        outline: 0;
-        border-color: red;
     }
 }
 
