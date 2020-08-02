@@ -150,7 +150,7 @@
                     </div>  
                 </div>
                 <div class="row no-gutters product_search_items">
-                    <div class="col-12 col-sm-4 col-md-3">
+                    <div class="col-12 col-sm-4 col-lg-3">
                         <div class="card product_card product_card_search_output shadow border-0 m-1">
                                 <div class="row no-gutters">
                                     <div class="col-6 col-sm-12">
@@ -186,7 +186,7 @@
                                 </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-4 col-md-3">
+                    <div class="col-12 col-sm-4 col-lg-3">
                         <div class="card product_card product_card_search_output shadow border-0 m-1">
                                 <div class="row no-gutters">
                                     <div class="col-6 col-sm-12">
@@ -221,7 +221,7 @@
                                 </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-4 col-md-3">
+                    <div class="col-12 col-sm-4 col-lg-3">
                         <div class="card product_card product_card_search_output shadow border-0 m-1">
                                 <div class="row no-gutters">
                                     <div class="col-6 col-sm-12">
@@ -256,7 +256,7 @@
                                 </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-4 col-md-3">
+                    <div class="col-12 col-sm-4 col-lg-3">
                         <div class="card product_card product_card_search_output shadow border-0 m-1">
                                 <div class="row no-gutters">
                                     <div class="col-6 col-sm-12">
@@ -295,7 +295,7 @@
                    
                         
                     
-                    <div class="col-12 col-sm-4 col-md-3">
+                    <div class="col-12 col-sm-4 col-lg-3">
                         <div class="card product_card product_card_search_output shadow border-0 m-1">
                                 <div class="row no-gutters">
                                     <div class="col-6 col-sm-12">
@@ -334,7 +334,7 @@
            
 
                     <!-- ********************************** -->
-                    <div class="col-12 col-sm-4 col-md-3">
+                    <div class="col-12 col-sm-4 col-lg-3">
                         <div class="card product_card product_card_search_output shadow border-0 m-1">
                                 <div class="row no-gutters">
                                     <div class="col-6 col-sm-12">
