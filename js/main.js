@@ -63,19 +63,19 @@ $(document).ready(function () {
         $.each(toggledNavItems, function(item){
             if(toggledNavItems[item].classList.contains("d-none")){                
                 toggledNavItems[item].classList.remove("d-none")
-                $(".product_search_items").addClass("d-none")
-                $(".search_item_title").addClass("d-none")
-                $("#search_page_breadcrumb").addClass("d-none")
-                $("search_apply_ctrl_wrapper").removeClass("d-none")
-                $("search_apply_ctrl_wrapper").addClass("d-block")
             }
             testFilterBtn(toggledNavItems[item])
             testSortBtn();
-            console.log(toggledNavItems[item])
         })
         if(!sorting_comp_wrapper.classList.contains("d-none")){                
             sorting_comp_wrapper.classList.add("d-none")
         }
+        $(".product_search_items").addClass("d-none")
+        $(".search_item_title").addClass("d-none")
+        $("#search_page_breadcrumb").addClass("d-none")
+        $(".search_apply_ctrl_wrapper").removeClass("d-none")
+        $(".search_apply_ctrl_wrapper").addClass("d-block")
+        // 
         $("#sort_btn").removeClass("active")
         $(".pagination_wrapper").addClass("d-none");
     })
@@ -107,7 +107,13 @@ $(document).ready(function () {
             $(".product_search_items").removeClass("d-none");
             testSortBtn();
             $(".pagination_wrapper").removeClass("d-none");
+            $(".sorting_comp_wrapper").addClass("d-none");
         }
+        // 
+        $.each(toggledNavItems, function(item){
+            toggledNavItems[item].classList.add("d-none")
+        })
+        // 
     })
 
     var testSortBtn = function(){
@@ -123,7 +129,6 @@ $(document).ready(function () {
         }else{
             $("#filter_btn").removeClass("active")
         }
-        console.log("filter")
     }
 });
 
