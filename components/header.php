@@ -47,7 +47,7 @@
                 </nav>
             </div>
             <div class="fl_itm_2">
-                <form class="search_form_lg-scrn" action="#" style="display: flex;">
+                <form class="search_form_lg-scrn d-flex" action="#">
                     <input class="mr-2 rounded-left py-2 px-1" type="text" placeholder="SEARCH" name="searchItem"
                         style="width: 85%">
                     <button class="px-3 rounded-right text_upper y_btn">Search</button>
@@ -87,9 +87,8 @@
         </div>
     </nav>
     <div class="main_nav_cateory_wrapper d-none d-md-block">
-        <div class="cont_wrapper"
-            style="display: flex; align-items: center; flex-wrap: wrap; justify-content: space-between;">
-            <ul class="nav" style="width: 100%; justify-content: space-between;">
+        <div class="cont_wrapper">
+            <ul class="nav flex_just_spb width_full">
                 <li class="nav-item dropdown category_dropdown_alt">
                     <a class="nav-link category_dropdown_toggle pseudo_after category_title pl-0" href="#"
                         id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -120,8 +119,6 @@
                     </div>
                 </li>
 
-
-                <!-- <li class="nav-item category_dropdown relative_position px-2"> -->
                 <li class="nav-item category_dropdown">
                     <a class="nav-link category_title" href="#">Entertainment</a>
                     <div class="category_dropdown_list absolute_position" style="width: 60%; left: 20%">
@@ -139,7 +136,6 @@
                         </ul>
                     </div>
                 </li>
-                <!-- <li class="nav-item category_dropdown relative_position px-2"> -->
                 <li class="nav-item category_dropdown">
                     <a class="nav-link category_title" href="#">Household/Appliances</a>
                     <div class="category_dropdown_list absolute_position" style="width: 60%; left: 20%">
@@ -160,7 +156,6 @@
                         </ul>
                     </div>
                 </li>
-                <!-- <li class="nav-item category_dropdown relative_position px-2"> -->
                 <li class="nav-item category_dropdown">
                     <a class="nav-link category_title" href="#">Cooling</a>
                     <div class="category_dropdown_list absolute_position" style="width: 60%; left: 20%">
@@ -184,91 +179,74 @@
                 <li class="nav-item category_dropdown">
                     <a class="nav-link category_title" href="#">Kitchen appliances</a>
                     <div class="category_dropdown_list absolute_position" style="width: 60%; left: 20%">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col">
-                                    <ul class="mx-2 my-3">
-                                        <li>
-                                            <a href="#">Electric jugs </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Electric oven</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Gas stoves</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Hot plates</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Microwaves</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Pressure cookers</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Rice cookers</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Sandwich makers</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!--  -->
-                                <div class="col">
-                                    <ul class="mx-2 my-3">
-                                        <li>
-                                            <a href="#">Blender </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Mixers</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Juice extractor</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Pressing iron</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Electric kettle</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Deep fryer</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Coffee maker</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Toasters</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!--  -->
-                                <div class="col">
-                                    <ul class="mx-2 my-3">
-                                        <li>
-                                            <a href="#">Gas cooker </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Built in oven</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Built in Hob</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Built in chimney</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Table top cooker</a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                        </div>
+                        <ul class="mx-2 my-3 row">
+                            <li class="col-4">
+                                <a href="#">Electric jugs </a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#">
+                                    Electric oven</a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#"> Gas stoves</a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#">Hot plates</a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#">Microwaves</a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#">Pressure cookers</a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#">Rice cookers</a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#">Sandwich makers</a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#">Blender </a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#">
+                                    Mixers</a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#">Juice extractor</a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#">Pressing iron</a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#">Electric kettle</a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#"> Deep fryer</a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#">Coffee maker</a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#">Toasters</a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#">Gas cooker </a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#">
+                                    Built in oven</a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#">Built in Hob</a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#">Built in chimney</a>
+                            </li>
+                            <li class="col-4">
+                                <a href="#">Table top cooker</a>
+                            </li>
+                        </ul>                        
                     </div>
                 </li>
                 <li class="nav-item category_dropdown">

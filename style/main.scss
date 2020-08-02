@@ -46,6 +46,24 @@ a {
 .txt_green {
     color: $deepGreen_color;
 }
+.txt_lemon {
+    color: $lemon_color;
+}
+
+.border_green {
+    border: 1px solid $deepGreen_color;
+}
+.border_lemon {
+    border: 1px solid $lemon_color;
+}
+
+.green_hover:hover{
+    color: $deepGreen_color;
+}
+
+.lemon_hover:hover{
+    color: $lemon_color;
+}
 
 .width_full{
     width: 100%;
@@ -58,6 +76,10 @@ a {
 .flex_just_spb {
     display: flex;
     justify-content: space-between;
+}
+
+.flex_wrap{
+    flex-wrap: wrap;
 }
 
 .flex_just_flexend {
@@ -128,6 +150,53 @@ a {
     #cart_count{
         background-color: $deepGreen_color;
         color: $white_color;
+    }
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select{
+    border: 1px solid $black_color;
+    padding: .5em .2em;
+    border-radius: 3px;
+
+    &:focus{
+        outline: 0;
+    }
+}
+
+// Custom form select dropdown
+select{
+    /* remove default style from browsers */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+
+    option {
+        margin: 5em;
+        line-height: 2;
+        font: inherit;
+    }
+
+    &::after{
+        content: "hhhhh";
+    }
+}
+.select_drop_wrapper{
+    position: relative;
+    &::after {
+        font-family: "Font Awesome 5 Free";
+        content: "\f0dd";
+        font-weight: 900;
+        font-size: 20px;
+        position: absolute;
+        right: .5rem;
+        color: $lemon_color;
+        pointer-events: none;
+        bottom: 0.34em;
     }
 }
 
@@ -454,7 +523,7 @@ ul.breadcrumb {
 
                 .tv_size{
                     &::after{
-                        content: '"';
+                        content: "\0027 \0027";
                     }
                 }
             }

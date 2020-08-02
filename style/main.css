@@ -27,6 +27,21 @@ a {
 .txt_green {
   color: #1f3200; }
 
+.txt_lemon {
+  color: #c3df34; }
+
+.border_green {
+  border: 1px solid #1f3200; }
+
+.border_lemon {
+  border: 1px solid #c3df34; }
+
+.green_hover:hover {
+  color: #1f3200; }
+
+.lemon_hover:hover {
+  color: #c3df34; }
+
 .width_full {
   width: 100%; }
 
@@ -36,6 +51,9 @@ a {
 .flex_just_spb {
   display: flex;
   justify-content: space-between; }
+
+.flex_wrap {
+  flex-wrap: wrap; }
 
 .flex_just_flexend {
   display: flex;
@@ -89,6 +107,46 @@ a {
   .shopping_cart_icon #cart_count {
     background-color: #1f3200;
     color: #ffffff; }
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  border: 1px solid #2d2d2d;
+  padding: .5em .2em;
+  border-radius: 3px; }
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus,
+  select:focus {
+    outline: 0; }
+
+select {
+  /* remove default style from browsers */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none; }
+  select option {
+    margin: 5em;
+    line-height: 2;
+    font: inherit; }
+  select::after {
+    content: "hhhhh"; }
+
+.select_drop_wrapper {
+  position: relative; }
+  .select_drop_wrapper::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0dd";
+    font-weight: 900;
+    font-size: 20px;
+    position: absolute;
+    right: .5rem;
+    color: #c3df34;
+    pointer-events: none;
+    bottom: 0.34em; }
 
 a.txt_green:hover {
   color: #1f3200; }
@@ -324,7 +382,7 @@ ul.breadcrumb li a {
     font-weight: 900;
     margin-right: .5em; }
   #search_page .filter_sidenav .filt_title_cont .tv_size::after, #search_page .filter_sidenav .list_sect .tv_size::after {
-    content: '"'; }
+    content: "\0027 \0027"; }
 #search_page .filter_sidenav .fa-star {
   color: #ffbf43; }
 #search_page .filter_sidenav .filt_title_cont h6 {
