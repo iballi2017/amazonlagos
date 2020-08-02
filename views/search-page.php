@@ -62,10 +62,10 @@
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-6">
-                                <input type="number" name="priceFrom" placeholder="From" id="priceFrom" style="width: 100%">
+                                <input class="width_full" type="number" name="priceFrom" placeholder="From" id="priceFrom">
                                     </div>
                                     <div class="col-6">
-                                <input type="number" name="priceTo" placeholder="To" id="priceTo" style="width: 100%">
+                                <input class="width_full" type="number" name="priceTo" placeholder="To" id="priceTo">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -146,10 +146,10 @@
             <div class="col-12 col-md-9">
                 <div class="row sorting_comp_wrapper d-none d-md-block">
                     <div class="col">
-                        <div style="display: flex; justify-content: flex-end">
+                        <div class="flex_just_flexend">
                             <form action="#">
                                 <label for="price_range">Sort By:</label>
-                                <select name="price_range" id="price_range" style="padding: .5em">
+                                <select class="p-1" name="price_range" id="price_range">
                                     <option value="Price: Low to High">Price: Low to High</option>
                                     <option value="Price: High to Low">Price: High to Low</option>
                                     <option value="New Arrival">New Arrival</option>
@@ -163,7 +163,7 @@
                         <div class="card product_card product_card_search_output shadow border-0 m-1">
                                 <div class="row no-gutters">
                                     <div class="col-6 col-sm-12">
-                                        <form class="wish_form" style="display: flex; justify-content: flex-end; padding: .5em">
+                                        <form class="wish_form flex_just_flexend p-1">
                                             <div>
                                                 <input class="wish_toggler" type="hidden" name="wish" >
                                                 <button class="wish_btn" for="wish" >
@@ -185,8 +185,9 @@
                                                 <i class="fas fa-star"></i>
                                                 <i class="far fa-star"></i>
                                                 <i class="far fa-star"></i>
-                                                <i class="far fa-star"></i></span>
-                                                <small style="font-weight: 400">(No ratings yet)</small>
+                                                <i class="far fa-star"></i>
+                                            </span>
+                                                <small class="rating_info">(No ratings yet)</small>
                                             </p>                                 
                                             <button class="btn-block text_upper mt-2 py-1 light_grn_btn">Add to cart</button>
                                         </div>
@@ -198,7 +199,7 @@
                         <div class="card product_card product_card_search_output shadow border-0 m-1">
                                 <div class="row no-gutters">
                                     <div class="col-6 col-sm-12">
-                                        <form class="wish_form" style="display: flex; justify-content: flex-end; padding: .5em">
+                                        <form class="wish_form flex_just_flexend p-1">
                                             <div>
                                                 <input class="wish_toggler" type="hidden" name="wish" >
                                                 <button  class="wish_btn" for="wish" >
@@ -221,7 +222,7 @@
                                                 <i class="far fa-star"></i>
                                                 <i class="far fa-star"></i>
                                                 <i class="far fa-star"></i></span>
-                                                <small style="font-weight: 400">(No ratings yet)</small>
+                                                <small class="rating_info">(No ratings yet)</small>
                                             </p>                                 
                                             <button class="btn-block text_upper mt-2 py-1 light_grn_btn">Add to cart</button>
                                         </div>
@@ -233,7 +234,7 @@
                         <div class="card product_card product_card_search_output shadow border-0 m-1">
                                 <div class="row no-gutters">
                                     <div class="col-6 col-sm-12">
-                                        <form class="wish_form" style="display: flex; justify-content: flex-end; padding: .5em">
+                                        <form class="wish_form flex_just_flexend p-1">
                                             <div>
                                                 <input class="wish_toggler" type="hidden" name="wish" >
                                                 <button class="wish_btn" for="wish" >
@@ -256,7 +257,7 @@
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                                 <i class="far fa-star"></i></span>
-                                                <small style="font-weight: 400">(No ratings yet)</small>
+                                                <small class="rating_info">(No ratings yet)</small>
                                             </p>                                 
                                             <button class="btn-block text_upper mt-2 py-1 light_grn_btn">Add to cart</button>
                                         </div>
@@ -268,7 +269,7 @@
                         <div class="card product_card product_card_search_output shadow border-0 m-1">
                                 <div class="row no-gutters">
                                     <div class="col-6 col-sm-12">
-                                        <form class="wish_form" style="display: flex; justify-content: flex-end; padding: .5em">
+                                        <form class="wish_form flex_just_flexend p-1">
                                             <div>
                                                 <input class="wish_toggler" type="hidden" name="wish" >
                                                 <button class="wish_btn active" for="wish" >
@@ -291,7 +292,7 @@
                                                 <i class="fas fa-star"></i>
                                                 <i class="far fa-star"></i>
                                                 <i class="far fa-star"></i></span>
-                                                <small style="font-weight: 400">(No ratings yet)</small>
+                                                <small class="rating_info">(No ratings yet)</small>
                                             </p>                                 
                                             <button class="btn-block text_upper mt-2 py-1 light_grn_btn">Add to cart</button>
                                         </div>
@@ -307,7 +308,7 @@
                         <div class="card product_card product_card_search_output shadow border-0 m-1">
                                 <div class="row no-gutters">
                                     <div class="col-6 col-sm-12">
-                                        <form class="wish_form" style="display: flex; justify-content: flex-end; padding: .5em">
+                                        <form class="wish_form flex_just_flexend p-1">
                                             <div>
                                                 <input class="wish_toggler" type="hidden" name="wish" >
                                                 <button class="wish_btn" for="wish" >
@@ -330,7 +331,7 @@
                                                 <i class="far fa-star"></i>
                                                 <i class="far fa-star"></i>
                                                 <i class="far fa-star"></i></span>
-                                                <small style="font-weight: 400">(No ratings yet)</small>
+                                                <small class="rating_info">(No ratings yet)</small>
                                             </p>                                 
                                             <button class="btn-block text_upper mt-2 py-1 light_grn_btn">Add to cart</button>
                                         </div>
@@ -346,7 +347,7 @@
                         <div class="card product_card product_card_search_output shadow border-0 m-1">
                                 <div class="row no-gutters">
                                     <div class="col-6 col-sm-12">
-                                        <form class="wish_form" style="display: flex; justify-content: flex-end; padding: .5em">
+                                        <form class="wish_form flex_just_flexend p-1">
                                             <div>
                                                 <input class="wish_toggler" type="hidden" name="wish" >
                                                 <button class="active wish_btn" for="wish" >
@@ -368,7 +369,7 @@
                                                 <i class="far fa-star"></i>
                                                 <i class="far fa-star"></i>
                                                 <i class="far fa-star"></i>
-                                                <small style="font-weight: 400">(No ratings yet)</small>
+                                                <small class="rating_info">(No ratings yet)</small>
                                             </p>                                 
                                             <button class="btn-block text_upper mt-2 py-1 light_grn_btn">Add to cart</button>
                                         </div>
@@ -396,10 +397,10 @@
                 </div>
 
 
-                <div class="row d-block d-md-none">
+                <div class="row d-block d-md-none filter_sort_wrapper">
                     <div class="col">
-                        <div class="py-2" style="; background-color: #fff">
-                        <div class="m-auto" style="width: 60%;display: flex; justify-content: space-between">
+                        <div class="py-2 bg-white">
+                        <div class="m-auto flex_just_spb filter_sort_inner">
                             <div>
                                 <button class="px-3 py-2 serch_ctrl_btn text_upper" id="filter_btn">Filter</button>
                             </div>

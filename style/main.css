@@ -27,12 +27,19 @@ a {
 .txt_green {
   color: #1f3200; }
 
+.width_full {
+  width: 100%; }
+
 .align_center {
   align-items: center; }
 
 .flex_just_spb {
   display: flex;
   justify-content: space-between; }
+
+.flex_just_flexend {
+  display: flex;
+  justify-content: flex-end; }
 
 .inline_flex {
   display: inline-flex; }
@@ -134,6 +141,8 @@ a.txt_green:hover {
 .product_card_search_output .fa-star {
   font-size: .7rem;
   color: #ffbf43; }
+.product_card_search_output .rating_info {
+  font-weight: 500; }
 .product_card_search_output .wish_form .wish_btn {
   background-color: unset;
   color: #e5e5e5; }
@@ -242,6 +251,107 @@ button:focus {
   display: block;
   transform: scaleY(0);
   transform-origin: top; }
+
+.search_input_grp input[type="text"], .search_input_grp button {
+  box-shadow: none;
+  outline: 0;
+  border-color: red; }
+
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: unset; }
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+  font-size: .9rem; }
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0"; }
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #1f3200;
+  opacity: .6;
+  text-decoration: none; }
+  ul.breadcrumb li a:hover {
+    opacity: 1;
+    font-weight: 400; }
+
+#search_page .filter_sidenav ul {
+  list-style: none;
+  padding: 0; }
+  #search_page .filter_sidenav ul .check_rej {
+    position: absolute;
+    opacity: 0; }
+    #search_page .filter_sidenav ul .check_rej ~ label {
+      display: flex;
+      flex-wrap: wrap;
+      cursor: pointer; }
+  #search_page .filter_sidenav ul .custom_check {
+    --size: 1.3em;
+    display: inline-block;
+    width: var(--size);
+    height: var(--size);
+    margin-right: var(--size);
+    cursor: pointer;
+    border: 1px solid #2d2d2d;
+    border-radius: 5px;
+    transform: scale(1);
+    transition: transform 300ms ease-in-out; }
+  #search_page .filter_sidenav ul .check_rej[type="checkbox"]:checked + label .custom_check {
+    background: #c3df34; }
+    #search_page .filter_sidenav ul .check_rej[type="checkbox"]:checked + label .custom_check::before {
+      content: "\f00c";
+      color: #ffffff;
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900; }
+  #search_page .filter_sidenav ul label {
+    margin: 0; }
+#search_page .filter_sidenav .filt_title_cont, #search_page .filter_sidenav li {
+  background-color: #ffffff;
+  padding: .7em;
+  margin: .2em 0; }
+#search_page .filter_sidenav .fa-star {
+  color: #ffbf43; }
+#search_page .filter_sidenav .filt_title_cont h6 {
+  display: flex;
+  justify-content: space-between; }
+  #search_page .filter_sidenav .filt_title_cont h6::after {
+    content: "\f068";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; }
+#search_page .filter_sort_wrapper .filter_sort_inner {
+  width: 60%; }
+#search_page #filter_btn, #search_page #sort_btn {
+  color: #c3df34;
+  font-size: .8rem;
+  background-color: unset; }
+  #search_page #filter_btn::before, #search_page #sort_btn::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 1em; }
+#search_page #filter_btn::before {
+  content: "\f0b0"; }
+#search_page #filter_btn.active {
+  background-color: #c3df34;
+  color: #ffffff; }
+#search_page #sort_btn::before {
+  content: "\f0dc"; }
+#search_page #sort_btn.active {
+  background-color: #c3df34;
+  color: #ffffff; }
+#search_page .search_apply_ctrl_wrapper #search_apply_ctrl {
+  color: #c3df34;
+  font-weight: 500;
+  background-color: unset;
+  letter-spacing: 2px; }
 
 footer {
   background-color: #2d2d2d;
@@ -373,103 +483,5 @@ footer {
         background-color: #c3df34; }
         .category_list_lg_scrn li:hover a {
           color: #ffffff; } }
-/* Style the list */
-ul.breadcrumb {
-  padding: 10px 16px;
-  list-style: none;
-  background-color: unset; }
-
-/* Display list items side by side */
-ul.breadcrumb li {
-  display: inline;
-  font-size: 18px;
-  font-size: .9rem; }
-
-/* Add a slash symbol (/) before/behind each list item */
-ul.breadcrumb li + li:before {
-  padding: 8px;
-  color: black;
-  content: "/\00a0"; }
-
-/* Add a color to all links inside the list */
-ul.breadcrumb li a {
-  color: #0275d8;
-  text-decoration: none; }
-
-/* Add a color on mouse-over */
-ul.breadcrumb li a:hover {
-  color: #01447e;
-  text-decoration: underline; }
-
-.filter_sidenav ul {
-  list-style: none;
-  padding: 0; }
-  .filter_sidenav ul .check_rej {
-    position: absolute;
-    opacity: 0; }
-    .filter_sidenav ul .check_rej ~ label {
-      display: flex;
-      flex-wrap: wrap;
-      cursor: pointer; }
-  .filter_sidenav ul .custom_check {
-    --size: 1.3em;
-    display: inline-block;
-    width: var(--size);
-    height: var(--size);
-    margin-right: var(--size);
-    cursor: pointer;
-    border: 1px solid #2d2d2d;
-    border-radius: 5px;
-    transform: scale(1);
-    transition: transform 300ms ease-in-out; }
-  .filter_sidenav ul .check_rej[type="checkbox"]:checked + label .custom_check {
-    background: #c3df34; }
-    .filter_sidenav ul .check_rej[type="checkbox"]:checked + label .custom_check::before {
-      content: "\f00c";
-      color: #ffffff;
-      font-family: "Font Awesome 5 Free";
-      font-weight: 900; }
-  .filter_sidenav ul label {
-    margin: 0; }
-.filter_sidenav .filt_title_cont, .filter_sidenav li {
-  background-color: #ffffff;
-  padding: .7em;
-  margin: .2em 0; }
-.filter_sidenav .fa-star {
-  color: #ffbf43; }
-.filter_sidenav .filt_title_cont h6 {
-  display: flex;
-  justify-content: space-between; }
-  .filter_sidenav .filt_title_cont h6::after {
-    content: "\f068";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900; }
-
-#filter_btn, #sort_btn {
-  color: #c3df34;
-  font-size: .8rem;
-  background-color: unset; }
-  #filter_btn::before, #sort_btn::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    margin-right: 1em; }
-
-#filter_btn::before {
-  content: "\f0b0"; }
-#filter_btn.active {
-  background-color: #c3df34;
-  color: #ffffff; }
-
-#sort_btn::before {
-  content: "\f0dc"; }
-#sort_btn.active {
-  background-color: #c3df34;
-  color: #ffffff; }
-
-.search_apply_ctrl_wrapper #search_apply_ctrl {
-  color: #c3df34;
-  font-weight: 500;
-  background-color: unset;
-  letter-spacing: 2px; }
 
 /*# sourceMappingURL=main.css.map */
