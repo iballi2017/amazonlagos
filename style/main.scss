@@ -410,17 +410,17 @@ ul.breadcrumb {
                 }
             }
             .custom_check {
-                --size: 1.3em;
-                display: inline-block;
-                // background-color: #e5e5e5;
+                --size: 1.2em;
                 width: var(--size);
                 height: var(--size);
                 margin-right: var(--size);
                 cursor: pointer;
-                border: 1px solid $black_color;
-                border-radius: 5px;
+                border: .6px solid $black_color;
+                border-radius: 3px;
                 transform: scale(1);
                 transition: transform 300ms ease-in-out;
+                display: grid;
+                place-content: center;
             }
     
             .check_rej[type="checkbox"]:checked + label .custom_check {
@@ -430,6 +430,7 @@ ul.breadcrumb {
                 color: $white_color;
                 font-family: "Font Awesome 5 Free";
                 font-weight: 900;
+                font-size: .6rem;
                 }
             } 
             label{
@@ -509,6 +510,9 @@ footer {
         a {
             color: $white_color;
             line-height: 30px;
+            &:hover{
+                color: $lemon_color;
+            }
         }
     }
     .newsletter_form {
@@ -526,9 +530,11 @@ footer {
     .social_icons_wrapper {
         display: flex;
         align-items: center;
-        font-size: 1rem;
         li + li {
             margin-left: 2em;
+        }
+        .fab{
+            font-size: 1.2rem;
         }
     }
 }

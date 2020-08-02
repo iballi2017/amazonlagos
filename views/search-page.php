@@ -85,15 +85,6 @@
                                 </div>
                     <ul>
                         <li>
-                            <input type="checkbox" name="five_stars" id="five_starsCheckbox" class="check_rej">
-                            <label for="five_starsCheckbox">
-                            <span class="custom_check"></span>    
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        </label>
                         <br/>
                             <input type="checkbox" name="four_stars" id="four_starsCheckbox" class="check_rej">
                             <label for="four_starsCheckbox">
