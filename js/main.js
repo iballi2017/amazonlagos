@@ -51,16 +51,82 @@ $(document).ready(function () {
     // ###### custom bootstrap carousel events
     $("#prev").on("click", function () {
         $('.carousel').carousel("prev")
-        console.log("Previous")
     })
     $("#next").on("click", function () {
         $('.carousel').carousel("next")
-        console.log("Next")
     })
 
-    // wishlist active icon
+    
+    // Mobile view filter switch
+    var toggledNavItems = document.querySelectorAll(".toggledNavItem")
+    $("#filter_btn").click(function(){
+        $.each(toggledNavItems, function(item){
+            if(toggledNavItems[item].classList.contains("d-none")){                
+                toggledNavItems[item].classList.remove("d-none")
+                $(".product_search_items").addClass("d-none")
+                $(".search_item_title").addClass("d-none")
+                $("#search_page_breadcrumb").addClass("d-none")
+                $("search_apply_ctrl_wrapper").removeClass("d-none")
+                $("search_apply_ctrl_wrapper").addClass("d-block")
+            }
+            testFilterBtn(toggledNavItems[item])
+            testSortBtn();
+            console.log(toggledNavItems[item])
+        })
+        if(!sorting_comp_wrapper.classList.contains("d-none")){                
+            sorting_comp_wrapper.classList.add("d-none")
+        }
+        $("#sort_btn").removeClass("active")
+        $(".pagination_wrapper").addClass("d-none");
+    })
+    // Mobile view sort switch
+    var sorting_comp_wrapper= document.querySelector(".sorting_comp_wrapper")
+    $("#sort_btn").click(function(){
+        if(sorting_comp_wrapper.classList.contains("d-none")){                
+            sorting_comp_wrapper.classList.remove("d-none")
+            $(".product_search_items").addClass("d-none")
+            $(".search_item_title").addClass("d-none")
+            $("#search_page_breadcrumb").addClass("d-none")
+            let search_apply_ctrl_wrapper = $(".search_apply_ctrl_wrapper")
+            if(search_apply_ctrl_wrapper.hasClass("d-none")){
+                search_apply_ctrl_wrapper.removeClass("d-none")
+                search_apply_ctrl_wrapper.addClass("d-block")
+            } $.each(toggledNavItems, function(item){
+                if(!toggledNavItems[item].classList.contains("d-none")){                
+                    toggledNavItems[item].classList.add("d-none")
+                }
+            })
+            $("#filter_btn").removeClass("active")
+            testSortBtn();
+        }
+        $(".pagination_wrapper").addClass("d-none");
+    })
 
+    $("#search_apply_ctrl").click(function(){
+        if($(".product_search_items").hasClass("d-none")){
+            $(".product_search_items").removeClass("d-none");
+            testSortBtn();
+            $(".pagination_wrapper").removeClass("d-none");
+        }
+    })
+
+    var testSortBtn = function(){
+        if(!sorting_comp_wrapper.classList.contains("d-none")){
+            $("#sort_btn").addClass("active")
+        }else{
+            $("#sort_btn").removeClass("active")
+        }
+    }
+    var testFilterBtn = function(arg){
+        if(!arg.classList.contains("d-none")){
+            $("#filter_btn").addClass("active")
+        }else{
+            $("#filter_btn").removeClass("active")
+        }
+        console.log("filter")
+    }
 });
+
 
 
 // nav tabs dropdown links
@@ -70,14 +136,9 @@ class DropTabLink {
     }
     mouseOverDropdownClass() {
         if (this.name.classList.contains("category_dropdown_list")) {
-            console.log(this.name.parentElement.firstChild.nextElementSibling)
             this.name.parentElement.firstChild.nextElementSibling.style.backgroundColor = "#fff"
             this.name.parentElement.firstChild.nextElementSibling.style.color = "#1f3200"
             return this.name.style.transform = "scaleY(1)"
-        }
-        if (this.name.classList.contains("category_dropdown_list")) {
-            // return this.name.classList
-            console.log(this.name.classList)
         }
     }
     mouseOutDropdownClass() {
@@ -100,7 +161,6 @@ categoryDropdown.forEach(drop => {
 
     drop.addEventListener("mouseover", function () {
         for (let i = 0; i < drop.children.length; i++) {
-            console.log(drop.children[i].firstChild)
             let newTest = new DropTabLink(drop.children[i])
             newTest.mouseOverDropdownClass()
         }
@@ -122,7 +182,6 @@ var custom_dropdown_toggle = document.querySelectorAll(".top_nav_dropdown");
 
 custom_dropdown_toggle.forEach(dropdown => {
     dropdown.addEventListener("mouseover", () => {
-        console.log(dropdown.firstElementChild.nextElementSibling)
         dropdown.firstElementChild.nextElementSibling.style.transform = "scaleY(1)"
         dropdown.firstElementChild.style.backgroundColor = "#1f3200"
         dropdown.firstElementChild.style.color = "#fff"
@@ -130,7 +189,6 @@ custom_dropdown_toggle.forEach(dropdown => {
 
     })
     dropdown.addEventListener("mouseout", () => {
-        console.log(dropdown.firstElementChild.nextElementSibling)
         dropdown.firstElementChild.nextElementSibling.style.transform = "scaleY(0)"
         dropdown.firstElementChild.style.backgroundColor = "unset"
         dropdown.firstElementChild.style.color = "unset"

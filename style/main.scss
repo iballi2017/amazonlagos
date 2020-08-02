@@ -75,6 +75,28 @@ a {
     margin: 0 auto;
 }
 
+.pagination{
+    .page-item{
+        &.active{
+            .page-link{
+                background-color: unset;
+                border: none;
+                color: $lemon_color;
+            }
+        }
+    }
+    .page-link{
+        background-color: unset;
+        color: $black_color;
+        font-weight: 600;
+    }
+     .nav_ctrl{
+    background-color: $lemon_color;
+    a{
+        color: $white_color;}
+    }
+}
+
 .y_btn {
     background-color: $yellow_color;
     color: $white_color;
@@ -171,7 +193,7 @@ a.txt_green:hover{
         color: $yellow_color;
     }
     .wish_form{
-       #wish_btn{
+       .wish_btn{
            background-color: unset;
            color: $grey_color;
            &.active{
@@ -593,4 +615,41 @@ ul.breadcrumb {
                 font-weight: 900;
             }
         }}
+}
+
+#filter_btn, #sort_btn{
+    color: $lemon_color;
+    font-size: .8rem;
+    background-color: unset;
+    &::before{
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        margin-right: 1em;
+    }
+}
+#filter_btn{
+    &::before{
+        content: "\f0b0";
+    }
+    &.active{
+        background-color: $lemon_color;
+        color: $white_color;
+    }
+}
+#sort_btn{
+    &::before{
+        content: "\f0dc";
+    }
+    &.active{
+        background-color: $lemon_color;
+        color: $white_color;
+    }
+}
+.search_apply_ctrl_wrapper{
+    #search_apply_ctrl{
+        color: $lemon_color;
+        font-weight: 500;
+        background-color: unset;
+        letter-spacing: 2px;
+    }
 }
