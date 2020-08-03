@@ -24,7 +24,7 @@
         <div class="cont_wrapper main_nav_inner">
             <div class="fl_itm_1">
                 <!-- <a class="navbar-brand" href="#">AmazonLagos</a> -->
-                <a href="#" class="navbar-brand">
+                <a href="../index.html" class="navbar-brand">
                     <img src="../images/amazon_brand_logo.png" alt="AmazonLagos"></a>
                 <nav class="nav">
                     <li class="nav-item dropdown top_nav_dropdown">
@@ -67,11 +67,11 @@
                         <div class="dropdown-menu px-3 border-0" aria-labelledby="navbarDropdown">
                             <ul class="category_list_lg_scrn">
                                 <li class="text-center rounded p-0">
-                                    <a href="#">Login</a>
+                                    <a href="../views/login-page.php">Login</a>
                                 </li>
                                 <div class="dropdown-divider"></div>
                                 <li class="text-center rounded p-0">
-                                    <a href="#">Sign Up</a>
+                                    <a href="../views/register-page.php">Sign Up</a>
                                 </li>
                             </ul>
                         </div>
@@ -246,7 +246,7 @@
                             <li class="col-4">
                                 <a href="#">Table top cooker</a>
                             </li>
-                        </ul>                        
+                        </ul>
                     </div>
                 </li>
                 <li class="nav-item category_dropdown">
@@ -289,7 +289,7 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="../index.html">
                         <img src="../images/amazon_brand_logo.png" alt="AmazonLagos">
                     </a></span>
                 <span>
@@ -304,8 +304,8 @@
             <ul class="navbar-nav mb-0">
                 <li class="nav-item bg-white py-4 my-2 inline_flex">
                     <div class="text-center margin-auto-0">
-                        <a class="access_btn py-2 px-5 white_btn mr-2" href="#">Login</a>
-                        <a class="access_btn py-2 px-5 white_btn" href="#">Sign Up</a></div>
+                        <a class="access_btn py-2 px-5 white_btn mr-2" href="../views/login-page.php">Login</a>
+                        <a class="access_btn py-2 px-5 white_btn" href="../views/register-page.php">Sign Up</a></div>
                 </li>
             </ul>
             <h6 class="container bg-white py-3 text_capital">All Categories</h6>
@@ -417,83 +417,79 @@
                                 data-parent="#accordionExample">
                                 <div class="card-body py-0">
                                     <div class="container-fluid">
-                                        <div class="row">
-                                            <div class="col">
-                                                <ul class="navbar-nav category_list_wrapper mr-auto">
-                                                    <li class="nav-item active">
-                                                        <a class="nav-link text_capital" href="#"> Electric jugs </a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link text_capital" href="#">Electric oven</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link text_capital" href="#">Gas stoves</a>
-                                                    </li>
-                                                    <li class="nav-item active">
-                                                        <a class="nav-link text_capital" href="#"> Hot plates </a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link text_capital" href="#">Microwaves</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link text_capital" href="#">Pressure cookers</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link text_capital" href="#">Rice cookers</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link text_capital" href="#">Sandwich makers</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="col">
-                                                <ul class="navbar-nav category_list_wrapper mr-auto">
-                                                    <li class="nav-item active">
-                                                        <a class="nav-link text_capital" href="#"> Blender </a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link text_capital" href="#">Mixers</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link text_capital" href="#">Juice extractor</a>
-                                                    </li>
-                                                    <li class="nav-item active">
-                                                        <a class="nav-link text_capital" href="#"> Pressing iron </a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link text_capital" href="#">Electric kettle</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link text_capital" href="#">Deep fryer</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link text_capital" href="#">Coffee maker</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link text_capital" href="#">Toasters</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="col">
-                                                <ul class="navbar-nav category_list_wrapper mr-auto">
-                                                    <li class="nav-item active">
-                                                        <a class="nav-link text_capital" href="#"> Gas cooker </a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link text_capital" href="#">Built in oven</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link text_capital" href="#">Built in Hob</a>
-                                                    </li>
-                                                    <li class="nav-item active">
-                                                        <a class="nav-link text_capital" href="#"> Built in chimney </a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link text_capital" href="#">Table top cooker</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
+                                        <ul class="sm-navbar-nav category_list_wrapper mr-auto row p-0">
+                                            <li class="nav-item p-0 col-6">
+                                                <a class="nav-link text_capital" href="#"> Electric jugs
+                                                </a>
+                                            </li>
+                                            <li class="nav-item p-0 col-6">
+                                                <a class="nav-link text_capital" href="#">Electric oven</a>
+                                            </li>
+                                            <li class="nav-item p-0 col-6">
+                                                <a class="nav-link text_capital" href="#">Gas stoves</a>
+                                            </li>
+                                            <li class="nav-item p-0 col-6">
+                                                <a class="nav-link text_capital" href="#"> Hot plates </a>
+                                            </li>
+                                            <li class="nav-item p-0 col-6">
+                                                <a class="nav-link text_capital" href="#">Microwaves</a>
+                                            </li>
+                                            <li class="nav-item p-0 col-6">
+                                                <a class="nav-link text_capital" href="#">Pressure
+                                                    cookers</a>
+                                            </li>
+                                            <li class="nav-item p-0 col-6">
+                                                <a class="nav-link text_capital" href="#">Rice cookers</a>
+                                            </li>
+                                            <li class="nav-item p-0 col-6">
+                                                <a class="nav-link text_capital" href="#">Sandwich
+                                                    makers</a>
+                                            </li>
+                                            <li class="nav-item p-0 col-6">
+                                                <a class="nav-link text_capital" href="#"> Blender </a>
+                                            </li>
+                                            <li class="nav-item p-0 col-6">
+                                                <a class="nav-link text_capital" href="#">Mixers</a>
+                                            </li>
+                                            <li class="nav-item p-0 col-6">
+                                                <a class="nav-link text_capital" href="#">Juice
+                                                    extractor</a>
+                                            </li>
+                                            <li class="nav-item p-0 col-6">
+                                                <a class="nav-link text_capital" href="#"> Pressing iron
+                                                </a>
+                                            </li>
+                                            <li class="nav-item p-0 col-6">
+                                                <a class="nav-link text_capital" href="#">Electric
+                                                    kettle</a>
+                                            </li>
+                                            <li class="nav-item p-0 col-6">
+                                                <a class="nav-link text_capital" href="#">Deep fryer</a>
+                                            </li>
+                                            <li class="nav-item p-0 col-6">
+                                                <a class="nav-link text_capital" href="#">Coffee maker</a>
+                                            </li>
+                                            <li class="nav-item p-0 col-6">
+                                                <a class="nav-link text_capital" href="#">Toasters</a>
+                                            </li>
+                                            <li class="nav-item p-0 col-6">
+                                                <a class="nav-link text_capital" href="#"> Gas cooker </a>
+                                            </li>
+                                            <li class="nav-item p-0 col-6">
+                                                <a class="nav-link text_capital" href="#">Built in oven</a>
+                                            </li>
+                                            <li class="nav-item p-0 col-6">
+                                                <a class="nav-link text_capital" href="#">Built in Hob</a>
+                                            </li>
+                                            <li class="nav-item p-0 col-6">
+                                                <a class="nav-link text_capital" href="#"> Built in chimney
+                                                </a>
+                                            </li>
+                                            <li class="nav-item p-0 col-6">
+                                                <a class="nav-link text_capital" href="#">Table top
+                                                    cooker</a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>

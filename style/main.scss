@@ -7,8 +7,9 @@ $lemon_color: #c3df34;
 $black_color: #2d2d2d;
 $deepGreen_color: #1f3200;
 $yellow_color: #ffbf43;
-$danger_color:#dc3545;
+$danger_color: #dc3545;
 $primary_fontFamily: "Roboto", sans-serif;
+$light_pink_color: rgb(255, 232, 231);
 
 body {
     background-color: $grey_color;
@@ -26,6 +27,7 @@ body {
 .text_capital {
     text-transform: capitalize;
 }
+
 // ......
 
 // GLOBAL
@@ -34,6 +36,10 @@ a {
     &:hover {
         text-decoration: none;
     }
+}
+
+.li_no_style {
+    list-style: none;
 }
 
 .right_0 {
@@ -57,15 +63,15 @@ a {
     border: 1px solid $lemon_color;
 }
 
-.green_hover:hover{
+.green_hover:hover {
     color: $deepGreen_color;
 }
 
-.lemon_hover:hover{
+.lemon_hover:hover {
     color: $lemon_color;
 }
 
-.width_full{
+.width_full {
     width: 100%;
 }
 
@@ -73,12 +79,21 @@ a {
     align-items: center;
 }
 
+.flex_align_center {
+    display: flex;
+    align-items: center;
+}
+
 .flex_just_spb {
     display: flex;
     justify-content: space-between;
 }
+.flex_just_spa {
+    display: flex;
+    justify-content: space-around;
+}
 
-.flex_wrap{
+.flex_wrap {
     flex-wrap: wrap;
 }
 
@@ -106,25 +121,47 @@ a {
     margin: 0 auto;
 }
 
-.pagination{
-    .page-item{
-        &.active{
-            .page-link{
+.itm_price {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.link {
+    color: $deepGreen_color;
+}
+.link_hover:hover {
+    color: $lemon_color;
+    transition: all 300ms ease-in-out;
+}
+
+.social_icons_size {
+    font-size: 1.2rem;
+}
+
+.item_img_nav {
+    width: 50px;
+}
+
+.pagination {
+    .page-item {
+        &.active {
+            .page-link {
                 background-color: unset;
                 border: none;
                 color: $lemon_color;
             }
         }
     }
-    .page-link{
+    .page-link {
         background-color: unset;
         color: $black_color;
         font-weight: 600;
     }
-     .nav_ctrl{
-    background-color: $lemon_color;
-    a{
-        color: $white_color;}
+    .nav_ctrl {
+        background-color: $lemon_color;
+        a {
+            color: $white_color;
+        }
     }
 }
 
@@ -136,7 +173,7 @@ a {
         background-color: $lemon_color;
     }
 }
-.light_grn_btn{
+.light_grn_btn {
     background-color: $lemon_color;
     color: $white_color;
     transition: all 250ms ease-in-out;
@@ -144,10 +181,18 @@ a {
         background-color: $yellow_color;
     }
 }
+.light_pink_btn {
+    background-color: $light_pink_color;
+    color: $white_color;
+    transition: all 250ms ease-in-out;
+    &:hover {
+        background-color: $yellow_color;
+    }
+}
 
-.shopping_cart_icon{
+.shopping_cart_icon {
     color: $deepGreen_color;
-    #cart_count{
+    #cart_count {
         background-color: $deepGreen_color;
         color: $white_color;
     }
@@ -156,18 +201,18 @@ a {
 input[type="text"],
 input[type="email"],
 input[type="password"],
-select{
+select {
     border: 1px solid $black_color;
-    padding: .5em .2em;
+    padding: 0.5em 0.2em;
     border-radius: 3px;
 
-    &:focus{
+    &:focus {
         outline: 0;
     }
 }
 
 // Custom form select dropdown
-select{
+select {
     /* remove default style from browsers */
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -181,11 +226,11 @@ select{
         font: inherit;
     }
 
-    &::after{
+    &::after {
         content: "hhhhh";
     }
 }
-.select_drop_wrapper{
+.select_drop_wrapper {
     position: relative;
     &::after {
         font-family: "Font Awesome 5 Free";
@@ -193,15 +238,24 @@ select{
         font-weight: 900;
         font-size: 20px;
         position: absolute;
-        right: .5rem;
+        right: 0.5rem;
         color: $lemon_color;
         pointer-events: none;
         bottom: 0.34em;
     }
 }
 
+.item_qty_wrapper {
+    button {
+        width: 1.8rem;
+        + div {
+            width: 2.3rem;
+        }
+    }
+}
+
 // ......
-a.txt_green:hover{
+a.txt_green:hover {
     color: $deepGreen_color;
 }
 .main_nav_lg {
@@ -260,27 +314,27 @@ a.txt_green:hover{
         }
     }
 }
-.product_card_search_output{
-    .fa-heart{
+.product_card_search_output {
+    .fa-heart {
         // color: $grey_color;
         cursor: pointer;
         font-size: 1.2rem;
     }
-    .fa-star{
-        font-size: .7rem;
+    .fa-star {
+        font-size: 0.7rem;
         color: $yellow_color;
     }
-    .rating_info{
+    .rating_info {
         font-weight: 500;
     }
-    .wish_form{
-       .wish_btn{
-           background-color: unset;
-           color: $grey_color;
-           &.active{
-               color: $danger_color;
-           }
-       } 
+    .wish_form {
+        .wish_btn {
+            background-color: unset;
+            color: $grey_color;
+            &.active {
+                color: $danger_color;
+            }
+        }
     }
 }
 .shopping_cart_icon {
@@ -302,6 +356,15 @@ a.txt_green:hover{
     li {
         list-style-type: disc;
     }
+    &.sm-navbar-nav .nav-link {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.acc_form_wrapper {
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .green_btn {
@@ -320,26 +383,27 @@ a.txt_green:hover{
     padding: 0.5rem 1rem;
 }
 
-#next, #prev{
+#next,
+#prev {
     cursor: pointer;
-    &:hover{
-        &::before{
-            opacity: .6;
+    &:hover {
+        &::before {
+            opacity: 0.6;
         }
     }
-    &::before{
+    &::before {
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
         font-size: 2rem;
         color: $lemon_color;
-        opacity: .3;
+        opacity: 0.3;
         transition: all 300ms ease-in-out;
     }
 }
-#prev::before{
+#prev::before {
     content: "\f137";
 }
-#next::before{
+#next::before {
     content: "\f138";
 }
 
@@ -384,9 +448,9 @@ button:focus {
     z-index: 2;
     span {
         cursor: pointer;
-        &:hover{
-            &::before{
-                opacity: .6;
+        &:hover {
+            &::before {
+                opacity: 0.6;
             }
         }
         &::before {
@@ -394,7 +458,7 @@ button:focus {
             font-weight: 900;
             color: $lemon_color;
             font-size: 2rem;
-            opacity: .3;
+            opacity: 0.3;
             transition: all 300ms ease-in-out;
         }
     }
@@ -412,20 +476,19 @@ button:focus {
     transform-origin: top;
 }
 
-.category_dropdown_alt{
-    .dropdown-menu{
+.category_dropdown_alt {
+    .dropdown-menu {
         display: block;
         transform: scaleY(0);
         transform-origin: top;
     }
 }
 
-.search_input_grp{
-    input[type="text"]{
+.search_input_grp {
+    input[type="text"] {
         box-shadow: none;
     }
 }
-
 
 // BREADCRUMB
 /* Style the list */
@@ -433,45 +496,45 @@ ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
     background-color: unset;
-  }
-  
-  /* Display list items side by side */
-  ul.breadcrumb li {
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
     display: inline;
     font-size: 18px;
-    font-size: .9rem;
-  }
-  
-  /* Add a slash symbol (/) before/behind each list item */
-  ul.breadcrumb li+li:before {
+    font-size: 0.9rem;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li + li:before {
     padding: 8px;
     color: black;
     content: "/\00a0";
-  }
-  
-  /* Add a color to all links inside the list */
-  ul.breadcrumb li a {
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
     color: $deepGreen_color;
-    opacity: .6;
+    opacity: 0.6;
     text-decoration: none;
     &:hover {
         opacity: 1;
         font-weight: 400;
-      }
-  }
+    }
+}
 
 // SEARCH PAGE
-  #search_page{
+#search_page {
     //   filter_sidenav
-    .filter_sidenav{
-        ul{
+    .filter_sidenav {
+        ul {
             list-style: none;
-            padding:0;
-    
-            .check_rej{
+            padding: 0;
+
+            .check_rej {
                 position: absolute;
                 opacity: 0;
-    
+
                 ~ label {
                     display: flex;
                     flex-wrap: wrap;
@@ -484,104 +547,108 @@ ul.breadcrumb {
                 height: var(--size);
                 margin-right: var(--size);
                 cursor: pointer;
-                border: .6px solid $black_color;
+                border: 0.6px solid $black_color;
                 border-radius: 3px;
                 transform: scale(1);
                 transition: transform 300ms ease-in-out;
                 display: grid;
                 place-content: center;
             }
-    
+
             .check_rej[type="checkbox"]:checked + label .custom_check {
                 background: $lemon_color;
-                &::before{
-                content: "\f00c";
-                color: $white_color;
-                font-family: "Font Awesome 5 Free";
-                font-weight: 900;
-                font-size: .6rem;
+                &::before {
+                    content: "\f00c";
+                    color: $white_color;
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900;
+                    font-size: 0.6rem;
                 }
-            } 
-            label{
+            }
+            label {
                 margin: 0;
-            } 
+            }
         }
-    
-        .filt_title_cont,.list_sect{
-                background-color: $white_color;
-                padding: .7em;
-                margin: .2em 0;
 
-                .product_category{
-                    &::before{
-                        content: "\f104";
-                        font-family: "Font Awesome 5 Free";
-                        font-weight: 900;
-                        margin-right: .5em;
-                    }
-                }
+        .filt_title_cont,
+        .list_sect {
+            background-color: $white_color;
+            padding: 0.7em;
+            margin: 0.2em 0;
 
-                .tv_size{
-                    &::after{
-                        content: "\0027 \0027";
-                    }
+            .product_category {
+                &::before {
+                    content: "\f104";
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900;
+                    margin-right: 0.5em;
                 }
             }
-            .fa-star{
-                color: $yellow_color;
+
+            .tv_size {
+                &::after {
+                    content: "\0027 \0027";
+                }
             }
-            .filt_title_cont {h6{
+        }
+        .fa-star {
+            color: $yellow_color;
+        }
+        .filt_title_cont {
+            h6 {
                 display: flex;
                 justify-content: space-between;
-                &::after{
+                &::after {
                     content: "\f068";
                     font-family: "Font Awesome 5 Free";
                     font-weight: 900;
                 }
-            }}
+            }
+        }
     }
-    .filter_sort_wrapper{
-        .filter_sort_inner{
+    .filter_sort_wrapper {
+        .filter_sort_inner {
             width: 60%;
         }
     }
-    #filter_btn, #sort_btn{
+    #filter_btn,
+    #sort_btn {
         color: $lemon_color;
-        font-size: .8rem;
+        font-size: 0.8rem;
         background-color: unset;
-        &::before{
+        &::before {
             font-family: "Font Awesome 5 Free";
             font-weight: 900;
             margin-right: 1em;
         }
     }
-    #filter_btn{
-        &::before{
+    #filter_btn {
+        &::before {
             content: "\f0b0";
         }
-        &.active{
+        &.active {
             background-color: $lemon_color;
             color: $white_color;
         }
     }
-    #sort_btn{
-        &::before{
+    #sort_btn {
+        &::before {
             content: "\f0dc";
         }
-        &.active{
+        &.active {
             background-color: $lemon_color;
             color: $white_color;
         }
     }
-    .search_apply_ctrl_wrapper{
-        #search_apply_ctrl{
+    .search_apply_ctrl_wrapper {
+        #search_apply_ctrl {
             color: $lemon_color;
             font-weight: 500;
             background-color: unset;
             letter-spacing: 2px;
         }
     }
-  }
+}
 
 footer {
     background-color: $black_color;
@@ -594,7 +661,7 @@ footer {
         a {
             color: $white_color;
             line-height: 30px;
-            &:hover{
+            &:hover {
                 color: $lemon_color;
             }
         }
@@ -617,7 +684,7 @@ footer {
         li + li {
             margin-left: 2em;
         }
-        .fab{
+        .fab {
             font-size: 1.2rem;
         }
     }
@@ -639,8 +706,9 @@ footer {
             justify-content: flex-end;
         }
     }
-    #next, #prev{
-        &::before{
+    #next,
+    #prev {
+        &::before {
             font-size: 3rem;
         }
     }
@@ -650,8 +718,8 @@ footer {
         .footer_col_title {
             font-size: inherit;
         }
-        li a{
-            font-size: .8rem;
+        li a {
+            font-size: 0.8rem;
         }
     }
 }
