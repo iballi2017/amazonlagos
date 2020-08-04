@@ -33,6 +33,9 @@ a {
 .txt_lemon {
   color: #c3df34; }
 
+.txt_bold {
+  font-weight: bold; }
+
 .border_green {
   border: 1px solid #1f3200; }
 
@@ -101,7 +104,7 @@ a {
   font-size: 1.2rem; }
 
 .item_img_nav {
-  width: 50px; }
+  width: 100px; }
 
 .pagination .page-item.active .page-link {
   background-color: unset;
@@ -472,6 +475,43 @@ ul.breadcrumb li a {
   font-weight: 500;
   background-color: unset;
   letter-spacing: 2px; }
+
+#product_details .add_to_cart_btn,
+#product_details .add_to_wishlist_btn {
+  width: 45%;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em; }
+#product_details .product-information-section .nav-item {
+  margin-right: 3em; }
+#product_details .product-information-section .nav-link {
+  color: #1f3200;
+  font-size: 1.2rem;
+  font-weight: 600; }
+  #product_details .product-information-section .nav-link.active {
+    background-color: unset;
+    color: #c3df34; }
+#product_details .product_info_accordion .card-header {
+  background-color: white; }
+  #product_details .product_info_accordion .card-header .btn-link {
+    text-decoration: none;
+    color: #2d2d2d; }
+#product_details .product_info_accordion .description_btn_label i {
+  color: #c3df34; }
+
+.account-tab-link {
+  display: block;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+  color: #2d2d2d;
+  background-color: #ffffff; }
+  .account-tab-link:hover, .account-tab-link.active {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #c3df34; }
+
+#user-orders-page .img_wrapper {
+  display: grid;
+  place-content: center; }
 
 footer {
   background-color: #2d2d2d;

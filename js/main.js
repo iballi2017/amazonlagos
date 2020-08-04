@@ -75,15 +75,16 @@ $(document).ready(function () {
             }
         }
     });
-
-    // ###### custom bootstrap carousel events
-    $("#main_item_img_nav").on("click", function () {
-        $('.image_slider').carousel("prev")
+    var imgSlider = $('.image_slider');
+    imgSlider.owlCarousel();
+    // Go to the main image item
+    $("#main_item_img_nav").click(function () {
+        imgSlider.trigger('prev.owl.carousel', [800]);
     })
-    $("#alt_main_item_img_nav").on("click", function () {
-        $('.image_slider').carousel("next")
-    })
-
+    // Go to the alternative image item
+    $("#alt_main_item_img_nav").click(function () {
+        imgSlider.trigger('next.owl.carousel', [800]);
+    });
 
 
     // Mobile view filter switch
