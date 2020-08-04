@@ -2,11 +2,11 @@
 <?php include_once '../components/header.php'; ?>
 
 <div class="cont_wrapper">
-    <div class="bg-white mt-5 pb-5 cstm_inner_wrapper">
+    <div class="bg-white mt-5 cstm_inner_wrapper">
         <div class="border-bottom p-3 text-center">
             <h6 class="m-0">Reset Password</h6>
         </div>
-        <div class="py-4 px-2 acc_form_wrapper">
+        <div class="py-4 px-2 acc_form_wrapper py-5">
             <form action="#">
                 <div class="form_grp mb-4">
                     <label class="text_capital d-block" for="email">New Password</label>
@@ -23,7 +23,7 @@
         </div>
 
         <!-- displays when password is successfully saved -->
-        <div class="text-center">
+        <div class="text-center py-5 mt-5" style="">
             <h5>PASSWORD SAVED</h5>
         </div>
     </div>

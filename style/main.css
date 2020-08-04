@@ -581,7 +581,33 @@ footer {
     flex-basis: 20%; } }
 @media (min-width: 850px) {
   body {
-    font-size: 15px; } }
+    font-size: 15px; }
+
+  .items_sorting_form {
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: flex-end; }
+    .items_sorting_form .form_inner_wrapper {
+      display: flex;
+      align-items: center; }
+      .items_sorting_form .form_inner_wrapper div:first-child {
+        font-weight: bold;
+        font-size: 0.8rem; }
+    .items_sorting_form .radio_rej[type="radio"]:checked + label {
+      color: #c3df34; }
+      .items_sorting_form .radio_rej[type="radio"]:checked + label .label_text {
+        border: 1px solid #c3df34;
+        font-weight: 600; }
+    .items_sorting_form .radio_rej {
+      position: absolute;
+      opacity: 0; }
+      .items_sorting_form .radio_rej ~ label {
+        display: flex;
+        flex-wrap: wrap;
+        cursor: pointer; }
+        .items_sorting_form .radio_rej ~ label .label_text {
+          border: 1px solid #2d2d2d;
+          padding: 0.3em 0.6em; } }
 @media (min-width: 778px) {
   .main_nav_lg,
   .main_nav_cateory_wrapper {
@@ -654,5 +680,33 @@ footer {
         background-color: #c3df34; }
         .category_list_lg_scrn li:hover a {
           color: #ffffff; } }
+@media (max-width: 849px) {
+  .items_sorting_form .form_inner_wrapper > div {
+    background-color: #ffffff;
+    margin-bottom: 0.2em;
+    padding: 0.8em; }
+  .items_sorting_form .radio_rej {
+    position: absolute;
+    opacity: 0; }
+    .items_sorting_form .radio_rej ~ label {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      cursor: pointer;
+      margin: 0; }
+  .items_sorting_form .custom_radio {
+    --size: 1.2em;
+    width: var(--size);
+    height: var(--size);
+    margin-right: var(--size);
+    cursor: pointer;
+    background-color: #e5e5e5;
+    border-radius: 50px;
+    transform: scale(1);
+    transition: transform 300ms ease-in-out;
+    display: grid;
+    place-content: center; }
+  .items_sorting_form .radio_rej[type="radio"]:checked + label .custom_radio {
+    background-color: #c3df34; } }
 
 /*# sourceMappingURL=main.css.map */
