@@ -679,7 +679,7 @@ footer {
         cursor: pointer; }
         .items_sorting_form .radio_rej ~ label .label_text {
           border: 1px solid #2d2d2d;
-          padding: 0.3em 0.6em; } }
+          padding: 0.6em; } }
 @media (max-width: 770px) {
   .items_sorting_form .form_inner_wrapper > div {
     background-color: #ffffff;
