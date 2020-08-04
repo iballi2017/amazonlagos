@@ -304,8 +304,8 @@
             <ul class="navbar-nav mb-0">
                 <li class="nav-item bg-white py-4 my-2 inline_flex">
                     <div class="text-center margin-auto-0">
-                        <a class="access_btn py-2 px-5 white_btn mr-2" href="../views/login-page.php">Login</a>
-                        <a class="access_btn py-2 px-5 white_btn" href="../views/register-page.php">Sign Up</a></div>
+                        <a class="access_btn py-2 px-5 white_btn mr-2" href="../views/login.php">Login</a>
+                        <a class="access_btn py-2 px-5 white_btn" href="../views/register.php">Sign Up</a></div>
                 </li>
             </ul>
             <h6 class="container bg-white py-3 text_capital">All Categories</h6>

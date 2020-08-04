@@ -17,7 +17,7 @@
                         <div class="form_grp mb-4">
                             <label class="text_capital" for="password">Password</label>
                             <small class="float-right">
-                                <a href="#">Forgot Password?</a>
+                                <a href="./reset-password.php">Forgot Password?</a>
                             </small>
                             <input type="password" class="d-block w-100 py-2" name="password" id="password">
                         </div>
@@ -28,7 +28,7 @@
 
                     <div class="my-5">
                         <small class="d-block text-center mb-1">Don't have an account?</small>
-                        <a href="./register-page.php"
+                        <a href="./register.php"
                             class="d-block text-center border_lemon py-2 txt_lemon green_hover rounded">Sign Up</a>
                     </div>
                 </div>

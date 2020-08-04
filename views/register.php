@@ -98,7 +98,7 @@
 
                     <div class="my-5">
                         <small class="d-block text-center mb-1">Already have account?</small>
-                        <a href="./login-page.php"
+                        <a href="./login.php"
                             class="d-block text-center border_lemon py-2 txt_lemon green_hover rounded">Login</a>
                     </div>
                 </div>
