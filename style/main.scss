@@ -822,44 +822,6 @@ footer {
     body {
         font-size: 15px;
     }
-
-    .items_sorting_form {
-        font-size: 0.7rem;
-        display: flex;
-        justify-content: flex-end;
-        .form_inner_wrapper {
-            display: flex;
-            align-items: center;
-            div:first-child {
-                font-weight: bold;
-                font-size: 0.8rem;
-            }
-        }
-
-        .radio_rej[type="radio"]:checked + label {
-            color: $lemon_color;
-            .label_text {
-                border: 1px solid $lemon_color;
-                font-weight: 600;
-            }
-        }
-
-        .radio_rej {
-            position: absolute;
-            opacity: 0;
-
-            ~ label {
-                display: flex;
-                flex-wrap: wrap;
-                cursor: pointer;
-
-                .label_text {
-                    border: 1px solid $black_color;
-                    padding: 0.3em 0.6em;
-                }
-            }
-        }
-    }
 }
 
 @media (min-width: 778px) {
@@ -951,7 +913,47 @@ footer {
     }
 }
 
-@media (max-width: 849px) {
+@media (min-width: 771px) {
+    .items_sorting_form {
+        font-size: 0.7rem;
+        display: flex;
+        justify-content: flex-end;
+        .form_inner_wrapper {
+            display: flex;
+            align-items: center;
+            div:first-child {
+                font-weight: bold;
+                font-size: 0.8rem;
+            }
+        }
+
+        .radio_rej[type="radio"]:checked + label {
+            color: $lemon_color;
+            .label_text {
+                border: 1px solid $lemon_color;
+                font-weight: 600;
+            }
+        }
+
+        .radio_rej {
+            position: absolute;
+            opacity: 0;
+
+            ~ label {
+                display: flex;
+                flex-wrap: wrap;
+                cursor: pointer;
+
+                .label_text {
+                    border: 1px solid $black_color;
+                    padding: 0.3em 0.6em;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 770px) {
     .items_sorting_form {
         .form_inner_wrapper > div {
             background-color: $white_color;

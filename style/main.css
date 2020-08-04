@@ -581,33 +581,7 @@ footer {
     flex-basis: 20%; } }
 @media (min-width: 850px) {
   body {
-    font-size: 15px; }
-
-  .items_sorting_form {
-    font-size: 0.7rem;
-    display: flex;
-    justify-content: flex-end; }
-    .items_sorting_form .form_inner_wrapper {
-      display: flex;
-      align-items: center; }
-      .items_sorting_form .form_inner_wrapper div:first-child {
-        font-weight: bold;
-        font-size: 0.8rem; }
-    .items_sorting_form .radio_rej[type="radio"]:checked + label {
-      color: #c3df34; }
-      .items_sorting_form .radio_rej[type="radio"]:checked + label .label_text {
-        border: 1px solid #c3df34;
-        font-weight: 600; }
-    .items_sorting_form .radio_rej {
-      position: absolute;
-      opacity: 0; }
-      .items_sorting_form .radio_rej ~ label {
-        display: flex;
-        flex-wrap: wrap;
-        cursor: pointer; }
-        .items_sorting_form .radio_rej ~ label .label_text {
-          border: 1px solid #2d2d2d;
-          padding: 0.3em 0.6em; } }
+    font-size: 15px; } }
 @media (min-width: 778px) {
   .main_nav_lg,
   .main_nav_cateory_wrapper {
@@ -680,7 +654,33 @@ footer {
         background-color: #c3df34; }
         .category_list_lg_scrn li:hover a {
           color: #ffffff; } }
-@media (max-width: 849px) {
+@media (min-width: 771px) {
+  .items_sorting_form {
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: flex-end; }
+    .items_sorting_form .form_inner_wrapper {
+      display: flex;
+      align-items: center; }
+      .items_sorting_form .form_inner_wrapper div:first-child {
+        font-weight: bold;
+        font-size: 0.8rem; }
+    .items_sorting_form .radio_rej[type="radio"]:checked + label {
+      color: #c3df34; }
+      .items_sorting_form .radio_rej[type="radio"]:checked + label .label_text {
+        border: 1px solid #c3df34;
+        font-weight: 600; }
+    .items_sorting_form .radio_rej {
+      position: absolute;
+      opacity: 0; }
+      .items_sorting_form .radio_rej ~ label {
+        display: flex;
+        flex-wrap: wrap;
+        cursor: pointer; }
+        .items_sorting_form .radio_rej ~ label .label_text {
+          border: 1px solid #2d2d2d;
+          padding: 0.3em 0.6em; } }
+@media (max-width: 770px) {
   .items_sorting_form .form_inner_wrapper > div {
     background-color: #ffffff;
     margin-bottom: 0.2em;
