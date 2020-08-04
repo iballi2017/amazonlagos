@@ -10,23 +10,19 @@
                     <i class="fas fa-long-arrow-alt-left fa-2x"></i></button>
             </div>
             <div class="col">
-                <h5 class="mt-2">Saved Items</h5>
+                <h5 class="mt-2">Pending Review</h5>
             </div>
         </div>
-        <!--  <div class="row d-none d-md-block">
-        <div class="col">
-            <h3 class="my-4 container">My Dashboard</h3>
-        </div>
-    </div> -->
 
         <div class="row mt-2 mt-md-5">
             <div class="col-12 col-md-3 d-none d-md-block">
                 <!-- sidebar -->
                 <div class="nav flex-column nav-pills bg-light">
                     <a class="account-tab-link text_capital" href="../views/user-profile.php">My Account</a>
-                    <a class="account-tab-link text_capital active" href="../views/user-orders.php">Orders</a>
-                    <a class="account-tab-link text_capital" href="../views/#.php">Pending Reviews</a>
-                    <a class="account-tab-link text_capital" href="../views/#.php">Saved Items</a>
+                    <a class="account-tab-link text_capital" href="../views/user-orders.php">Orders</a>
+                    <a class="account-tab-link text_capital active" href="../views/pending-review.php">Pending
+                        Reviews</a>
+                    <a class="account-tab-link text_capital" href="../views/saved-items.php">Saved Items</a>
                 </div>
             </div>
 
@@ -51,19 +47,16 @@
                                             <span>₦</span>
                                             <span>1,234</span>
                                         </span>
+                                        <br />
+                                        <span>27/08/2020</span>
+                                        &nbsp;
+                                        <span class="txt_lemon">Delivered</span>
                                     </p>
                                 </div>
                             </div>
                             <div class="col-12 col-md-2">
-                                <!-- <div style="display: flex"> -->
-                                <div class="d-flex d-md-block">
-                                    <button class="text-center py-2 w-100 light_grn_btn rounded px-3 mx-1 my-3"
-                                        style="display: block; ">Add To Cart</button>
-                                    <button class="text-center py-2 w-100 text-danger rounded px-3 mx-1 my-3"
-                                        style="display: block; ">
-                                        <i class="fas fa-trash"></i>
-                                        Remove</button>
-                                </div>
+                                <a href="#" class="text-center py-2 w-100 light_grn_btn rounded px-3 my-3"
+                                    style="display: block; ">Rate this product</a>
                             </div>
                         </div>
                     </div>

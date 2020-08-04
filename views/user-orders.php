@@ -13,11 +13,6 @@
                 <h5 class="mt-2">Orders</h5>
             </div>
         </div>
-        <!--  <div class="row d-none d-md-block">
-        <div class="col">
-            <h3 class="my-4 container">My Dashboard</h3>
-        </div>
-    </div> -->
 
         <div class="row mt-2 mt-md-5">
             <div class="col-12 col-md-3 d-none d-md-block">
@@ -25,8 +20,8 @@
                 <div class="nav flex-column nav-pills bg-light">
                     <a class="account-tab-link text_capital" href="../views/user-profile.php">My Account</a>
                     <a class="account-tab-link text_capital active" href="../views/user-orders.php">Orders</a>
-                    <a class="account-tab-link text_capital" href="../views/#.php">Pending Reviews</a>
-                    <a class="account-tab-link text_capital" href="../views/#.php">Saved Items</a>
+                    <a class="account-tab-link text_capital" href="../views/pending-review.php">Pending Reviews</a>
+                    <a class="account-tab-link text_capital" href="../views/saved-items.php">Saved Items</a>
                 </div>
             </div>
 

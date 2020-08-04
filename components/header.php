@@ -67,11 +67,11 @@
                         <div class="dropdown-menu px-3 border-0" aria-labelledby="navbarDropdown">
                             <ul class="category_list_lg_scrn">
                                 <li class="text-center rounded p-0">
-                                    <a href="../views/login-page.php">Login</a>
+                                    <a href="../views/login.php">Login</a>
                                 </li>
                                 <div class="dropdown-divider"></div>
                                 <li class="text-center rounded p-0">
-                                    <a href="../views/register-page.php">Sign Up</a>
+                                    <a href="../views/register.php">Sign Up</a>
                                 </li>
                             </ul>
                         </div>
@@ -124,7 +124,7 @@
                     <div class="category_dropdown_list absolute_position" style="width: 60%; left: 20%">
                         <ul class="mx-2 my-3">
                             <li>
-                                <a href="#">Televisionr</a>
+                                <a href="#">Television</a>
                             </li>
                             <li>
                                 <a href="#">
@@ -327,7 +327,7 @@
                                 <div class="card-body py-0">
                                     <ul class="navbar-nav category_list_wrapper mr-auto">
                                         <li class="nav-item active">
-                                            <a class="nav-link text_capital" href="#">Telivision</a>
+                                            <a class="nav-link text_capital" href="#">Television</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link text_capital" href="#">Home Theatre</a>

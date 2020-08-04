@@ -320,7 +320,6 @@ a.txt_green:hover {
 }
 .product_card_search_output {
     .fa-heart {
-        // color: $grey_color;
         cursor: pointer;
         font-size: 1.2rem;
     }
@@ -714,6 +713,18 @@ ul.breadcrumb li a {
         display: grid;
         place-content: center;
     }
+}
+
+// reset passwordd page
+#reset_password {
+    // height: 80vh;
+    input {
+        width: 70%;
+    }
+}
+.cstm_inner_wrapper {
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 footer {
