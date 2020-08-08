@@ -653,10 +653,10 @@
     </nav>
     <nav class="side_nav">
         <h3>Category</h3>
-<ul class="side_tabs bg-secondary">
-            <li>
+        <ul class="side_tabs bg-secondary p-2">
+            <li class="category_sub_list">
                 <a href="#">Agriculture</a>
-                <div>
+                <div class="sub_list_content p-1">
                     <ul>
                         <li>
                             <a href="#">Taxonomy</a>
@@ -672,13 +672,69 @@
                         </li>
                     </ul>
                 </div>
-            </li><li>
+            </li>
+            <li class="category_sub_list">
                 <a href="#">Automobile & Motorcycles</a>
-            </li><li>
+            </li>
+            <li class="category_sub_list">
                 <a href="#">Chemicals</a>
+                <div class="sub_list_content container">
+                    <ul class="row">
+                        <li class="col-4">
+                           <a href="#"> Lorem, ipsum.</a>
+                        </li><li class="col-4">
+                           <a href="#"> Lorem, ipsum.</a>
+                        </li>
+                        <li class="col-4">
+                           <a href="#"> Lorem, ipsum.</a>
+                        </li>
+                        <li class="col-4">
+                           <a href="#"> Lorem, ipsum.</a>
+                        </li>
+                        <li class="col-4">
+                           <a href="#"> Lorem, ipsum.</a>
+                        </li>
+                        <li class="col-4">
+                           <a href="#"> Lorem, ipsum.</a>
+                        </li>
+                        <li class="col-4">
+                           <a href="#"> Lorem, ipsum.</a>
+                        </li>
+                        <li class="col-4">
+                           <a href="#"> Lorem, ipsum.</a>
+                        </li>
+                        <li class="col-4">
+                           <a href="#"> Lorem, ipsum.</a>
+                        </li>
+                        <li class="col-4">
+                           <a href="#"> Lorem, ipsum.</a>
+                        </li><li class="col-4">
+                           <a href="#"> Lorem, ipsum.</a>
+                        </li>
+                    </ul>
+                </div>
             </li>
         </ul>
     </nav>
+
+    <script>
+var category_sub_list = document.querySelectorAll(".category_sub_list");
+var sub_list_content = document.querySelector(".sub_list_content")
+console.log(category_sub_list)
+    category_sub_list.forEach(list=>{
+        console.log(list)
+        list.addEventListener("mouseover", ()=>{
+            // sub_list_content.classList.add("show")
+            console.log(list.lastElementChild)
+            list.lastElementChild.classList.add("show")
+        })
+        list.addEventListener("mouseout", () => {
+            // sub_list_content.classList.add("show")
+            console.log(list.lastElementChild)
+            list.lastElementChild.classList.remove("show")
+        })
+    })
+    </script>
 </body>
 
 </html>

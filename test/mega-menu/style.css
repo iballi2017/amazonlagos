@@ -7,7 +7,7 @@ a{text-decoration:none}
 .main_nav_inner_wrapper{display:flex;justify-content:space-between;align-items:center}
 .nav_tab{display:flex;align-items:center}
 .nav_list{margin-right:2em}
-.nav_list a{color:#202020}
+.nav_list a{color:#202020;}
 .sub_menu{
     background-color: #fff;
     padding: 1.3em;
@@ -28,9 +28,10 @@ a{text-decoration:none}
 
 .side_nav{
     background-color: aquamarine;
-    width: 300px;
+    width: 20vw;
     height: 100%;
     position: absolute;
+    z-index: 100000;
 }
 
 .side_tabs{
@@ -40,4 +41,19 @@ a{text-decoration:none}
 
 .side_tabs a{
     color: #fff;
+}
+
+.sub_list_content{
+    position: absolute;
+    width: 50vw;
+    left: 19vw;
+    top: 50px;
+    /* margin-left: 10vw; */
+    background-color: wheat;
+    color: #202020;
+    float: right;
+    display: none;
+}
+.sub_list_content.show{
+    display: block
 }

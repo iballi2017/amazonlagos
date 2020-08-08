@@ -1072,7 +1072,7 @@ footer {
   .category_list_lg_scrn {
     list-style: none;
     padding: 0;
-    width: 1000px;
+      position: relative;
     > li {
       line-height: 35px;
       padding: 0.3em 1em;
@@ -1088,28 +1088,33 @@ footer {
     }
 
     .all_category_menu_item {
-      ul {
+      display: flex;
+      justify-content: space-between;
+      // &::after{
+      //   content: "\f105";
+      //   font-family: "Font Awesome 5 Free";
+      //   font-weight: 900;
+      //   margin-left: .2em;
+      // }
+      .content {
         position: absolute;
         display: none;
-        width: 100%;
-        background-color: white;
+        width: 100vw;
+        background-color: $white_color;
         top: 0;
         bottom: 0;
         margin-left: 9em;
-        padding: 0.5em 3em;
+        border: 1px solid $grey_color;
         a {
           color: $black_color;
+          &:hover{
+            color: $lemon_color;
+          }
         }
-      }
-      > div {
-        position: absolute;
       }
       &:hover {
-        > ul,
-        > div {
+        > .content{
           display: block;
-        }
-        > div {
         }
       }
     }
