@@ -6,7 +6,7 @@
     <h5 class="py-2">Cart (1 Item)</h5>
 
     <div class="row bg-secondary p-2 text-white heading_label">
-        <div class="col col-md-4 d-none d-md-block">
+        <div class="col col-md-5 d-none d-md-block">
             Item
         </div>
         <div class="col col-md-2 d-none d-md-block">
@@ -15,13 +15,13 @@
         <div class="col col-md-2 d-none d-md-block">
             Price
         </div>
-        <div class="col col-md-4 d-none d-md-block">
+        <div class="col col-md-2 d-none d-md-block">
             Action
         </div>
     </div>
 <!-- Item 1 -->
     <div class="row bg-white p-2 mb-1">
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-5">
             <div class="flex_align_center">
 
                 <img src="../images/Nexus_1000VA_Digital_Stabilizer_With_AVR_Function.png" class="card-img mr-2"
@@ -48,7 +48,7 @@
             </div>
             <div class="initial_cal"><span>₦71,000</span>&nbsp;x&nbsp;<span>1</span>&nbsp;Item</div>
         </div>
-        <div class="col-12 col-md-4 col-md-2">
+        <div class="col-12 col-md-2">
             <div class="cart_btn_wrapper">
                 <button class="cart_item_btn"><small>
                         <i class="fas fa-trash"></i>
@@ -61,7 +61,7 @@
     </div>
     <!-- Item 2 -->
     <div class="row bg-white p-2 mb-1">
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-5">
             <div class="flex_align_center">
 
                 <img src="../images/Nexus_1000VA_Digital_Stabilizer_With_AVR_Function.png" class="card-img mr-2"
@@ -88,7 +88,7 @@
             </div>
             <div class="initial_cal"><span>₦71,000</span>&nbsp;x&nbsp;<span>1</span>&nbsp;Item</div>
         </div>
-        <div class="col-12 col-md-4 col-md-2">
+        <div class="col-12 col-md-2">
             <div class="cart_btn_wrapper">
                 <button class="cart_item_btn"><small>
                         <i class="fas fa-trash"></i>
