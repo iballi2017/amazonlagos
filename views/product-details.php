@@ -107,74 +107,188 @@
                     <div class="p-0">
                         <ul class="nav nav-pills mb-3 border-bottom" id="pills-tab" role="tablist">
                             <li class="nav-item text-center">
-                                <a class="nav-link active rounded-0 py-3" id="pills-ingredient-tab" data-toggle="pill"
-                                    href="#pills-ingredient" role="tab" aria-controls="pills-ingredient"
-                                    aria-selected="true">Ingredient</a>
+                                <a class="nav-link active rounded-0 py-3" id="pills-overview-tab" data-toggle="pill"
+                                    href="#pills-overview" role="tab" aria-controls="pills-overview"
+                                    aria-selected="true">Overview</a>
                             </li>
                             <li class="nav-item text-center">
-                                <a class="nav-link rounded-0 py-3" id="pills-keyFeatures-tab" data-toggle="pill"
-                                    href="#pills-keyFeatures" role="tab" aria-controls="pills-keyFeatures"
+                                <a class="nav-link rounded-0 py-3" id="pills-specification-tab" data-toggle="pill"
+                                    href="#pills-specification" role="tab" aria-controls="pills-specification"
                                     aria-selected="false">Specification</a>
                             </li>
                             <li class="nav-item text-center">
-                                <a class="nav-link rounded-0 py-3" id="pills-howToUse-tab" data-toggle="pill"
-                                    href="#pills-howToUse" role="tab" aria-controls="pills-howToUse"
+                                <a class="nav-link rounded-0 py-3" id="pills-waranty-tab" data-toggle="pill"
+                                    href="#pills-waranty" role="tab" aria-controls="pills-waranty"
                                     aria-selected="false">Waranty</a>
                             </li>
                             <li class="nav-item text-center">
-                                <a class="nav-link rounded-0 py-3" id="pills-benefits-tab" data-toggle="pill"
-                                    href="#pills-benefits" role="tab" aria-controls="pills-benefits"
+                                <a class="nav-link rounded-0 py-3" id="pills-return_policy-tab" data-toggle="pill"
+                                    href="#pills-return_policy" role="tab" aria-controls="pills-return_policy"
                                     aria-selected="false">Return Policy</a>
                             </li>
                             <li class="nav-item text-center">
-                                <a class="nav-link rounded-0 py-3" id="pills-shipping-tab" data-toggle="pill"
-                                    href="#pills-shipping" role="tab" aria-controls="pills-shipping"
+                                <a class="nav-link rounded-0 py-3" id="pills-reviews-tab" data-toggle="pill"
+                                    href="#pills-reviews" role="tab" aria-controls="pills-reviews"
                                     aria-selected="false">Reviews</a>
                             </li>
                         </ul>
                         <div class="tab-content p-3" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-ingredient" role="tabpanel"
-                                aria-labelledby="pills-ingredient-tab">
+                            <div class="tab-pane fade show active" id="pills-overview" role="tabpanel"
+                                aria-labelledby="pills-overview-tab">
+                                    <p>The Nexus Semi Auto Twin-Tub Washing Machine 7KG NX-WM-7SAS is the ideal laundry appliance for every household. It is so easy to use and light-weighted so you can move it around the house easily. The 7kg capacity washer effortlessly combines style and functionality, making it a solution to the laundry needs the whole family. The Nexus Semi Auto Twin-Tub Washing Machine 7KG NX-WM-7SAS comes with full features. It includes a twin tub, pure copper motor and anti-rust plastic body. It also features over-load protection and buzzer as well as a timer.</p>
+                            </div>
+                            <div class="tab-pane fade" id="pills-specification" role="tabpanel"
+                                aria-labelledby="pills-specification-tab">
+                                <ol>
+                                    <li>SKU: NE493HL0WDXZYNAFAMZ</li>
+                                    <li>Area of Use: Bathroom|Home Office|Outdoor</li>
+                                    <li>Color: Multicolour</li>
+                                    <li>Main Material: Plastic</li>
+                                    <li>Model: NX-WM-7SAS</li>
+                                    <li>Production Country: Nigeria</li>
+                                    <li>Product Line: ShopandSmile ltd</li>
+                                    <li>Size (L x W x H cm): 73 x 44 x 78</li>
+                                    <li>Weight (kg): 18.5</li>
+                                </ol>
+                            </div>
+                            <div class="tab-pane fade" id="pills-waranty" role="tabpanel"
+                                aria-labelledby="pills-waranty-tab">
+                                <p>1 Year Waranty</p>
+                            </div>
+                            <div class="tab-pane fade" id="pills-return_policy" role="tabpanel"
+                                aria-labelledby="pills-return_policy-tab">
+                                <p>Free return within 15 daysand 7 days for other eligible items.</p>
+                            </div>
+                            <div class="tab-pane fade" id="pills-reviews" role="tabpanel"
+                                aria-labelledby="pills-reviews-tab">
+                                
+                                <div class="border-bottom" style="display: flex; align-items: flex-end">
 
-                                <ol>
-                                    <li>Virgin Coconut oil</li>
-                                    <li>Sweet Almond oil</li>
-                                    <li>Vitamin C & E!</li>
-                                </ol>
-                            </div>
-                            <div class="tab-pane fade" id="pills-keyFeatures" role="tabpanel"
-                                aria-labelledby="pills-keyFeatures-tab">
-                                <ol>
-                                    <li>Deeply moisturises</li>
-                                    <li>Rejuvenates & Refreshes</li>
-                                    <li>Full of Natural goodness</li>
-                                    <li>Rich in vitamin C & E</li>
-                                    <li>Exquisite fragrance</li>
-                                    <li>Great Value For Money</li>
-                                    <li>Beneficial for all skin type.</li>
-                                </ol>
-                            </div>
-                            <div class="tab-pane fade" id="pills-howToUse" role="tabpanel"
-                                aria-labelledby="pills-howToUse-tab">
-                                Apply as part of your daily skincare routine to achieve maximum benefits of a well
-                                nourished
-                                beautiful skin.
-                            </div>
-                            <div class="tab-pane fade" id="pills-benefits" role="tabpanel"
-                                aria-labelledby="pills-benefits-tab">
-                                <ol>
-                                    <li>It has the natural goodness of Hibiscus, Aloe Vera and sweet Almond oil.</li>
-                                    <li>It nourishes and rejuvenates the skin, removes all body impurities leaving it
-                                        soft
-                                        supple and
-                                        fresh.</li>
-                                    <li>It is very effective for dry skin.</li>
-                                </ol>
-                            </div>
-                            <div class="tab-pane fade" id="pills-shipping" role="tabpanel"
-                                aria-labelledby="pills-shipping-tab">
-                                Delivery
-                                Estimated delivery time: 1 - 2 days
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <div class="">
+                                                <span class="total_rating">5</span>
+                                                <span>&nbsp;out of 5 </span>
+                                            </div>
+                                            <div class="star_rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="review_number">
+                                                <span>4</span>&nbsp;<span>Reviews</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <th class="star_label voted" id="5_star_label">5 stars</th>
+                                                        <td>
+                                                            <div class="rating_bar">
+                                                                <div class=" rating_bar_inner" id="star_5"></div>
+
+                                                            </div>
+                                                        </td>
+                                                        <td class="users" id="user_for_5_stars">1</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th class="star_label voted" id="4_star_label">4 stars</th>
+                                                        <td>
+                                                            <div class="rating_bar">
+                                                                <div class=" rating_bar_inner" id="star_4"></div>
+
+                                                            </div>
+                                                        </td>
+                                                        <td class="users" id="user_for_4_stars">2</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th class="star_label voted" id="3_star_label">3 stars</th>
+                                                        <td>
+                                                            <div class="rating_bar">
+                                                                <div class=" rating_bar_inner" id="star_3"></div>
+
+                                                            </div>
+                                                        </td>
+                                                        <td class="users" id="user_for_3_stars">1</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th class="star_label" id="2_star_label">2 stars</th>
+                                                        <td>
+                                                            <div class="rating_bar">
+                                                                <div class=" rating_bar_inner" id="star_2"></div>
+
+                                                            </div>
+                                                        </td>
+                                                        <td class="users" id="user_for_2_stars"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th class="star_label" id="1_star_label">1 star</th>
+                                                        <td>
+                                                            <div class="rating_bar" id="star_1">
+                                                                <div class=" rating_bar_inner"></div>
+
+                                                            </div>
+                                                        </td>
+                                                        <td class="users" id="user_for_1_stars"></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <ul class="user_feedbacks_wrapper">
+                                        <li class="user_feeback_list">
+                                            <div class="user_feedback">
+                                                <div class="user_avatar user_first_Letter">A</div>
+                                                <div>
+                                                    <div class="name">Alade</div>
+                                                    <div class="date">06/08/2020</div>
+                                                </div>
+                                                <div>
+                                                    <div class="user_rating star_rating">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="far fa-star"></i>
+                                                        <i class="far fa-star"></i>
+                                                    </div>
+                                                    <div class="user_comment">
+                                                        I love it
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="user_feedback">
+                                                <div class="user_avatar user_first_Letter">B</div>
+                                                <div>
+                                                    <div class="name">Baba</div>
+                                                    <div class="date">21/07/2020</div>
+                                                </div>
+                                                <div>
+                                                    <div class="user_rating star_rating">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="far fa-star"></i>
+                                                        <i class="far fa-star"></i>
+                                                        <i class="far fa-star"></i>
+                                                    </div>
+                                                    <div class="user_comment">
+                                                        Awesome customer service
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
 
@@ -190,10 +304,10 @@
                             <div class="card-header" id="headingOne">
                                 <h2 class="mb-0">
                                     <button class="btn btn-block btn-link collapsed description_btn" type="button"
-                                        data-toggle="collapse" data-target="#collapseIngredient-info"
-                                        aria-expanded="true" aria-controls="collapseIngredient-info">
+                                        data-toggle="collapse" data-target="#collapseOverview"
+                                        aria-expanded="true" aria-controls="collapseOverview">
                                         <div class="description_btn_label flex_just_spb">
-                                            <span>Ingredient</span>
+                                            <span>Overview</span>
                                             <span>
                                                 <i class="fas fa-minus"></i>
                                             </span>
@@ -202,14 +316,11 @@
                                 </h2>
                             </div>
 
-                            <div id="collapseIngredient-info" class="collapse" aria-labelledby="headingOne"
+                            <div id="collapseOverview" class="collapse" aria-labelledby="headingOne"
                                 data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <ol>
-                                        <li>Virgin Coconut oil</li>
-                                        <li>Sweet Almond oil</li>
-                                        <li>Vitamin C & E!</li>
-                                    </ol>
+                                <div class="card-body cont_wrapper">
+                                    <p>The Nexus Semi Auto Twin-Tub Washing Machine 7KG NX-WM-7SAS is the ideal laundry appliance for every household. It is so easy to use and light-weighted so you can move it around the house easily. The 7kg capacity washer effortlessly combines style and functionality, making it a solution to the laundry needs the whole family. The Nexus Semi Auto Twin-Tub Washing Machine 7KG NX-WM-7SAS comes with full features. It includes a twin tub, pure copper motor and anti-rust plastic body. It also features over-load protection and buzzer as well as a timer.</p>
+                            
                                 </div>
                             </div>
                         </div>
@@ -217,10 +328,10 @@
                             <div class="card-header" id="headingTwo">
                                 <h2 class="mb-0">
                                     <button class="btn btn-block btn-link collapsed description_btn" type="button"
-                                        data-toggle="collapse" data-target="#collapseKeyFeatures-info"
-                                        aria-expanded="false" aria-controls="collapseKeyFeatures-info">
+                                        data-toggle="collapse" data-target="#collapseSpecification"
+                                        aria-expanded="false" aria-controls="collapseSpecification">
                                         <div class="description_btn_label flex_just_spb">
-                                            <span>Key features</span>
+                                            <span>Specification</span>
                                             <span>
                                                 <i class="fas fa-minus"></i>
                                             </span>
@@ -228,17 +339,20 @@
                                     </button>
                                 </h2>
                             </div>
-                            <div id="collapseKeyFeatures-info" class="collapse" aria-labelledby="headingTwo"
+                            <div id="collapseSpecification" class="collapse" aria-labelledby="headingTwo"
                                 data-parent="#accordionExample">
-                                <div class="card-body">
+                                <div class="card-body cont_wrapper">
+                                    
                                     <ol>
-                                        <li>Deeply moisturises</li>
-                                        <li>Rejuvenates & Refreshes</li>
-                                        <li>Full of Natural goodness</li>
-                                        <li>Rich in vitamin C & E</li>
-                                        <li>Exquisite fragrance</li>
-                                        <li>Great Value For Money</li>
-                                        <li>Beneficial for all skin type.</li>
+                                        <li>SKU: NE493HL0WDXZYNAFAMZ</li>
+                                        <li>Area of Use: Bathroom|Home Office|Outdoor</li>
+                                        <li>Color: Multicolour</li>
+                                        <li>Main Material: Plastic</li>
+                                        <li>Model: NX-WM-7SAS</li>
+                                        <li>Production Country: Nigeria</li>
+                                        <li>Product Line: ShopandSmile ltd</li>
+                                        <li>Size (L x W x H cm): 73 x 44 x 78</li>
+                                        <li>Weight (kg): 18.5</li>
                                     </ol>
                                 </div>
                             </div>
@@ -247,11 +361,11 @@
                             <div class="card-header" id="headingThree">
                                 <h2 class="mb-0">
                                     <button class="btn btn-block btn-link collapsed description_btn" type="button"
-                                        data-toggle="collapse" data-target="#collapseHoToUse-info" aria-expanded="false"
-                                        aria-controls="collapseHoToUse-info">
+                                        data-toggle="collapse" data-target="#collapseWaranty" aria-expanded="false"
+                                        aria-controls="collapseWaranty">
 
                                         <div class="description_btn_label flex_just_spb">
-                                            <span>How to use</span>
+                                            <span>Waranty</span>
                                             <span>
                                                 <i class="fas fa-minus"></i>
                                             </span>
@@ -259,12 +373,10 @@
                                     </button>
                                 </h2>
                             </div>
-                            <div id="collapseHoToUse-info" class="collapse" aria-labelledby="headingThree"
+                            <div id="collapseWaranty" class="collapse" aria-labelledby="headingThree"
                                 data-parent="#accordionExample">
-                                <div class="card-body">
-                                    Apply as part of your daily skincare routine to achieve maximum benefits of a well
-                                    nourished
-                                    beautiful skin.
+                                <div class="card-body cont_wrapper">
+                                    <p>1 Year Waranty</p>
                                 </div>
                             </div>
                         </div>
@@ -272,10 +384,10 @@
                             <div class="card-header" id="headingThree">
                                 <h2 class="mb-0">
                                     <button class="btn btn-block btn-link collapsed description_btn" type="button"
-                                        data-toggle="collapse" data-target="#collapseBenefit-info" aria-expanded="false"
-                                        aria-controls="collapseBenefit-info">
+                                        data-toggle="collapse" data-target="#collapseReturn_policy" aria-expanded="false"
+                                        aria-controls="collapseReturn_policy">
                                         <div class="description_btn_label flex_just_spb">
-                                            <span>Benefits</span>
+                                            <span>Return Policy</span>
                                             <span>
                                                 <i class="fas fa-minus"></i>
                                             </span>
@@ -283,19 +395,10 @@
                                     </button>
                                 </h2>
                             </div>
-                            <div id="collapseBenefit-info" class="collapse" aria-labelledby="headingThree"
+                            <div id="collapseReturn_policy" class="collapse" aria-labelledby="headingThree"
                                 data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <ol>
-                                        <li>It has the natural goodness of Hibiscus, Aloe Vera and sweet Almond oil.
-                                        </li>
-                                        <li>It nourishes and rejuvenates the skin, removes all body impurities leaving
-                                            it
-                                            soft
-                                            supple and
-                                            fresh.</li>
-                                        <li>It is very effective for dry skin.</li>
-                                    </ol>
+                                <div class="card-body cont_wrapper">
+                                    <p>Free return within 15 daysand 7 days for other eligible items.</p>
                                 </div>
                             </div>
                         </div>
@@ -303,10 +406,10 @@
                             <div class="card-header" id="headingThree">
                                 <h2 class="mb-0">
                                     <button class="btn btn-block btn-link collapsed description_btn" type="button"
-                                        data-toggle="collapse" data-target="#collapseShipping-info"
-                                        aria-expanded="false" aria-controls="collapseShipping-info">
+                                        data-toggle="collapse" data-target="#collapseReviews"
+                                        aria-expanded="false" aria-controls="collapseReviews">
                                         <div class="description_btn_label flex_just_spb">
-                                            <span>Shipping</span>
+                                            <span>Reviews</span>
                                             <span>
                                                 <i class="fas fa-minus"></i>
                                             </span>
@@ -314,12 +417,139 @@
                                     </button>
                                 </h2>
                             </div>
-                            <div id="collapseShipping-info" class="collapse" aria-labelledby="headingThree"
+                            <div id="collapseReviews" class="collapse" aria-labelledby="headingThree"
                                 data-parent="#accordionExample">
-                                <div class="card-body">
-                                    Delivery
-                                    Estimated delivery time: 1 - 2 days
-                                </div>
+                                    <div class="border-bottom cont_wrapper" style="display: flex; align-items: flex-end">
+                                        <div class="card border-0">
+                                            <div class="card-body">
+                                                <div class="">
+                                                    <span class="total_rating">5</span>
+                                                    <span>&nbsp;out of 5 </span>
+                                                </div>
+                                                <div class="star_rating">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <div class="review_number">
+                                                    <span>4</span>&nbsp;<span>Reviews</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card border-0">
+                                            <div class="card-body">
+                                                <table>
+                                                    <tbody>
+                                                        <tr>
+                                                            <th class="star_label voted" id="5_star_label">5 stars</th>
+                                                            <td>
+                                                                <div class="rating_bar">
+                                                                    <div class=" rating_bar_inner" id="star_5"></div>
+
+                                                                </div>
+                                                            </td>
+                                                            <td class="users" id="user_for_5_stars">1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="star_label voted" id="4_star_label">4 stars</th>
+                                                            <td>
+                                                                <div class="rating_bar">
+                                                                    <div class=" rating_bar_inner" id="star_4"></div>
+
+                                                                </div>
+                                                            </td>
+                                                            <td class="users" id="user_for_4_stars">2</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="star_label voted" id="3_star_label">3 stars</th>
+                                                            <td>
+                                                                <div class="rating_bar">
+                                                                    <div class=" rating_bar_inner" id="star_3"></div>
+
+                                                                </div>
+                                                            </td>
+                                                            <td class="users" id="user_for_3_stars">1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="star_label" id="2_star_label">2 stars</th>
+                                                            <td>
+                                                                <div class="rating_bar">
+                                                                    <div class=" rating_bar_inner" id="star_2"></div>
+
+                                                                </div>
+                                                            </td>
+                                                            <td class="users" id="user_for_2_stars"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="star_label" id="1_star_label">1 star</th>
+                                                            <td>
+                                                                <div class="rating_bar" id="star_1">
+                                                                    <div class=" rating_bar_inner"></div>
+
+                                                                </div>
+                                                            </td>
+                                                            <td class="users" id="user_for_1_stars"></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="card border-0">
+                                            <div class="card-body">
+                                                
+                                                <ul class="user_feedbacks_wrapper">
+                                                    <li class="user_feeback_list">
+                                                        <div class="user_feedback">
+                                                            <div class="user_avatar user_first_Letter">A</div>
+                                                            <div>
+                                                                <div class="name">Alade</div>
+                                                                <div class="date">06/08/2020</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="user_rating star_rating">
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="far fa-star"></i>
+                                                                    <i class="far fa-star"></i>
+                                                                </div>
+                                                                <div class="user_comment">
+                                                                    I love it
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="user_feedback">
+                                                            <div class="user_avatar user_first_Letter">B</div>
+                                                            <div>
+                                                                <div class="name">Baba</div>
+                                                                <div class="date">21/07/2020</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="user_rating star_rating">
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="far fa-star"></i>
+                                                                    <i class="far fa-star"></i>
+                                                                    <i class="far fa-star"></i>
+                                                                </div>
+                                                                <div class="user_comment">
+                                                                    Awesome customer service
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
                             </div>
                         </div>
                     </div>

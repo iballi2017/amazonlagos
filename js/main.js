@@ -160,7 +160,13 @@ $(document).ready(function () {
             $("#filter_btn").removeClass("active")
         }
     }
+
+
+
+
 });
+
+
 
 
 
@@ -173,17 +179,19 @@ class DropTabLink {
         if (this.name.classList.contains("category_dropdown_list")) {
             this.name.parentElement.firstChild.nextElementSibling.style.backgroundColor = "#fff"
             this.name.parentElement.firstChild.nextElementSibling.style.color = "#1f3200"
-            return this.name.style.transform = "scaleY(1)"
+            // return this.name.style.transform = "scaleY(1)"
+            return this.name.style.display = "block"
         }
     }
     mouseOutDropdownClass() {
         if (this.name.classList.contains("category_dropdown_list")) {
             this.name.parentElement.firstChild.nextElementSibling.style.backgroundColor = "unset"
             this.name.parentElement.firstChild.nextElementSibling.style.color = "#fff"
-            return this.name.style.transform = "scaleY(0)";
+            // return this.name.style.transform = "scaleY(0)";
+            return this.name.style.display = "none"
         }
         if (this.name.classList.contains("category_dropdown_list")) {
-            return this.name.style.transformOrigin = "top";
+            // return this.name.style.transformOrigin = "top";
         }
 
     }

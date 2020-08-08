@@ -27,10 +27,9 @@
 
 
 
-            <main class="col-12 col-md-9 mb-3 mt-3 mt-md-0 p-0" id="user-orders-page">
+            <!-- <main class="col-12 col-md-9 mb-3 mt-3 mt-md-0 p-0" id="user-orders-page">
 
                 <div class="form-wrapper bg-white">
-                    <!-- <div class="card-body"> -->
                     <div class="card container-fluid mb-3 border-0">
                         <div class=" row no-gutters">
                             <div class="col-4 col-md-3 img_wrapper">
@@ -60,10 +59,50 @@
                             </div>
                         </div>
                     </div>
-                    <!-- </div> -->
 
                 </div>
-            </main>
+            </main> -->
+
+            
+
+        <main class="col-12 col-md-9 mb-3 mt-3 mt-md-0" id="user-orders-page">
+
+            <div class="form-wrapper p-3 bg-white">
+                <div class="table-responsive">
+                    <table class="table table-borderless">
+                        <thead>
+                            <tr>
+                                <th scope="col">Order Number</th>
+                                <th scope="col">Date</th>
+                                <th scope="col">Ship To</th>
+                                <th scope="col">Order Total</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">Details</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>09/11/2019</td>
+                                <td>Akinola Oluwaobi</td>
+                                <td>#4,000.00</td>
+                                <td class="text-secondary">Processing</td>
+                                <td><a class="btn-sm light_grn_btn" href="./user-order-details.php">View</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>20/01/2020</td>
+                                <td>Olayemi Joshua</td>
+                                <td>#5300.99</td>
+                                <td class="text-success">Delivered</td>
+                                <td><a class="btn-sm light_grn_btn" href="./user-order-details.php">View</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </main>
         </div>
     </div>
 </div>
