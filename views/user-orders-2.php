@@ -43,7 +43,6 @@
                         <div class="col-8 offset-4 offset-md-0 col-md-2">Akinola Oluwaobi</div>
                         <div class="col-4 offset-4 offset-md-0 col-md-2">#4,000.00</div>
                         <div class="col-4  col-md-2 text-secondary">Processing</div>
-                        <hr class="d-block d-md-none border-top">
                         <div class="col-12 col-md-2"><a class="btn-sm btn-block text-center light_grn_btn" href="./user-order-details.php">View</a></div>
                     </div>
                     <div class="row my-1 p-2 bg-light">
@@ -52,7 +51,6 @@
                         <div class="col-8 offset-4 offset-md-0 col-md-2">Adejumo Daniel</div>
                         <div class="col-4 offset-4 offset-md-0 col-md-2">#2,300.00</div>
                         <div class="col-4  col-md-2 text-success">Delivered</div>
-                        <hr class="d-block d-md-none border-top">
                         <div class="col-12 col-md-2"><a class="btn-sm btn-block text-center light_grn_btn" href="./user-order-details.php">View</a></div>
                     </div>
                 </div>
