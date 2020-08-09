@@ -30,7 +30,7 @@
 
             <main class="col-12 col-md-9 mb-3 mt-3 mt-md-0 p-0" id="user-orders-page">
 
-                <div class="form-wrapper bg-white">
+                <div class="bg-white">
                     <!-- <div class="card-body"> -->
                     <div class="card container-fluid mb-3 border-0">
                         <div class=" row no-gutters">

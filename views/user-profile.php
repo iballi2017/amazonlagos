@@ -27,7 +27,7 @@
             <main class="col-12 col-md-9 mb-3 mt-3 mt-md-0 p-0" id="user-profile-page">
 
                 <form action="#">
-                    <div class="form-wrapper bg-white">
+                    <div class="bg-white">
                         <div class="border-bottom p-3">
                             <h4 class="m-0"> Account Overview</h4>
                         </div>

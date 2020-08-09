@@ -27,7 +27,7 @@
 
         <main class="col-12 col-md-9 mb-3 mt-3 mt-md-0" id="user-orders-page">
 
-            <div class="form-wrapper p-3 bg-white">
+            <div class="p-3 bg-white">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-4 col-md-2 d-none d-md-block"><h6>Order number</h6></div>

@@ -529,6 +529,7 @@ button:focus {
 }
 
 .category_dropdown_alt {
+  height: 100%;
   .dropdown-menu {
     display: block;
     transform: scaleY(0);
@@ -536,56 +537,56 @@ button:focus {
   }
 }
 
-  .category_list_lg_scrn {
-    list-style: none;
-    padding: 0;
-      position: relative;
-    > li {
-      line-height: 35px;
-      padding: 0.3em 1em;
+.category_list_lg_scrn {
+  list-style: none;
+  padding: 0;
+  position: relative;
+  > li {
+    line-height: 35px;
+    padding: 0.3em 1em;
+    > a {
+      color: $deepGreen_color;
+    }
+    &:hover {
+      background-color: $lemon_color;
       > a {
-        color: $deepGreen_color;
+        color: $white_color;
       }
-      &:hover {
-        background-color: $lemon_color;
-        > a {
-          color: $white_color;
+    }
+  }
+
+  .all_category_menu_item {
+    display: flex;
+    justify-content: space-between;
+    // &::after{
+    //   content: "\f105";
+    //   font-family: "Font Awesome 5 Free";
+    //   font-weight: 900;
+    //   margin-left: .2em;
+    // }
+    .content {
+      position: absolute;
+      display: none;
+      margin-left: 9em;
+      width: calc(100vw - 9em);
+      background-color: $white_color;
+      top: 0;
+      bottom: 0;
+      border: 1px solid $grey_color;
+      a {
+        color: $black_color;
+        &:hover {
+          color: $lemon_color;
         }
       }
     }
-
-    .all_category_menu_item {
-      display: flex;
-      justify-content: space-between;
-      // &::after{
-      //   content: "\f105";
-      //   font-family: "Font Awesome 5 Free";
-      //   font-weight: 900;
-      //   margin-left: .2em;
-      // }
-      .content {
-        position: absolute;
-        display: none;
-        width: 100vw;
-        background-color: $white_color;
-        top: 0;
-        bottom: 0;
-        margin-left: 9em;
-        border: 1px solid $grey_color;
-        a {
-          color: $black_color;
-          &:hover{
-            color: $lemon_color;
-          }
-        }
+    &:hover {
+      > .content {
+        display: block;
       }
-      &:hover {
-        > .content{
-          display: block;
-        }
-      }
-    } 
+    }
   }
+}
 
 .search_input_grp {
   input[type="text"] {
@@ -940,34 +941,68 @@ ul.breadcrumb li a {
       margin-bottom: 1em;
     }
 
-    .continue_shopping_btn{
-        color: $lemon_color;
+    .continue_shopping_btn {
+      color: $lemon_color;
     }
 
-    .process_checkout_btn{
-        color: $white_color;
+    .process_checkout_btn {
+      color: $white_color;
     }
-    .continue_shopping_btn:hover{
-        color: $white_color;
+    .continue_shopping_btn:hover {
+      color: $white_color;
     }
   }
 }
-    .top_nav_dropdown {
-      a {
-        color: $deepGreen_color;
-        &::after {
-          color: $deepGreen_color;
-        }
-      }
-      .rmps {
-        transition: 250ms ease-in-out;
-        &::after {
-          content: "\f077";
-          color: $white_color;
-          font-size: 0.7rem;
-        }
-      }
+.top_nav_dropdown {
+  a {
+    color: $deepGreen_color;
+    &::after {
+      color: $deepGreen_color;
     }
+  }
+  .rmps {
+    transition: 250ms ease-in-out;
+    &::after {
+      content: "\f077";
+      color: $white_color;
+      font-size: 0.7rem;
+    }
+  }
+}
+
+#user_order_details {
+  .order_summary {
+    ul {
+      list-style: none;
+      line-height: 30px;
+    }
+  }
+
+  .item_card {
+    border: none;
+    border-bottom: 1px solid $grey_color;
+    .img_container {
+      display: grid;
+      place-content: center;
+    }
+    ul {
+      list-style-type: none;
+      line-height: 30px;
+    }
+  }
+
+  dl {
+    margin-top: 2em;
+    dt {
+      margin-top: 1.5em;
+    }
+  }
+
+  .payment_card,
+  .delivery_card {
+    height: 90%;
+  }
+}
 
 footer {
   background-color: $black_color;
@@ -1172,14 +1207,19 @@ footer {
       border: none;
       padding: 0;
     }
-  .process_btn_wrapper {
-    .process_btn {
-      width: auto;
-      margin-bottom: 1em;
-      float: right;
-      margin-left: .3em;
+    .process_btn_wrapper {
+      .process_btn {
+        width: auto;
+        margin-bottom: 1em;
+        float: right;
+        margin-left: 0.3em;
+      }
     }
   }
+  #user_order_details {
+    .item_card {
+      border-bottom: none;
+    }
   }
 }
 

@@ -67,7 +67,7 @@
 
         <main class="col-12 col-md-9 mb-3 mt-3 mt-md-0" id="user-orders-page">
 
-            <div class="form-wrapper p-3 bg-white">
+            <div class="p-3 bg-white">
                 <div class="table-responsive">
                     <table class="table table-borderless">
                         <thead>
