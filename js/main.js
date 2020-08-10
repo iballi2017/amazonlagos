@@ -162,6 +162,31 @@ $(document).ready(function () {
     }
 
 
+    // Checkout page bank account toggle
+    var bankAccountRadioButton = $("#bank_transfer");
+    var thirdPartyRadioButton = $("#third_party");
+    var checkedThirdPartyRadioButton = $("#third_party:checked");
+    var checkedBankAccountRadioButton = $("#bank_transfer:checked");
+    var sellerBankDetails = $("#seller_account_details")
+    bankAccountRadioButton.on("click", function () {
+        if (checkedBankAccountRadioButton) {
+            sellerBankDetails.removeClass("hide")
+            sellerBankDetails.addClass("show")
+        } else {
+            sellerBankDetails.removeClass("show")
+            sellerBankDetails.addClass("hide")
+        }
+    })
+
+    thirdPartyRadioButton.on("click", function () {
+        if (checkedThirdPartyRadioButton) {
+            sellerBankDetails.removeClass("show")
+            sellerBankDetails.addClass("hide")
+        } else {
+            sellerBankDetails.removeClass("hide")
+            sellerBankDetails.addClass("show")
+        }
+    })
 
 
 });
@@ -252,3 +277,4 @@ category_dropdown_alt.addEventListener("mouseout", () => {
     category_dropdown_alt.firstElementChild.style.backgroundColor = "unset"
     category_dropdown_alt.firstElementChild.style.color = "#fff"
 })
+

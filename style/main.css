@@ -699,6 +699,54 @@ ul.breadcrumb li a {
 #user_order_details .delivery_card {
   height: 90%; }
 
+#checkout_page .title_wrapper {
+  background-color: #c4c4c4;
+  color: #ffffff; }
+#checkout_page legend {
+  font-size: 1rem; }
+#checkout_page .radio_rej {
+  position: absolute;
+  opacity: 0; }
+  #checkout_page .radio_rej ~ label {
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer; }
+#checkout_page .custom_radio {
+  --size: 1.5em;
+  width: var(--size);
+  height: var(--size);
+  margin-right: var(--size);
+  cursor: pointer;
+  border: 0.6px solid #e5e5e5;
+  box-shadow: inset 0 0 0 5px #ffffff;
+  background-color: #e5e5e5;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: transform 300ms ease-in-out;
+  display: grid;
+  place-content: center; }
+#checkout_page .radio_rej[type="radio"]:checked + label .custom_radio {
+  background: #c3df34; }
+#checkout_page label {
+  margin: 0; }
+#checkout_page #seller_account_details.hide {
+  display: none;
+  transform-origin: top;
+  transition: all 300ms ease-in-out; }
+#checkout_page #seller_account_details.show {
+  display: block; }
+#checkout_page .order_summary_section ul {
+  list-style: none;
+  width: 60%; }
+  #checkout_page .order_summary_section ul li {
+    line-height: 35px; }
+#checkout_page .modify_cart_btn:hover {
+  background-color: #ffbf43;
+  color: #ffffff; }
+#checkout_page .confirm_cart_btn:hover {
+  opacity: 0.7;
+  color: #ffffff; }
+
 footer {
   background-color: #2d2d2d;
   color: #ffffff; }
@@ -877,6 +925,10 @@ footer {
     display: grid;
     place-content: center; }
   .items_sorting_form .radio_rej[type="radio"]:checked + label .custom_radio {
-    background-color: #c3df34; } }
+    background-color: #c3df34; }
+
+  #checkout_page .modify_cart_btn,
+  #checkout_page .confirm_cart_btn {
+    width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
