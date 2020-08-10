@@ -777,7 +777,8 @@ ul.breadcrumb li a {
   opacity: 0.7;
   color: #ffffff; }
 
-#checkout_success_response_page .inner_container, #user_review_response_page .inner_container {
+#checkout_success_response_page .inner_container,
+#user_review_response_page .inner_container {
   height: 60vh;
   display: grid;
   place-content: center; }
@@ -810,6 +811,23 @@ footer {
       margin-left: 2em; }
     footer .social_icons_wrapper .fab {
       font-size: 1.2rem; }
+  footer .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  footer .copyright::before,
+  footer .copyright::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: #e5e5e5; }
+  footer .copyright::before {
+    width: 5%;
+    margin-right: 5%; }
+  footer .copyright::after {
+    width: 70%;
+    margin-left: 5%;
+    right: 0; }
 
 @media (min-width: 900px) {
   .main_nav_inner .fl_itm_1 {

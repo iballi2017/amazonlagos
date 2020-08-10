@@ -57,6 +57,9 @@
                 </div>
             </div>
         </div>
+        <div class="copyright mt-3 text_capital">
+            2020 &copy; amazon lagos
+        </div>
 
     </footer>
 

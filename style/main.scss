@@ -137,7 +137,7 @@ a {
   font-weight: 600;
   font-size: 1.3rem;
 }
-.back_history{
+.back_history {
   background-color: unset;
 }
 .link {
@@ -1110,7 +1110,8 @@ ul.breadcrumb li a {
   }
 }
 
-#checkout_success_response_page, #user_review_response_page {
+#checkout_success_response_page,
+#user_review_response_page {
   .inner_container {
     height: 60vh;
     display: grid;
@@ -1118,8 +1119,8 @@ ul.breadcrumb li a {
   }
 }
 
-#user_review_page{
-  .review-star{
+#user_review_page {
+  .review-star {
     font-size: 1.4em;
   }
 }
@@ -1161,6 +1162,28 @@ footer {
     .fab {
       font-size: 1.2rem;
     }
+  }
+
+  .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .copyright::before,
+  .copyright::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: $grey_color;
+  }
+  .copyright::before {
+    width: 5%;
+    margin-right: 5%;
+  }
+  .copyright::after {
+    width: 70%;
+    margin-left: 5%;
+    right: 0;
   }
 }
 
@@ -1278,8 +1301,8 @@ footer {
   .rating_bar {
     width: 12rem;
   }
-  #user_review_page{
-    .review-star{
+  #user_review_page {
+    .review-star {
       font-size: 2rem;
     }
   }
@@ -1391,5 +1414,4 @@ footer {
       width: 100%;
     }
   }
-
 }
