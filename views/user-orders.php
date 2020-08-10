@@ -6,7 +6,7 @@
 
         <div class="row d-block d-md-none">
             <div class="col">
-                <button class="bo_back_history border-0" onclick="goBack()">
+                <button class="back_history border-0" onclick="goBack()">
                     <i class="fas fa-long-arrow-alt-left fa-2x"></i></button>
             </div>
             <div class="col">

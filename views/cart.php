@@ -19,7 +19,7 @@
             Action
         </div>
     </div>
-<!-- Item 1 -->
+    <!-- Item 1 -->
     <div class="row bg-white p-2 mb-1">
         <div class="col-12 col-md-5">
             <div class="flex_align_center">
@@ -35,7 +35,7 @@
         <div class="col-4 col-md-2 item_qty_wrapper">
 
             <div>
-                    <hsmall class="d-block d-md-none">Quantity</hsmall>
+                <hsmall class="d-block d-md-none">Quantity</hsmall>
                 <div class="inline_flex border">
                     <button class="bg-white border-right">-</button>
                     <div class="text-center">1</div>
@@ -75,7 +75,7 @@
         <div class="col-4 col-md-2 item_qty_wrapper">
 
             <div>
-                    <hsmall class="d-block d-md-none">Quantity</hsmall>
+                <hsmall class="d-block d-md-none">Quantity</hsmall>
                 <div class="inline_flex border">
                     <button class="bg-white border-right">-</button>
                     <div class="text-center">1</div>
@@ -117,8 +117,34 @@
         <div class="col">
             <div class="process_btn_wrapper">
                 <a href="#" class="w_btn p-2 text-center process_btn continue_shopping_btn">CONTINUE SHOPPING</a>
-                <a href="#" class="light_grn_btn p-2 text-center process_btn process_checkout_btn">PROCEED TO CHECKOUT</a>
+                <a href="#" class="light_grn_btn p-2 text-center process_btn process_checkout_btn">PROCEED TO
+                    CHECKOUT</a>
             </div>
+        </div>
+    </div>
+
+
+
+    <!-- Message for an empty cart -->
+        
+
+    <div class="d-block d-md-none my-3">
+            <button class="back_history border-0" onclick="goBack()">
+                <i class="fas fa-long-arrow-alt-left fa-2x"></i></button>
+                &nbsp;<strong>Order</strong>
+    </div>
+
+    <div class="empty_cart_msg_wrapper mt-5">
+        <div class="text-center inner bg-white p-5">
+            <div class="cart_icon_wrapper relative_position">
+                <i class="fas fa-shopping-cart"></i>
+                <div class="plus_icon_wrapper bg-danger text-white">
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+
+            <p>Cart empty</p>
+            <p><a href="#" class="txt_lemon green_hover">CONTINUE SHOPPING</a></p>
         </div>
     </div>
 </div>
