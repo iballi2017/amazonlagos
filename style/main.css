@@ -786,6 +786,41 @@ ul.breadcrumb li a {
 #user_review_page .review-star {
   font-size: 1.4em; }
 
+#user_shopping_list .page_banner {
+  background-color: #3b7080;
+  color: #ffffff; }
+#user_shopping_list .shopping-list-option-wrapper {
+  margin-bottom: 5em; }
+#user_shopping_list .bo_back_history + span {
+  font-weight: 600;
+  font-size: 1.4rem; }
+#user_shopping_list .weekly_card,
+#user_shopping_list .monthly_card {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 2em; }
+#user_shopping_list .weekly_card .card-header {
+  background-color: #ff8585;
+  color: #ffffff; }
+#user_shopping_list .monthly_card .card-header {
+  background-color: #ffa647;
+  color: #ffffff; }
+
+#user_weekly_shopping_list .list_wrapper, #user_monthly_shopping_list .list_wrapper {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 4em; }
+  #user_weekly_shopping_list .list_wrapper .list_accordion .card-header, #user_monthly_shopping_list .list_wrapper .list_accordion .card-header {
+    background-color: #ffffff; }
+    #user_weekly_shopping_list .list_wrapper .list_accordion .card-header button, #user_monthly_shopping_list .list_wrapper .list_accordion .card-header button {
+      background-color: unset;
+      display: flex; }
+  #user_weekly_shopping_list .list_wrapper .list_accordion .fas, #user_monthly_shopping_list .list_wrapper .list_accordion .fas {
+    font-size: 1.5rem; }
+#user_weekly_shopping_list .accordion .card:last-of-type, #user_monthly_shopping_list .accordion .card:last-of-type {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
+
 footer {
   background-color: #2d2d2d;
   color: #ffffff; }

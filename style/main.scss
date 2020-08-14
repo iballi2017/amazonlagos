@@ -1125,6 +1125,68 @@ ul.breadcrumb li a {
   }
 }
 
+// user shopping list
+#user_shopping_list {
+  .page_banner {
+    background-color: #3b7080;
+    color: $white_color;
+  }
+
+  .shopping-list-option-wrapper {
+    margin-bottom: 5em;
+  }
+
+  .bo_back_history + span {
+    font-weight: 600;
+    font-size: 1.4rem;
+  }
+
+  .weekly_card,
+  .monthly_card {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+  }
+  .weekly_card {
+    .card-header {
+      background-color: #ff8585;
+      color: #ffffff;
+    }
+  }
+  .monthly_card {
+    .card-header {
+      background-color: #ffa647;
+      color: #ffffff;
+    }
+  }
+}
+
+#user_weekly_shopping_list, #user_monthly_shopping_list {
+  .list_wrapper {
+    width: 70%;
+    margin: 0 auto;
+    background-color: $white_color;
+    padding: 4em;
+
+    .list_accordion {
+      .card-header {
+        background-color: $white_color;
+        button {
+          background-color: unset;
+          display: flex;
+        }
+      }
+      .fas{
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .accordion .card:last-of-type {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  }
+}
+
 footer {
   background-color: $black_color;
   color: $white_color;
