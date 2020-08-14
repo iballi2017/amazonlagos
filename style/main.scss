@@ -1162,6 +1162,9 @@ ul.breadcrumb li a {
 }
 
 #user_weekly_shopping_list, #user_monthly_shopping_list {
+  .bo_back_history{
+    background-color: unset;
+  }
   .list_wrapper {
     width: 70%;
     margin: 0 auto;

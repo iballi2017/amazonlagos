@@ -235,7 +235,11 @@ $(document).ready(function () {
 });
 
 
+// back history
 
+function goBack() {
+    window.history.back();
+}
 
 
 // nav tabs dropdown links

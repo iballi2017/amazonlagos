@@ -806,6 +806,8 @@ ul.breadcrumb li a {
   background-color: #ffa647;
   color: #ffffff; }
 
+#user_weekly_shopping_list .bo_back_history, #user_monthly_shopping_list .bo_back_history {
+  background-color: unset; }
 #user_weekly_shopping_list .list_wrapper, #user_monthly_shopping_list .list_wrapper {
   width: 70%;
   margin: 0 auto;
