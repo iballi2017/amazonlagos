@@ -919,7 +919,7 @@ footer {
     width: 5%;
     margin-right: 5%; }
   footer .copyright::after {
-    width: 70%;
+    width: 50%;
     margin-left: 5%;
     right: 0; }
 
@@ -1063,7 +1063,12 @@ footer {
   #faq_page .banner_container, #privacy_policy_page .banner_container, #return_and_refund_policy_page .banner_container {
     background-color: unset; }
     #faq_page .banner_container .page_title, #privacy_policy_page .banner_container .page_title, #return_and_refund_policy_page .banner_container .page_title {
-      font-size: 1.4rem; } }
+      font-size: 1.4rem; }
+
+  footer .copyright::after {
+    width: 70%;
+    margin-left: 5%;
+    right: 0; } }
 @media (max-width: 770px) {
   .items_sorting_form .form_inner_wrapper > div {
     background-color: #ffffff;

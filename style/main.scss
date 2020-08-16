@@ -1362,7 +1362,7 @@ footer {
     margin-right: 5%;
   }
   .copyright::after {
-    width: 70%;
+    width: 50%;
     margin-left: 5%;
     right: 0;
   }
@@ -1570,6 +1570,15 @@ footer {
         font-size: 1.4rem;
       }
     }
+  }
+  
+  footer{
+    
+  .copyright::after {
+    width: 70%;
+    margin-left: 5%;
+    right: 0;
+  }
   }
 }
 
