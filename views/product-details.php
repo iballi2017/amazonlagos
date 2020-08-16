@@ -2,7 +2,7 @@
 <?php include_once '../components/header.php'; ?>
 
 <div id="product_details">
-    <div class="cont_wrapper" id="search_page_breadcrumb">
+    <div class="cont_wrapper" id="">
         <ul class="breadcrumb">
             <li><a href="#">Home</a></li>
             <li><a href="#">Electronic</a></li>

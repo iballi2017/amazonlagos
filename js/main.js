@@ -162,6 +162,27 @@ $(document).ready(function () {
     }
 
 
+    // Functions to toggle a "hide" css class
+    function removeHide(firstArg, secondArg) {
+        if (firstArg) {
+            if (secondArg.hasClass("hide")) {
+                secondArg.removeClass("hide")
+            }
+        } else {
+            secondArg.addClass("hide");
+        }
+    }
+    function addHide(firstArg, secondArg) {
+        if (firstArg) {
+            if (!secondArg.hasClass("hide")) {
+                secondArg.addClass("hide");
+            }
+        } else {
+            secondArg.removeClass("hide")
+        }
+    }
+    // ........................................................
+
     // Checkout page bank account toggle
     var bankAccountRadioButton = $("#bank_transfer");
     var thirdPartyRadioButton = $("#third_party");
@@ -169,25 +190,25 @@ $(document).ready(function () {
     var checkedBankAccountRadioButton = $("#bank_transfer:checked");
     var sellerBankDetails = $("#seller_account_details")
     bankAccountRadioButton.on("click", function () {
-        if (checkedBankAccountRadioButton) {
-            sellerBankDetails.removeClass("hide")
-            sellerBankDetails.addClass("show")
-        } else {
-            sellerBankDetails.removeClass("show")
-            sellerBankDetails.addClass("hide")
-        }
+        removeHide(checkedBankAccountRadioButton, sellerBankDetails)
     })
-
     thirdPartyRadioButton.on("click", function () {
-        if (checkedThirdPartyRadioButton) {
-            sellerBankDetails.removeClass("show")
-            sellerBankDetails.addClass("hide")
-        } else {
-            sellerBankDetails.removeClass("hide")
-            sellerBankDetails.addClass("show")
-        }
+        addHide(checkedThirdPartyRadioButton, sellerBankDetails)
     })
 
+    // payment page toggle payment method
+    var payment_method = $("#payment_method");
+    var payment_method_true = $("#payment_method_true");
+    var checked_payment_method_true = $("#payment_method_true:checked");
+    var payment_method_false = $("#payment_method_false");
+    var checked_payment_method_false = $("#payment_method_false:checked");
+
+    payment_method_true.on('click', function () {
+        removeHide(checked_payment_method_true, payment_method)
+    })
+    payment_method_false.on('click', function () {
+        addHide(checked_payment_method_false, payment_method)
+    })
 
 
 

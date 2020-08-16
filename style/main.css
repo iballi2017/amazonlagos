@@ -729,19 +729,14 @@ ul.breadcrumb li a {
 #user_order_details .delivery_card {
   height: 90%; }
 
-#checkout_page .title_wrapper {
-  background-color: #c4c4c4;
-  color: #ffffff; }
-#checkout_page legend {
-  font-size: 1rem; }
-#checkout_page .radio_rej {
+.radio_rej {
   position: absolute;
   opacity: 0; }
-  #checkout_page .radio_rej ~ label {
+  .radio_rej ~ label {
     display: flex;
-    flex-wrap: wrap;
     cursor: pointer; }
-#checkout_page .custom_radio {
+
+.custom_radio {
   --size: 1.5em;
   width: var(--size);
   height: var(--size);
@@ -755,16 +750,30 @@ ul.breadcrumb li a {
   transition: transform 300ms ease-in-out;
   display: grid;
   place-content: center; }
-#checkout_page .radio_rej[type="radio"]:checked + label .custom_radio {
+
+.radio_rej[type="radio"]:checked + label .custom_radio {
   background: #c3df34; }
+
+#seller_account_details {
+  transition: all 200ms ease-in-out;
+  transform-origin: top; }
+  #seller_account_details.hide {
+    position: absolute;
+    right: 0;
+    left: 0;
+    transform: scaleY(0);
+    opacity: 0; }
+
+#checkout_page .inner_wrapper {
+  max-width: 700px;
+  margin: 0 auto; }
+#checkout_page .title_wrapper {
+  background-color: #c4c4c4;
+  color: #ffffff; }
+#checkout_page legend {
+  font-size: 1rem; }
 #checkout_page label {
   margin: 0; }
-#checkout_page #seller_account_details.hide {
-  display: none;
-  transform-origin: top;
-  transition: all 300ms ease-in-out; }
-#checkout_page #seller_account_details.show {
-  display: block; }
 #checkout_page .order_summary_section ul {
   list-style: none;
   width: 60%; }
@@ -806,22 +815,70 @@ ul.breadcrumb li a {
   background-color: #ffa647;
   color: #ffffff; }
 
-#user_weekly_shopping_list .bo_back_history, #user_monthly_shopping_list .bo_back_history {
+#user_weekly_shopping_list .bo_back_history,
+#user_monthly_shopping_list .bo_back_history {
   background-color: unset; }
-#user_weekly_shopping_list .list_wrapper, #user_monthly_shopping_list .list_wrapper {
+#user_weekly_shopping_list .list_wrapper,
+#user_monthly_shopping_list .list_wrapper {
   width: 70%;
   margin: 0 auto;
   background-color: #ffffff;
   padding: 4em; }
-  #user_weekly_shopping_list .list_wrapper .list_accordion .card-header, #user_monthly_shopping_list .list_wrapper .list_accordion .card-header {
+  #user_weekly_shopping_list .list_wrapper .list_accordion .card-header,
+  #user_monthly_shopping_list .list_wrapper .list_accordion .card-header {
     background-color: #ffffff; }
-    #user_weekly_shopping_list .list_wrapper .list_accordion .card-header button, #user_monthly_shopping_list .list_wrapper .list_accordion .card-header button {
+    #user_weekly_shopping_list .list_wrapper .list_accordion .card-header button,
+    #user_monthly_shopping_list .list_wrapper .list_accordion .card-header button {
       background-color: unset;
       display: flex; }
-  #user_weekly_shopping_list .list_wrapper .list_accordion .fas, #user_monthly_shopping_list .list_wrapper .list_accordion .fas {
+  #user_weekly_shopping_list .list_wrapper .list_accordion .fas,
+  #user_monthly_shopping_list .list_wrapper .list_accordion .fas {
     font-size: 1.5rem; }
-#user_weekly_shopping_list .accordion .card:last-of-type, #user_monthly_shopping_list .accordion .card:last-of-type {
+#user_weekly_shopping_list .accordion .card:last-of-type,
+#user_monthly_shopping_list .accordion .card:last-of-type {
   border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
+
+#payment .banner {
+  background-color: #61acab;
+  color: #ffffff; }
+#payment .form_section_wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #ffffff; }
+  #payment .form_section_wrapper legend {
+    font-size: 1.3rem; }
+  #payment .form_section_wrapper .custom_radio {
+    margin-right: 0.5em; }
+#payment .control_btn_wrapper button {
+  display: block;
+  width: 90%;
+  margin: 0 auto; }
+#payment #payment_method {
+  transition: all 300ms ease-in-out;
+  transform-origin: top; }
+  #payment #payment_method.hide {
+    position: absolute;
+    right: 0;
+    left: 0;
+    transform: scaleY(0);
+    opacity: 0; }
+#payment #seller_account_details li {
+  display: flex;
+  flex-wrap: wrap; }
+
+#faq_page .title_container, #privacy_policy_page .title_container, #return_and_refund_policy_page .title_container {
+  background-color: #ffffff; }
+  #faq_page .title_container .page_title, #privacy_policy_page .title_container .page_title, #return_and_refund_policy_page .title_container .page_title {
+    font-size: 1.2rem; }
+#faq_page .page_banner, #privacy_policy_page .page_banner, #return_and_refund_policy_page .page_banner {
+  background-image: url(../images/faq_banner.png);
+  height: 100px;
+  background-size: cover;
+  background-position: center; }
+#faq_page .content_content_wrapper, #privacy_policy_page .content_content_wrapper, #return_and_refund_policy_page .content_content_wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 28px; }
 
 footer {
   background-color: #2d2d2d;
@@ -993,7 +1050,20 @@ footer {
     margin-left: 0.3em; }
 
   #user_order_details .item_card {
-    border-bottom: none; } }
+    border-bottom: none; }
+
+  #payment .control_btn_wrapper {
+    display: inline-flex; }
+    #payment .control_btn_wrapper button {
+      width: 200px;
+      margin: 0 auto; }
+      #payment .control_btn_wrapper button:first-child {
+        margin-right: 3em; }
+
+  #faq_page .banner_container {
+    background-color: unset; }
+    #faq_page .banner_container .page_title {
+      font-size: 1.4rem; } }
 @media (max-width: 770px) {
   .items_sorting_form .form_inner_wrapper > div {
     background-color: #ffffff;

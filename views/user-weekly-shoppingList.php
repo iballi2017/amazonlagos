@@ -82,10 +82,10 @@
                     </div>
                     <!-- item 2 -->
                     <div class="card mb-2 rounded-0">
-                        <div class="card-header" id="headingOne">
+                        <div class="card-header" id="headingTwo">
                             <div class="mb-0 flex flex_just_spb">
-                                <button class="" type="button" data-toggle="collapse" data-target="#collapseOne"
-                                    aria-expanded="true" aria-controls="collapseOne">
+                                <button class="" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="true" aria-controls="collapseTwo">
                                     <i
                                         class="fas fa-chevron-down txt_lemon"></i>&nbsp;<span>#</span><span>2</span>&nbsp;<span>List</span>
                                 </button>
@@ -95,7 +95,7 @@
                             </div>
                         </div>
 
-                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                             data-parent="#accordionExample">
                             <div class="card-body">
                                 <!-- form input area -->
@@ -128,7 +128,7 @@
                         </div>
                     </div>
                     <div class="form_grp mb-3 text-center">
-                        <button class="py-2 px-5 my-2 light_grn_btn rounded">Submit</button>
+                        <button class="py-2 px-5 my-2 light_grn_btn rounded">Next</button>
                     </div>
                 </form>
             </div>

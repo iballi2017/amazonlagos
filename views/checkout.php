@@ -1,13 +1,8 @@
 <!-- header -->
 <?php include_once '../components/header.php'; ?>
 
-<div class="container mt-5" id="checkout_page">
-    <!-- <div class="row">
-        <div class="col">
-
-        </div>
-    </div> -->
-    <section>
+<div class="mt-5" id="checkout_page">
+    <section class="inner_wrapper">
 
         <div class="title_wrapper p-3">
             <h4 class="text_upper m-0">Check out</h4>
@@ -22,14 +17,14 @@
                         <div class="row">
                             <div class="col-12 col-md-6 mb-4">
                                 <div class="form_grp">
-                                    <label class="text_capital d-block" for="pwd">First Name</label>
-                                    <input type="text" class="d-block w-100" name="pwd" id="pwd">
+                                    <label class="text_capital d-block" for="fName">First Name</label>
+                                    <input type="text" class="d-block w-100" name="fName" id="fName">
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 mb-4">
                                 <div class="form_grp">
-                                    <label class="text_capital d-block" for="lastName">Last Name</label>
-                                    <input type="text" class="d-block w-100" name="lastName" id="lastName">
+                                    <label class="text_capital d-block" for="lName">Last Name</label>
+                                    <input type="text" class="d-block w-100" name="lName" id="lName">
                                 </div>
                             </div>
                         </div>
