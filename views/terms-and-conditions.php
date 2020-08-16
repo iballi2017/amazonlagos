@@ -10,7 +10,7 @@
         </ul>
     </div>
 
-    <div class="title_container p-3">
+    <div class="banner_container p-3">
         <div class="cont_wrapper">
             <h4 class="page_title text-center text-md-left m-0 text_capital">Terms and Conditions</h4>
         </div>
@@ -19,7 +19,7 @@
     <div class="page_banner my-3">
     </div>
 
-    <div class="content_content_wrapper bg-white p-4">
+    <div class="content_content_wrapper bg-white p-4 p-md-5">
         <p>By signing up for, or using the Amazon Lagos services or its affiliates, you are agreeing to be bound by the
             following terms and conditions. The services offered by Amazon Lagos under the Terms of Service include
             various products and services to help you sell goods and services to buyers, whether Online or Offline.
@@ -286,8 +286,8 @@
                             third party
                             claim there on</li>
                         <li>You shall not engage in advertising to, or solicitation of, other users of Amazonlagos.com
-                            to buy or
-                            sell any products or services, including, but not limited to, products or services related
+                            to buy or sell any products or services, including, but not limited to, products or services
+                            related
                             being displayed
                             on Amazonlagos.com or related to Amazonlagos.com. You may not transmit any chain letters or
                             unsolicited
@@ -301,22 +301,28 @@
                             or solicitation,
                             Amazon Lagos reserves the right to restrict the number of messages or emails which a user
                             may send to other
-                            users in any 24-hour period which Amazon Lagos deems appropriate in its sole discretion</li>
-                        liYou understand that Amazon Lagos has the right at all times to disclose any information
-                        (including the
-                        identity of the persons providing information or materials on the Amazonlagos.com website) as
-                        necessary to
-                        satisfy any law, regulation or valid governmental request. This may include, without limitation,
-                        disclosure
-                        of the information in connection with investigation of alleged illegal activity or solicitation
-                        of illegal
-                        activity or in response to a lawful court order or subpoena. In addition, we can (and you hereby
-                        expressly
-                        authorize us to) disclose any information about you to law enforcement or other government
-                        officials, as we,
-                        in our sole discretion, believe necessary or appropriate in connection with the investigation
-                        and/or
-                        resolution of possible crimes, especially those that may involve personal injury
+                            users in any 24-hour period which Amazon Lagos deems appropriate in its sole discretion
+                        </li>
+                        <li>You understand that Amazon Lagos has the right at all times to disclose any information
+                            (including the
+                            identity of the persons providing information or materials on the Amazonlagos.com website)
+                            as
+                            necessary to
+                            satisfy any law, regulation or valid governmental request. This may include, without
+                            limitation,
+                            disclosure
+                            of the information in connection with investigation of alleged illegal activity or
+                            solicitation
+                            of illegal
+                            activity or in response to a lawful court order or subpoena. In addition, we can (and you
+                            hereby
+                            expressly
+                            authorize us to) disclose any information about you to law enforcement or other government
+                            officials, as we,
+                            in our sole discretion, believe necessary or appropriate in connection with the
+                            investigation
+                            and/or
+                            resolution of possible crimes, especially those that may involve personal injury</li>
                     </ol>
                 </dd>
 
@@ -385,33 +391,251 @@
                 <dd></dd>
             </dl>
 
-            <p>This website, all the materials and products (including but not limited to software) and services, included
-            on or otherwise made available to you through this site are provided on Amazonlagos.com on “as is” and “as
-            available” basis without any representation or warranties, express or implied except otherwise specified in
-            writing. Without prejudice to the forgoing paragraph, Amazonlagos.com does not warrant that:</p>
-                <ol>
-                    <li>This website will be constantly available, or available at all; or</li>
-                    <li>The information on this website is complete, true, accurate or non-misleading.
-            Amazon Lagos will not be liable to you in any way or in relation to the contents of, or use of, or otherwise
-            in connection with, Amazonlagos.com website.</li>
-                </ol>
-                <p>
-            Amazon Lagos does not warrant that this site; information, content, materials, product (including software)
-            or services included on or otherwise made available to you through Amazonlagos.com website; their servers;
-            or electronic communication sent from Amazonlagos.com are free of viruses or other harmful components
-            Nothing on Amazonlagos.com constitutes, or is meant to constitute, advice of any kind.</p>
+            <p>This website, all the materials and products (including but not limited to software) and services,
+                included
+                on or otherwise made available to you through this site are provided on Amazonlagos.com on “as is” and
+                “as
+                available” basis without any representation or warranties, express or implied except otherwise specified
+                in
+                writing. Without prejudice to the forgoing paragraph, Amazonlagos.com does not warrant that:</p>
+            <ol>
+                <li>This website will be constantly available, or available at all; or</li>
+                <li>The information on this website is complete, true, accurate or non-misleading.
+                    Amazon Lagos will not be liable to you in any way or in relation to the contents of, or use of, or
+                    otherwise
+                    in connection with, Amazonlagos.com website.</li>
+            </ol>
             <p>
-            All the products sold on Amazonlagos.com are governed by laws of The Federal Republic of Nigeria and if
-            Amazon Lagos is unable to deliver such products due to implications of the laws, Amazon Lagos will return or
-            will give credit for the amount received by Amazon Lagos from the sale of such product, which could not be
-            delivered to you.</p>
+                Amazon Lagos does not warrant that this site; information, content, materials, product (including
+                software)
+                or services included on or otherwise made available to you through Amazonlagos.com website; their
+                servers;
+                or electronic communication sent from Amazonlagos.com are free of viruses or other harmful components
+                Nothing on Amazonlagos.com constitutes, or is meant to constitute, advice of any kind.</p>
             <p>
-            You will be required to enter a valid phone number while placing an order on Amazonlagos.com. By registering
-            your phone number with us, you consent to be contacted by Amazon Lagos via phone calls and / or SMS
-            notifications, in case of any order or shipment or delivery related updates. Amazon Lagos will not use your
-            personal information to initiate any promotional phone calls or SMS'.</p>
+                All the products sold on Amazonlagos.com are governed by laws of The Federal Republic of Nigeria and if
+                Amazon Lagos is unable to deliver such products due to implications of the laws, Amazon Lagos will
+                return or
+                will give credit for the amount received by Amazon Lagos from the sale of such product, which could not
+                be
+                delivered to you.</p>
+            <p>
+                You will be required to enter a valid phone number while placing an order on Amazonlagos.com. By
+                registering
+                your phone number with us, you consent to be contacted by Amazon Lagos via phone calls and / or SMS
+                notifications, in case of any order or shipment or delivery related updates. Amazon Lagos will not use
+                your
+                personal information to initiate any promotional phone calls or SMS'.</p>
 
         </article>
+        <!--  -->
+        <article>
+            <dl>
+                <dt>Payment</dt>
+                <dd>
+
+                    <p>
+                        While availing any of the payment method(s) offered at Amazonlagos.com, Amazonlagos.com will not
+                        be
+                        responsible
+                        or assume any liability, whatsoever in respect of any loss or damage arising directly or
+                        indirectly to
+                        you due
+                        to:</p>
+                    <ol>
+                        <li>Lack of authorization for any transaction(s), or</li>
+                        <li>Exceeding the preset limit mutually agreed by you and between your "Bank(s)", or</li>
+                        <li>Any payment issues arising out of the transaction, or</li>
+                        <li>Decline of transaction for any other reason/s.</li>
+                    </ol>
+                    <p>
+                        All payments made against the purchases/services on Amazonlagos.com by you shall be compulsorily
+                        in
+                        Nigerian
+                        Naira acceptable by the Central Bank of Nigeria. Amazonlagos.com does not accept any other form
+                        of
+                        currency with
+                        respect to the purchases made on Amazon Lagos.</p>
+                </dd>
+            </dl>
+
+        </article>
+        <article>
+            <dl>
+                <dt>Breach</dt>
+                <dd>
+                    <p>Without limiting other remedies, Amazonlagos.com may limit your activity, immediately remove your
+                        information,
+                        warn other users of your actions, immediately temporarily/indefinitely suspend or terminate or
+                        block your
+                        membership, and/or refuse to provide you with access to Amazonlagos.com website in the event,
+                        but not limited
+                        to:</p>
+                    <ol>
+                        <li>If you breach the Terms of Use or Privacy Policy or other rules and policies, if any;</li>
+                        <li>If Amazonlagos.com is unable to verify or authenticate any information you provide; or</li>
+                        <li>If it is believed that your actions may cause legal liability for you, other users or
+                            Amazonlagos.com.</li>
+                    </ol>
+                    <p>Amazonlagos.com may at any time at its sole discretion reinstate suspended users. A User that has
+                        been suspended or blocked may not register or attempt to register with Amazonlagos.com or use
+                        Amazonlagos.com website in any manner whatsoever until such time that such u ser is reinstated
+                        by Amazonlagos.com. Notwithstanding the foregoing, if you breach the Terms of Use or Privacy
+                        Policy or other rules and policies, Amazonlagos.com reserves the right to recover any amounts
+                        due and owing by you to Amazonlagos.com and to take strict legal action including but not
+                        limited to a referral to the appropriate law enforcement or other authorities for initiating
+                        criminal or other proceedings against you. </p>
+                </dd>
+            </dl>
+        </article>
+
+        <article>
+            <dl>
+                <dt>Indemnity</dt>
+                <dd>You shall indemnify and hold harmless Amazonlagos.com its owner, licensee, affiliates, subsidiaries,
+                    group
+                    companies (as applicable) and their respective officers, directors, agents, and employees, from any
+                    claim or
+                    demand, or actions including attorneys' fees, made by you or any third party or penalty imposed due
+                    to or
+                    arising out of your use of the goods or services, or in the event you breach this Terms of Use, the
+                    Privacy
+                    Policy and other Policies, or your violation of any law, rules or regulations or the rights of a
+                    third party on
+                    Amazonlagos.com</dd>
+            </dl>
+        </article>
+
+        <article>
+            <dl>
+                <dt>Applicable Law</dt>
+                <dd>This Agreement shall be governed by and interpreted and construed in accordance with the laws of The
+                    Federal
+                    Republic of Nigeria. The place of jurisdiction shall be exclusively in Lagos, Nigeria</dd>
+            </dl>
+        </article>
+
+        <article>
+            <dl>
+                <dt>Risk of loss</dt>
+                <dd>All items purchased from Amazonlagos.com are made pursuant to a shipment contract. This means that
+                    the Risk of
+                    Loss shall remain with Amazon Lagos until the item is transferred to you. In the event that the
+                    items are
+                    damaged after receipt, the risk falls on the customer.</dd>
+            </dl>
+        </article>
+
+        <article>
+            <dl>
+                <dt>Product and Service Description</dt>
+                <dd>Amazonlagos.com tries to be as accurate as possible. However, Amazonlagos.com does not warrant that
+                    product or
+                    service description or other content of this site is accurate, complete, reliable, current, or
+                    error-free. If a
+                    product or service offered on Amazonlagos.com itself is not as described, your sole remedy is to
+                    return it in
+                    unused condition.</dd>
+            </dl>
+        </article>
+
+        <article>
+            <dl>
+                <dt>Product and Service Description</dt>
+                <dd>Amazonlagos.com tries to be as accurate as possible. However, Amazonlagos.com does not warrant that
+                    product or
+                    service description or other content of this site is accurate, complete, reliable, current, or
+                    error-free. If a
+                    product or service offered on Amazonlagos.com itself is not as described, your sole remedy is to
+                    return it in
+                    unused condition.
+                </dd>
+            </dl>
+        </article>
+
+        <article>
+            <dl>
+                <dt>Pricing and Typographical error</dt>
+                <dd>
+                    If Amazonlagos.com comes across any difference in pricing resulting from typographic errors with
+                    regards to
+                    pricing or product/service information, Amazonlagos.com shall have the right to rectify the same or
+                    cancel the
+                    order(s) and refund monies, if any, collected from the customer within 10-15 business days of such
+                    corrective
+                    action taken. The mode of refund will be the same as at the time of placing the order.
+                </dd>
+            </dl>
+        </article>
+
+        <article>
+            <dl>
+                <dt>Cancellation of order</dt>
+                <dd>
+                    <p>
+                        Amazonlagos.com reserves the right to cancel any order without any explanation for doing so,
+                        under situation
+                        where Amazonlagos.com is not able to meet the requirement of the order placed or order so
+                        placed/cancelled does
+                        not comply with the Amazonlagos.com policy or for any reason. However, Amazonlagos.com will
+                        ensure that any
+                        communication of cancellation of an order is intimated within appropriate time to the concerned
+                        person and any
+                        applicable refund, will be made in reasonable time.
+                        <aside>
+                            Note that in the event of cancellation of a ‘pay on delivery’ orders, Amazon Lagos will not
+                            be liable in any
+                            form where the customer proceeds to receive orders following an earlier cancellation.
+                        </aside>
+                    </p>
+                </dd>
+            </dl>
+        </article>
+
+        <article>
+            <dl>
+                <dt>Termination of Service</dt>
+                <dd>
+                    <p>
+                        Amazonlagos.com reserves the absolute right to modify, discontinue, temporarily or permanently,
+                        any and all
+                        portion of our goods and services with or without prior communications. You hereby consent that
+                        Amazonlagos.com
+                        will under no circumstance be liable to you or any third party for any modification or
+                        discontinuance of
+                        availability of goods or services on the website.
+                    </p>
+                </dd>
+            </dl>
+        </article>
+
+        <article>
+            <dl>
+                <dt>Limitation of Liability</dt>
+                <dd>
+                    <p>
+                        In no event shall Amazonlagos.com be liable for any special, incidental, indirect or
+                        consequential damages of
+                        any kind in connection with this agreement, even if Amazonlagos.com has been informed in advance
+                        of the
+                        possibility of such damages.</p>
+
+                    <p>Amazon Lagos’s aggregate liability to you, any individual or any third party in any matter
+                        arising here from,
+                        related or connected to our goods and services is at the company’s sole discretion.
+                    </p>
+                </dd>
+            </dl>
+        </article>
+
+
+
+
+
+
+
+
+
     </div>
 
 </div>

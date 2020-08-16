@@ -1286,7 +1286,7 @@ ul.breadcrumb li a {
 }
 
 #faq_page, #privacy_policy_page, #return_and_refund_policy_page {
-  .title_container {
+  .banner_container {
     background-color: $white_color;
       .page_title{
         font-size: 1.2rem;
@@ -1563,7 +1563,7 @@ footer {
       }
     }
   }
-  #faq_page {
+  #faq_page, #privacy_policy_page, #return_and_refund_policy_page  {
     .banner_container {
       background-color: unset;
       .page_title{

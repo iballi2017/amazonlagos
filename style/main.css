@@ -866,9 +866,9 @@ ul.breadcrumb li a {
   display: flex;
   flex-wrap: wrap; }
 
-#faq_page .title_container, #privacy_policy_page .title_container, #return_and_refund_policy_page .title_container {
+#faq_page .banner_container, #privacy_policy_page .banner_container, #return_and_refund_policy_page .banner_container {
   background-color: #ffffff; }
-  #faq_page .title_container .page_title, #privacy_policy_page .title_container .page_title, #return_and_refund_policy_page .title_container .page_title {
+  #faq_page .banner_container .page_title, #privacy_policy_page .banner_container .page_title, #return_and_refund_policy_page .banner_container .page_title {
     font-size: 1.2rem; }
 #faq_page .page_banner, #privacy_policy_page .page_banner, #return_and_refund_policy_page .page_banner {
   background-image: url(../images/faq_banner.png);
@@ -1060,9 +1060,9 @@ footer {
       #payment .control_btn_wrapper button:first-child {
         margin-right: 3em; }
 
-  #faq_page .banner_container {
+  #faq_page .banner_container, #privacy_policy_page .banner_container, #return_and_refund_policy_page .banner_container {
     background-color: unset; }
-    #faq_page .banner_container .page_title {
+    #faq_page .banner_container .page_title, #privacy_policy_page .banner_container .page_title, #return_and_refund_policy_page .banner_container .page_title {
       font-size: 1.4rem; } }
 @media (max-width: 770px) {
   .items_sorting_form .form_inner_wrapper > div {

@@ -9,24 +9,41 @@
                     <h6 class="text_upper footer_col_title">Company</h6>
                     <ul class="p-0">
                         <li>
-                            <a href="#">Privacy policy</a>
+                            <a href="../views/privacy-policy.php">Privacy policy</a>
                         </li>
                         <li>
-                            <a href="#">FAQs</a>
+                            <a href="../views/faq.php">FAQs</a>
                         </li>
                         <li>
                             <a href="#">About us</a>
                         </li>
                         <li>
-                            <a href="#">Terms and conditions</a>
+                            <a href="../views/terms-and-conditions.php">Terms and conditions</a>
                         </li>
                         <li>
-                            <a href="#">Return and refund policy</a>
+                            <a href="../views/return-and-refund-policy.php">Return and refund policy</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-6 col-md-4">
                     <h6 class="text_upper footer_col_title">Payment Metthod</h6>
+                    <ul class="p-0">
+                        <li>
+                            <a href="#">Transfer</a>
+                        </li>
+                        <li>
+                            <a href="#">Mastercard</a>
+                        </li>
+                        <li>
+                            <a href="#">Visa</a>
+                        </li>
+                        <li>
+                            <a href="#">Interswitch</a>
+                        </li>
+                        <li>
+                            <a href="#">Verve</a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-12 col-md-4">
                     <h6>SUBSCRIBE TO OUR NEWS LETTER</h6>
