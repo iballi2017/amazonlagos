@@ -116,7 +116,7 @@
 
                 </fieldset>
             </div>
-            <div class="bg-white mb-3">
+            <div class="bg-white mb-3" id="shipping_option_wrapper">
                 <fieldset class="">
                     <legend class="border-bottom text_upper p-3">3. SHIPPING </legend>
 

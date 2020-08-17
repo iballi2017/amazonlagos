@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 body {
   background-color: #e5e5e5;
-  font-size: 13px;
+  font-size: 15px;
   font-family: "Roboto", sans-serif; }
 
 .text_upper {
@@ -772,6 +772,8 @@ ul.breadcrumb li a {
   color: #ffffff; }
 #checkout_page legend {
   font-size: 1rem; }
+#checkout_page #shipping_option_wrapper .radio_rej ~ label {
+  display: block !important; }
 #checkout_page label {
   margin: 0; }
 #checkout_page .order_summary_section ul {
@@ -866,19 +868,38 @@ ul.breadcrumb li a {
   display: flex;
   flex-wrap: wrap; }
 
-#faq_page .banner_container, #privacy_policy_page .banner_container, #return_and_refund_policy_page .banner_container {
+#faq_page .title_container,
+#privacy_policy_page .title_container,
+#return_and_refund_policy_page .title_container,
+#contact_us_page .title_container,
+#about_us_page .title_container {
   background-color: #ffffff; }
-  #faq_page .banner_container .page_title, #privacy_policy_page .banner_container .page_title, #return_and_refund_policy_page .banner_container .page_title {
+  #faq_page .title_container .page_title,
+  #privacy_policy_page .title_container .page_title,
+  #return_and_refund_policy_page .title_container .page_title,
+  #contact_us_page .title_container .page_title,
+  #about_us_page .title_container .page_title {
     font-size: 1.2rem; }
-#faq_page .page_banner, #privacy_policy_page .page_banner, #return_and_refund_policy_page .page_banner {
+#faq_page .page_banner,
+#privacy_policy_page .page_banner,
+#return_and_refund_policy_page .page_banner,
+#contact_us_page .page_banner,
+#about_us_page .page_banner {
   background-image: url(../images/faq_banner.png);
   height: 100px;
   background-size: cover;
   background-position: center; }
-#faq_page .content_content_wrapper, #privacy_policy_page .content_content_wrapper, #return_and_refund_policy_page .content_content_wrapper {
+#faq_page .content_content_wrapper,
+#privacy_policy_page .content_content_wrapper,
+#return_and_refund_policy_page .content_content_wrapper,
+#contact_us_page .content_content_wrapper,
+#about_us_page .content_content_wrapper {
   max-width: 1000px;
   margin: 0 auto;
   line-height: 28px; }
+
+#contact_us_page .texts_area li {
+  list-style: none; }
 
 footer {
   background-color: #2d2d2d;
@@ -958,7 +979,7 @@ footer {
     flex-basis: 20%; } }
 @media (min-width: 850px) {
   body {
-    font-size: 15px; } }
+    font-size: 16px; } }
 @media (min-width: 778px) {
   .main_nav_lg,
   .main_nav_cateory_wrapper {
@@ -1036,6 +1057,8 @@ footer {
         .items_sorting_form .radio_rej ~ label .label_text {
           border: 1px solid #2d2d2d;
           padding: 0.6em; }
+    .items_sorting_form .custom_radio {
+      display: none; }
 
   #cart_page_wrapper .heading_label {
     transform: scale(1); }
@@ -1060,9 +1083,17 @@ footer {
       #payment .control_btn_wrapper button:first-child {
         margin-right: 3em; }
 
-  #faq_page .banner_container, #privacy_policy_page .banner_container, #return_and_refund_policy_page .banner_container {
+  #faq_page .title_container,
+  #privacy_policy_page .title_container,
+  #return_and_refund_policy_page .title_container,
+  #contact_us_page .title_container,
+  #about_us_page .title_container {
     background-color: unset; }
-    #faq_page .banner_container .page_title, #privacy_policy_page .banner_container .page_title, #return_and_refund_policy_page .banner_container .page_title {
+    #faq_page .title_container .page_title,
+    #privacy_policy_page .title_container .page_title,
+    #return_and_refund_policy_page .title_container .page_title,
+    #contact_us_page .title_container .page_title,
+    #about_us_page .title_container .page_title {
       font-size: 1.4rem; }
 
   footer .copyright::after {
@@ -1083,20 +1114,6 @@ footer {
       flex-wrap: wrap;
       cursor: pointer;
       margin: 0; }
-  .items_sorting_form .custom_radio {
-    --size: 1.2em;
-    width: var(--size);
-    height: var(--size);
-    margin-right: var(--size);
-    cursor: pointer;
-    background-color: #e5e5e5;
-    border-radius: 50px;
-    transform: scale(1);
-    transition: transform 300ms ease-in-out;
-    display: grid;
-    place-content: center; }
-  .items_sorting_form .radio_rej[type="radio"]:checked + label .custom_radio {
-    background-color: #c3df34; }
 
   #checkout_page .modify_cart_btn,
   #checkout_page .confirm_cart_btn {

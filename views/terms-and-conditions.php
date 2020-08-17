@@ -10,7 +10,7 @@
         </ul>
     </div>
 
-    <div class="banner_container p-3">
+    <div class="title_container p-3">
         <div class="cont_wrapper">
             <h4 class="page_title text-center text-md-left m-0 text_capital">Terms and Conditions</h4>
         </div>
