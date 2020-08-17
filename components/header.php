@@ -38,10 +38,10 @@
                             <div class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
                                 <ul class="category_list_lg_scrn">
                                     <li>
-                                        <a href="#">FAQ</a>
+                                        <a href="../views/faq.php">FAQ</a>
                                     </li>
                                     <li>
-                                        <a href="#">Contact Us</a>
+                                        <a href="../views/contact-us.php">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>
@@ -723,7 +723,7 @@
                                 <button class="btn btn-link cust_nav_link_dropdown px-0" type="button"
                                     data-toggle="collapse" data-target="#faq" aria-expanded="true" aria-controls="faq"
                                     id="faqHeading">
-                                    <span>FAQ</span>
+                                    <span>Help</span>
                                     <span>
                                         <i class="fas fa-angle-right"></i>
                                     </span>
@@ -734,13 +734,10 @@
                                     <div class="card-body py-0">
                                         <ul class="navbar-nav category_list_wrapper mr-auto">
                                             <li class="nav-item active">
-                                                <a class="nav-link text_capital" href="#">Telivision</a>
+                                                <a class="nav-link text_capital" href="../views/contact-us.php">Contact Us</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link text_capital" href="#">Home Theatre</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link text_capital" href="#">Sound Bar</a>
+                                                <a class="nav-link text_capital" href="../views/faq.php">FAQ</a>
                                             </li>
                                         </ul>
                                     </div>

@@ -15,7 +15,7 @@
                             <a href="../views/faq.php">FAQs</a>
                         </li>
                         <li>
-                            <a href="#">About us</a>
+                            <a href="../views/about-us.php">About us</a>
                         </li>
                         <li>
                             <a href="../views/terms-and-conditions.php">Terms and conditions</a>
