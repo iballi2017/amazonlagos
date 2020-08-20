@@ -39,7 +39,7 @@
                                     Affordable price for the products and delivery
                                 </li>
                             </ul>
-                            <a href="./user-weekly-shoppingList.php" class="btn light_grn_btn btn-block">Request</a>
+                            <a href="./user-weekly-shoppingList.php" class="light_grn_btn btn-block py-2 rounded">Request</a>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                                     Affordable price for the products and delivery
                                 </li>
                             </ul>
-                            <a href="./user-monthly-shoppingList.php" class="btn light_grn_btn btn-block">Request</a>
+                            <a href="./user-monthly-shoppingList.php" class="light_grn_btn btn-block py-2 rounded">Request</a>
                         </div>
                     </div>
                 </div>

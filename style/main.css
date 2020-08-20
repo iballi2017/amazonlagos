@@ -817,28 +817,98 @@ ul.breadcrumb li a {
   background-color: #ffa647;
   color: #ffffff; }
 
-#user_weekly_shopping_list .bo_back_history,
-#user_monthly_shopping_list .bo_back_history {
-  background-color: unset; }
-#user_weekly_shopping_list .list_wrapper,
-#user_monthly_shopping_list .list_wrapper {
-  width: 70%;
-  margin: 0 auto;
-  background-color: #ffffff;
-  padding: 4em; }
-  #user_weekly_shopping_list .list_wrapper .list_accordion .card-header,
-  #user_monthly_shopping_list .list_wrapper .list_accordion .card-header {
-    background-color: #ffffff; }
-    #user_weekly_shopping_list .list_wrapper .list_accordion .card-header button,
-    #user_monthly_shopping_list .list_wrapper .list_accordion .card-header button {
-      background-color: unset;
-      display: flex; }
-  #user_weekly_shopping_list .list_wrapper .list_accordion .fas,
-  #user_monthly_shopping_list .list_wrapper .list_accordion .fas {
-    font-size: 1.5rem; }
-#user_weekly_shopping_list .accordion .card:last-of-type,
-#user_monthly_shopping_list .accordion .card:last-of-type {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
+#user_weekly_shopping_list,
+#user_monthly_shopping_list {
+  /*  */
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+  /*  */ }
+  #user_weekly_shopping_list .bo_back_history,
+  #user_monthly_shopping_list .bo_back_history {
+    background-color: unset; }
+  #user_weekly_shopping_list .shopping_form_wrapper .inner,
+  #user_monthly_shopping_list .shopping_form_wrapper .inner {
+    max-width: 1000px;
+    margin: 0 auto; }
+  #user_weekly_shopping_list table,
+  #user_monthly_shopping_list table {
+    text-align: center;
+    table-layout: auto; }
+    #user_weekly_shopping_list table thead tr th:nth-child(even),
+    #user_monthly_shopping_list table thead tr th:nth-child(even) {
+      background-color: #686c62; }
+    #user_weekly_shopping_list table thead tr th:nth-child(odd),
+    #user_monthly_shopping_list table thead tr th:nth-child(odd) {
+      background-color: #3a3e33; }
+  #user_weekly_shopping_list thead th,
+  #user_weekly_shopping_list thead th.sticky-col,
+  #user_monthly_shopping_list thead th,
+  #user_monthly_shopping_list thead th.sticky-col {
+    color: #ffffff; }
+  #user_weekly_shopping_list table th,
+  #user_weekly_shopping_list table td,
+  #user_monthly_shopping_list table th,
+  #user_monthly_shopping_list table td {
+    border: 1px solid #202020;
+    vertical-align: unset !important; }
+  #user_weekly_shopping_list table td,
+  #user_monthly_shopping_list table td {
+    padding: 0 !important; }
+  #user_weekly_shopping_list .table_wrapper,
+  #user_monthly_shopping_list .table_wrapper {
+    position: relative;
+    overflow: auto;
+    white-space: nowrap; }
+  #user_weekly_shopping_list .sticky-col,
+  #user_monthly_shopping_list .sticky-col {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: #ffffff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; }
+  #user_weekly_shopping_list .first-col,
+  #user_monthly_shopping_list .first-col {
+    width: 60px;
+    min-width: 60px;
+    /* max-width: 100px; */
+    left: -5px; }
+  #user_weekly_shopping_list .shopping_list_form_input,
+  #user_monthly_shopping_list .shopping_list_form_input {
+    height: 40px;
+    width: 90%;
+    margin: 0 auto;
+    outline: 0; }
+  #user_weekly_shopping_list .number_cell,
+  #user_monthly_shopping_list .number_cell {
+    width: auto; }
+  #user_weekly_shopping_list .name_cell,
+  #user_monthly_shopping_list .name_cell {
+    width: 30%; }
+  #user_weekly_shopping_list .brand_cell,
+  #user_monthly_shopping_list .brand_cell {
+    width: 30%; }
+  #user_weekly_shopping_list .qty_cell,
+  #user_monthly_shopping_list .qty_cell {
+    width: 5%; }
+  #user_weekly_shopping_list .info_cell input,
+  #user_monthly_shopping_list .info_cell input {
+    width: auto; }
+  #user_weekly_shopping_list ::-webkit-scrollbar,
+  #user_monthly_shopping_list ::-webkit-scrollbar {
+    width: 7px;
+    height: 5px; }
+  #user_weekly_shopping_list ::-webkit-scrollbar-track,
+  #user_monthly_shopping_list ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px; }
+  #user_weekly_shopping_list ::-webkit-scrollbar-thumb,
+  #user_monthly_shopping_list ::-webkit-scrollbar-thumb {
+    background: #1f3200;
+    border-radius: 10px; }
+  #user_weekly_shopping_list ::-webkit-scrollbar-thumb:hover,
+  #user_monthly_shopping_list ::-webkit-scrollbar-thumb:hover {
+    background: #c3df34; }
 
 #payment .banner {
   background-color: #61acab;
@@ -1074,6 +1144,10 @@ footer {
 
   #user_order_details .item_card {
     border-bottom: none; }
+
+  #user_weekly_shopping_list .sticky-col,
+  #user_monthly_shopping_list .sticky-col {
+    box-shadow: unset !important; }
 
   #payment .control_btn_wrapper {
     display: inline-flex; }
