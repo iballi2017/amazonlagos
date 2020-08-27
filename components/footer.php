@@ -49,7 +49,7 @@
                     <h6>SUBSCRIBE TO OUR NEWS LETTER</h6>
                     <form action="#" class="newsletter_form">
                         <input class="rounded-left py-2 border-0 px-2" type="text" name="email">
-                        <button type="submit" class="green_btn rounded-right py-2">Subscribe</button>
+                        <button type="submit" class="light_grn_btn rounded-right py-2">Subscribe</button>
                     </form>
                     <br>
                     <br>

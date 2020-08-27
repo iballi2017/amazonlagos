@@ -4,6 +4,7 @@
 $grey_color: #e5e5e5;
 $white_color: #ffffff;
 $lemon_color: #c3df34;
+$lemon_color_hoverState: #98AC31;
 $black_color: #2d2d2d;
 $deepGreen_color: #1f3200;
 $yellow_color: #ffbf43;
@@ -72,7 +73,7 @@ a {
 }
 
 .lemon_hover:hover {
-  color: $lemon_color;
+  color: $lemon_color_hoverState;
 }
 
 .width_full {
@@ -201,7 +202,7 @@ a {
   color: $white_color;
   transition: all 250ms ease-in-out;
   &:hover {
-    background-color: $yellow_color;
+    background-color: $lemon_color_hoverState
   }
 }
 .light_pink_btn {
@@ -594,6 +595,18 @@ button:focus {
 .search_input_grp {
   input[type="text"] {
     box-shadow: none;
+  }
+}
+
+.hero-bulletin{
+  .grn-card{
+  background-color: $deepGreen_color;
+  font-weight: 300;
+  }
+  a{
+    background-color: #98AC31;
+    color: $white_color;
+    border-radius: 3px;
   }
 }
 
@@ -1160,7 +1173,7 @@ ul.breadcrumb li a {
     color: $white_color;
   }
   .confirm_cart_btn:hover {
-    opacity: 0.7;
+    background-color: $lemon_color_hoverState;
     color: $white_color;
   }
 }
