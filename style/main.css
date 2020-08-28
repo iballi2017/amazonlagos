@@ -449,7 +449,7 @@ button:focus {
 .hero_aside .inner div.card_2, .hero_aside .inner div.card_3 {
   width: 50%; }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .hero_aside .inner {
     display: flex;
     flex-wrap: nowrap; }
