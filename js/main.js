@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     // latest product slider
     $(".product_slider_one").owlCarousel({
         loop: true,

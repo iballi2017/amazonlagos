@@ -598,17 +598,31 @@ button:focus {
   }
 }
 
-.hero-bulletin{
-  .grn-card{
-  background-color: $deepGreen_color;
-  font-weight: 300;
+
+  .hero_aside .inner {
+      display: flex;
+      flex-wrap: wrap;
   }
-  a{
-    background-color: #98AC31;
-    color: $white_color;
-    border-radius: 3px;
+  .hero_aside .inner div.card_1{
+      width: 100%;
   }
-}
+  .hero_aside .inner div.card_2, .hero_aside .inner div.card_3{
+      width: 50%;
+  }
+
+  @media(max-width: 800px){
+
+  .hero_aside .inner {
+      display: flex;
+      flex-wrap: nowrap;
+  }
+  .hero_aside .inner div.card_1{
+      width: auto;
+  }
+  .hero_aside .inner div.card_2, .hero_aside .inner div.card_3{
+      width: auto;
+  }
+  }
 
 // BREADCRUMB
 /* Style the list */
