@@ -1041,14 +1041,13 @@ ul.breadcrumb li a {
 
   .item_card {
     border: none;
-    border-bottom: 1px solid $grey_color;
+    border: 1px solid $grey_color;
     .img_container {
       display: grid;
       place-content: center;
     }
-    ul {
-      list-style-type: none;
-      line-height: 30px;
+    .item_name{
+      font-size: .85rem;
     }
   }
 

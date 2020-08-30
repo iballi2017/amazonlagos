@@ -734,13 +734,12 @@ ul.breadcrumb li a {
   line-height: 30px; }
 #user_order_details .item_card {
   border: none;
-  border-bottom: 1px solid #e5e5e5; }
+  border: 1px solid #e5e5e5; }
   #user_order_details .item_card .img_container {
     display: grid;
     place-content: center; }
-  #user_order_details .item_card ul {
-    list-style-type: none;
-    line-height: 30px; }
+  #user_order_details .item_card .item_name {
+    font-size: .85rem; }
 #user_order_details dl {
   margin-top: 2em; }
   #user_order_details dl dt {
