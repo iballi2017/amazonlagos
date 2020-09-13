@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
     // latest product slider
     $(".product_slider_one").owlCarousel({
@@ -20,11 +20,11 @@ $(document).ready(function () {
     var owl = $('.product_slider_one');
     owl.owlCarousel();
     // Go to the previous item
-    $(".latest_product_nav_prev").click(function () {
-        owl.trigger('prev.owl.carousel', [800]);
-    })
-    // Go to the next item
-    $(".latest_product_nav_next").click(function () {
+    $(".latest_product_nav_prev").click(function() {
+            owl.trigger('prev.owl.carousel', [800]);
+        })
+        // Go to the next item
+    $(".latest_product_nav_next").click(function() {
         owl.trigger('next.owl.carousel', [800]);
     });
 
@@ -49,10 +49,10 @@ $(document).ready(function () {
     });
 
     // ###### custom bootstrap carousel events
-    $("#prev").on("click", function () {
+    $("#prev").on("click", function() {
         $('.carousel').carousel("prev")
     })
-    $("#next").on("click", function () {
+    $("#next").on("click", function() {
         $('.carousel').carousel("next")
     })
 
@@ -79,40 +79,40 @@ $(document).ready(function () {
     var imgSlider = $('.image_slider');
     imgSlider.owlCarousel();
     // Go to the main image item
-    $("#main_item_img_nav").click(function () {
-        imgSlider.trigger('prev.owl.carousel', [800]);
-    })
-    // Go to the alternative image item
-    $("#alt_main_item_img_nav").click(function () {
+    $("#main_item_img_nav").click(function() {
+            imgSlider.trigger('prev.owl.carousel', [800]);
+        })
+        // Go to the alternative image item
+    $("#alt_main_item_img_nav").click(function() {
         imgSlider.trigger('next.owl.carousel', [800]);
     });
 
 
     // Mobile view filter switch
     var toggledNavItems = document.querySelectorAll(".toggledNavItem")
-    $("#filter_btn").click(function () {
-        $.each(toggledNavItems, function (item) {
-            if (toggledNavItems[item].classList.contains("d-none")) {
-                toggledNavItems[item].classList.remove("d-none")
+    $("#filter_btn").click(function() {
+            $.each(toggledNavItems, function(item) {
+                if (toggledNavItems[item].classList.contains("d-none")) {
+                    toggledNavItems[item].classList.remove("d-none")
+                }
+                testFilterBtn(toggledNavItems[item])
+                testSortBtn();
+            })
+            if (!sorting_comp_wrapper.classList.contains("d-none")) {
+                sorting_comp_wrapper.classList.add("d-none")
             }
-            testFilterBtn(toggledNavItems[item])
-            testSortBtn();
+            $(".product_search_items").addClass("d-none")
+            $(".search_item_title").addClass("d-none")
+            $("#search_page_breadcrumb").addClass("d-none")
+            $(".search_apply_ctrl_wrapper").removeClass("d-none")
+            $(".search_apply_ctrl_wrapper").addClass("d-block")
+                // 
+            $("#sort_btn").removeClass("active")
+            $(".pagination_wrapper").addClass("d-none");
         })
-        if (!sorting_comp_wrapper.classList.contains("d-none")) {
-            sorting_comp_wrapper.classList.add("d-none")
-        }
-        $(".product_search_items").addClass("d-none")
-        $(".search_item_title").addClass("d-none")
-        $("#search_page_breadcrumb").addClass("d-none")
-        $(".search_apply_ctrl_wrapper").removeClass("d-none")
-        $(".search_apply_ctrl_wrapper").addClass("d-block")
-        // 
-        $("#sort_btn").removeClass("active")
-        $(".pagination_wrapper").addClass("d-none");
-    })
-    // Mobile view sort switch
+        // Mobile view sort switch
     var sorting_comp_wrapper = document.querySelector(".sorting_comp_wrapper")
-    $("#sort_btn").click(function () {
+    $("#sort_btn").click(function() {
         if (sorting_comp_wrapper.classList.contains("d-none")) {
             sorting_comp_wrapper.classList.remove("d-none")
             $(".product_search_items").addClass("d-none")
@@ -122,7 +122,8 @@ $(document).ready(function () {
             if (search_apply_ctrl_wrapper.hasClass("d-none")) {
                 search_apply_ctrl_wrapper.removeClass("d-none")
                 search_apply_ctrl_wrapper.addClass("d-block")
-            } $.each(toggledNavItems, function (item) {
+            }
+            $.each(toggledNavItems, function(item) {
                 if (!toggledNavItems[item].classList.contains("d-none")) {
                     toggledNavItems[item].classList.add("d-none")
                 }
@@ -133,7 +134,7 @@ $(document).ready(function () {
         $(".pagination_wrapper").addClass("d-none");
     })
 
-    $("#search_apply_ctrl").click(function () {
+    $("#search_apply_ctrl").click(function() {
         if ($(".product_search_items").hasClass("d-none")) {
             $(".product_search_items").removeClass("d-none");
             testSortBtn();
@@ -141,20 +142,20 @@ $(document).ready(function () {
             $(".sorting_comp_wrapper").addClass("d-none");
         }
         // 
-        $.each(toggledNavItems, function (item) {
-            toggledNavItems[item].classList.add("d-none")
-        })
-        // 
+        $.each(toggledNavItems, function(item) {
+                toggledNavItems[item].classList.add("d-none")
+            })
+            // 
     })
 
-    var testSortBtn = function () {
+    var testSortBtn = function() {
         if (!sorting_comp_wrapper.classList.contains("d-none")) {
             $("#sort_btn").addClass("active")
         } else {
             $("#sort_btn").removeClass("active")
         }
     }
-    var testFilterBtn = function (arg) {
+    var testFilterBtn = function(arg) {
         if (!arg.classList.contains("d-none")) {
             $("#filter_btn").addClass("active")
         } else {
@@ -173,6 +174,7 @@ $(document).ready(function () {
             secondArg.addClass("hide");
         }
     }
+
     function addHide(firstArg, secondArg) {
         if (firstArg) {
             if (!secondArg.hasClass("hide")) {
@@ -190,10 +192,10 @@ $(document).ready(function () {
     var checkedThirdPartyRadioButton = $("#third_party:checked");
     var checkedBankAccountRadioButton = $("#bank_transfer:checked");
     var sellerBankDetails = $("#seller_account_details")
-    bankAccountRadioButton.on("click", function () {
+    bankAccountRadioButton.on("click", function() {
         removeHide(checkedBankAccountRadioButton, sellerBankDetails)
     })
-    thirdPartyRadioButton.on("click", function () {
+    thirdPartyRadioButton.on("click", function() {
         addHide(checkedThirdPartyRadioButton, sellerBankDetails)
     })
 
@@ -204,10 +206,10 @@ $(document).ready(function () {
     var payment_method_false = $("#payment_method_false");
     var checked_payment_method_false = $("#payment_method_false:checked");
 
-    payment_method_true.on('click', function () {
+    payment_method_true.on('click', function() {
         removeHide(checked_payment_method_true, payment_method)
     })
-    payment_method_false.on('click', function () {
+    payment_method_false.on('click', function() {
         addHide(checked_payment_method_false, payment_method)
     })
 
@@ -218,7 +220,7 @@ $(document).ready(function () {
     var ratingValue = document.querySelector("#rating_value")
     var index;
     for (let i = 0; i < stars.length; i++) {
-        stars[i].addEventListener("mouseover", function () {
+        stars[i].addEventListener("mouseover", function() {
 
             for (let j = 0; j < stars.length; j++) {
                 stars[j].classList.remove("fas")
@@ -231,14 +233,14 @@ $(document).ready(function () {
             }
         })
 
-        stars[i].addEventListener("click", function () {
+        stars[i].addEventListener("click", function() {
             ratingValue.value = i + 1
             index = i;
 
             // the value of rating stars
             // console.log(`rating is ${ratingValue.value}`)
         })
-        stars[i].addEventListener("mouseout", function () {
+        stars[i].addEventListener("mouseout", function() {
 
             for (let j = 0; j < stars.length; j++) {
                 stars[j].classList.remove("fas")
@@ -252,6 +254,42 @@ $(document).ready(function () {
             }
         })
     }
+
+
+    // attachment hero slider js
+
+
+    $(".hero_owl_slider").owlCarousel({
+        loop: true,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 10000,
+        autoplaySpeed: 3000,
+        margin: 0,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            600: {
+                items: 1,
+            },
+            1000: {
+                items: 1
+            }
+        }
+    });
+    var owl = $(".hero_owl_slider");
+    owl.owlCarousel();
+    // Go to the next item
+    $('.hero_slide_next').click(function() {
+            owl.trigger('next.owl.carousel', [800]);
+        })
+        // Go to the previous item
+    $('.hero_slide_prev').click(function() {
+        // With optional speed parameter
+        // Parameters has to be in square bracket '[]'
+        owl.trigger('prev.owl.carousel', [800]);
+    })
 
 
 });
@@ -273,7 +311,7 @@ class DropTabLink {
         if (this.name.classList.contains("category_dropdown_list")) {
             this.name.parentElement.firstChild.nextElementSibling.style.backgroundColor = "#fff"
             this.name.parentElement.firstChild.nextElementSibling.style.color = "#1f3200"
-            // return this.name.style.transform = "scaleY(1)"
+                // return this.name.style.transform = "scaleY(1)"
             return this.name.style.display = "block"
         }
     }
@@ -281,7 +319,7 @@ class DropTabLink {
         if (this.name.classList.contains("category_dropdown_list")) {
             this.name.parentElement.firstChild.nextElementSibling.style.backgroundColor = "unset"
             this.name.parentElement.firstChild.nextElementSibling.style.color = "#fff"
-            // return this.name.style.transform = "scaleY(0)";
+                // return this.name.style.transform = "scaleY(0)";
             return this.name.style.display = "none"
         }
         if (this.name.classList.contains("category_dropdown_list")) {
@@ -296,14 +334,14 @@ var categoryDropdown = document.querySelectorAll(".category_dropdown");
 var categoryDropdownList = document.querySelector(".category_dropdown_list");
 categoryDropdown.forEach(drop => {
 
-    drop.addEventListener("mouseover", function () {
+    drop.addEventListener("mouseover", function() {
         for (let i = 0; i < drop.children.length; i++) {
             let newTest = new DropTabLink(drop.children[i])
             newTest.mouseOverDropdownClass()
         }
 
     })
-    drop.addEventListener("mouseout", function () {
+    drop.addEventListener("mouseout", function() {
         for (let i = 0; i < drop.children.length; i++) {
             let newTest = new DropTabLink(drop.children[i])
             newTest.mouseOutDropdownClass()
@@ -320,15 +358,15 @@ var custom_dropdown_toggle = document.querySelectorAll(".top_nav_dropdown");
 custom_dropdown_toggle.forEach(dropdown => {
     dropdown.addEventListener("mouseover", () => {
         dropdown.firstElementChild.nextElementSibling.style.transform = "scaleY(1)"
-        dropdown.firstElementChild.style.backgroundColor = "#1f3200"
-        dropdown.firstElementChild.style.color = "#fff"
+        dropdown.firstElementChild.style.backgroundColor = "#ffffff"
+        dropdown.firstElementChild.style.color = "#1f3200"
         dropdown.firstElementChild.classList.add("rmps")
-
+            // "#1f3200"
     })
     dropdown.addEventListener("mouseout", () => {
         dropdown.firstElementChild.nextElementSibling.style.transform = "scaleY(0)"
         dropdown.firstElementChild.style.backgroundColor = "unset"
-        dropdown.firstElementChild.style.color = "unset"
+        dropdown.firstElementChild.style.color = "#ffffff"
         dropdown.firstElementChild.classList.remove("rmps")
 
     })
@@ -346,4 +384,3 @@ category_dropdown_alt.addEventListener("mouseout", () => {
     category_dropdown_alt.firstElementChild.style.backgroundColor = "unset"
     category_dropdown_alt.firstElementChild.style.color = "#fff"
 })
-

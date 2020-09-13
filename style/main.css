@@ -115,6 +115,9 @@ a {
 .item_img_nav {
   width: 100px; }
 
+.bg_deep_green {
+  background-color: #1f3200; }
+
 .pagination .page-item.active .page-link {
   background-color: unset;
   border: none;
@@ -158,10 +161,10 @@ a {
     background-color: #ffbf43; }
 
 .shopping_cart_icon {
-  color: #1f3200; }
+  color: #ffffff; }
   .shopping_cart_icon #cart_count {
-    background-color: #1f3200;
-    color: #ffffff; }
+    background-color: #ffffff;
+    color: #1f3200; }
 
 input[type="text"],
 textarea,
@@ -214,7 +217,8 @@ a.txt_green:hover {
   color: #1f3200; }
 
 .main_nav_lg {
-  display: none; }
+  display: none;
+  background-color: #272502; }
   .main_nav_lg .main_nav_inner {
     display: flex;
     justify-content: space-between;
@@ -446,7 +450,8 @@ button:focus {
 .hero_aside .inner div.card_1 {
   width: 100%; }
 
-.hero_aside .inner div.card_2, .hero_aside .inner div.card_3 {
+.hero_aside .inner div.card_2,
+.hero_aside .inner div.card_3 {
   width: 50%; }
 
 @media (max-width: 700px) {
@@ -457,7 +462,8 @@ button:focus {
   .hero_aside .inner div.card_1 {
     width: auto; }
 
-  .hero_aside .inner div.card_2, .hero_aside .inner div.card_3 {
+  .hero_aside .inner div.card_2,
+  .hero_aside .inner div.card_3 {
     width: auto; } }
 /* Style the list */
 ul.breadcrumb {
@@ -719,14 +725,14 @@ ul.breadcrumb li a {
     place-content: center; }
 
 .top_nav_dropdown a {
-  color: #1f3200; }
+  color: #ffffff; }
   .top_nav_dropdown a::after {
-    color: #1f3200; }
+    color: #ffffff; }
 .top_nav_dropdown .rmps {
   transition: 250ms ease-in-out; }
   .top_nav_dropdown .rmps::after {
     content: "\f077";
-    color: #ffffff;
+    color: #1f3200;
     font-size: 0.7rem; }
 
 #user_order_details .order_summary ul {
@@ -1037,12 +1043,12 @@ footer {
   .main_nav_inner .fl_itm_1 {
     display: flex;
     align-items: center;
-    flex-basis: 30%; }
+    flex-basis: 15%; }
   .main_nav_inner .fl_itm_2 {
-    flex-basis: 50%; }
+    flex-basis: 67%; }
   .main_nav_inner .fl_itm_3 {
     display: flex;
-    flex-basis: 15%;
+    flex-basis: 13%;
     justify-content: flex-end; }
 
   #next::before,
@@ -1060,9 +1066,9 @@ footer {
   .main_nav_inner .fl_itm_1 {
     display: flex;
     align-items: center;
-    flex-basis: 45%; }
-  .main_nav_inner .fl_itm_2 {
     flex-basis: 30%; }
+  .main_nav_inner .fl_itm_2 {
+    flex-basis: 45%; }
   .main_nav_inner .fl_itm_3 {
     display: flex;
     flex-basis: 20%; } }

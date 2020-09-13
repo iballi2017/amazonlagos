@@ -23,31 +23,31 @@
     <header>
         <!-- header -->
         <!-- a. large screen header -->
-        <nav class="main_nav_lg bg-white sticky-top d-none d-md-block py-2">
+        <nav class="main_nav_lg sticky-top d-none d-md-block py-2">
             <div class="cont_wrapper main_nav_inner">
                 <div class="fl_itm_1">
                     <!-- <a class="navbar-brand" href="#">AmazonLagos</a> -->
                     <a href="../index.html" class="navbar-brand">
-                        <img src="../images/amazon_brand_logo.png" alt="AmazonLagos"></a>
-                    <nav class="nav">
-                        <li class="nav-item dropdown top_nav_dropdown">
-                            <a class="nav-link custom_dropdown_toggle pseudo_after" href="#" id="navbarDropdown"
-                                role="button" aria-haspopup="true" aria-expanded="false">
-                                Help
-                            </a>
-                            <div class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
-                                <ul class="category_list_lg_scrn">
-                                    <li>
-                                        <a href="../views/faq.php">FAQ</a>
-                                    </li>
-                                    <li>
-                                        <a href="../views/contact-us.php">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <a class="nav-link txt_green" href="#">Shopping List</a>
-                    </nav>
+                        <a class="navbar-brand" href="../index.html"><img src="../images/madeinlagos_brand_logo.png"
+                                alt="made in Lagos brand logo"></a>
+                        <nav class="nav">
+                            <li class="nav-item dropdown top_nav_dropdown">
+                                <a class="nav-link custom_dropdown_toggle pseudo_after" href="#" id="navbarDropdown"
+                                    role="button" aria-haspopup="true" aria-expanded="false">
+                                    Help
+                                </a>
+                                <div class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
+                                    <ul class="category_list_lg_scrn">
+                                        <li>
+                                            <a href="../views/faq.php">FAQ</a>
+                                        </li>
+                                        <li>
+                                            <a href="../views/contact-us.php">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </nav>
                 </div>
                 <div class="fl_itm_2">
                     <form class="search_form_lg-scrn d-flex" action="#">
@@ -89,379 +89,23 @@
                 </div>
             </div>
         </nav>
-        <div class="main_nav_cateory_wrapper d-none d-md-block">
-            <div class="cont_wrapper">
-                <ul class="nav flex_just_spb width_full">
-                    <li class="nav-item dropdown category_dropdown_alt">
-                        <a class="nav-link category_dropdown_toggle pseudo_after category_title pl-1" href="#"
-                            id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">
-                            All Categories
-                        </a>
-                        <div class="dropdown-menu border-0 p-0" aria-labelledby="navbarDropdown">
-                            <ul class="category_list_lg_scrn">
-                                <li class="all_category_menu_item">
-                                    <a href="#">Entertainment</a>
-                                    <div class="content">
-                                        <ul class="">
-                                            <li>
-                                                <a href="#">Television</a>
-
-                                            </li>
-                                            <li>
-                                                <a href="#">Home Theatre</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Sound Bar</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="all_category_menu_item">
-                                    <a href="#">Household/Appliances</a>
-                                    <div class="content">
-                                        <ul class="">
-                                            <li>
-                                                <a href="#">Washing machine</a>
-
-                                            </li>
-                                            <li>
-                                                <a href="#">Refrigerators</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Freezers</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Water dispensers</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="all_category_menu_item">
-                                    <a href="#">Cooling</a>
-                                    <div class="content">
-                                        <ul>
-                                            <li>
-                                                <a href="#">Air conditioners - split unit, floor standing AC</a>
-
-                                            </li>
-                                            <li>
-                                                <a href="#">Refrigerators</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Cassette air conditioner</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Air coolers</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="all_category_menu_item">
-                                    <a href="#">Kitchen appliances</a>
-                                    <div class="container-fluid content">
-                                        <ul class="mx-2 my-3 row">
-                                            <li class="col-4">
-                                                <a href="#">Electric jugs </a>
-                                            </li>
-                                            <li class="col-4">
-                                                <a href="#">
-                                                    Electric oven</a>
-                                            </li>
-                                            <li class="col-4">
-                                                <a href="#"> Gas stoves</a>
-                                            </li>
-                                            <li class="col-4">
-                                                <a href="#">Hot plates</a>
-                                            </li>
-                                            <li class="col-4">
-                                                <a href="#">Microwaves</a>
-                                            </li>
-                                            <li class="col-4">
-                                                <a href="#">Pressure cookers</a>
-                                            </li>
-                                            <li class="col-4">
-                                                <a href="#">Rice cookers</a>
-                                            </li>
-                                            <li class="col-4">
-                                                <a href="#">Sandwich makers</a>
-                                            </li>
-                                            <li class="col-4">
-                                                <a href="#">Blender </a>
-                                            </li>
-                                            <li class="col-4">
-                                                <a href="#">
-                                                    Mixers</a>
-                                            </li>
-                                            <li class="col-4">
-                                                <a href="#">Juice extractor</a>
-                                            </li>
-                                            <li class="col-4">
-                                                <a href="#">Pressing iron</a>
-                                            </li>
-                                            <li class="col-4">
-                                                <a href="#">Electric kettle</a>
-                                            </li>
-                                            <li class="col-4">
-                                                <a href="#"> Deep fryer</a>
-                                            </li>
-                                            <li class="col-4">
-                                                <a href="#">Coffee maker</a>
-                                            </li>
-                                            <li class="col-4">
-                                                <a href="#">Toasters</a>
-                                            </li>
-                                            <li class="col-4">
-                                                <a href="#">Gas cooker </a>
-                                            </li>
-                                            <li class="col-4">
-                                                <a href="#">
-                                                    Built in oven</a>
-                                            </li>
-                                            <li class="col-4">
-                                                <a href="#">Built in Hob</a>
-                                            </li>
-                                            <li class="col-4">
-                                                <a href="#">Built in chimney</a>
-                                            </li>
-                                            <li class="col-4">
-                                                <a href="#">Table top cooker</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="all_category_menu_item">
-                                    <a href="#">Power</a>
-                                    <div class="content">
-                                        <ul>
-                                            <li>
-                                                <a href="#">Stabilizers</a>
-                                            </li>
-                                            <li>
-                                                <a href="#"> Generator set</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="all_category_menu_item">
-                                    <a href="#">Groceries</a>
-                                    <div class="content">
-                                        <ul>
-                                            <li>
-                                                <a href="#">Cereal & beverages</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Food</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Canned Foods</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Fruits & Vegetables</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Fruit Juices and Drinks </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <!--  -->
-
-                    <li class="nav-item category_dropdown">
-                        <a class="nav-link category_title" href="#">Entertainment</a>
-                        <div class="category_dropdown_list absolute_position border" style="width: 60%; left: 20%">
-                            <ul class="mx-2 my-3">
-                                <li>
-                                    <a href="#">Television</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Home theater</a>
-                                </li>
-                                <li>
-                                    <a href="#"> Sound bar</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-item category_dropdown">
-                        <a class="nav-link category_title" href="#">Household/Appliances</a>
-                        <div class="category_dropdown_list absolute_position border" style="width: 60%; left: 20%">
-                            <ul class="mx-2 my-3">
-                                <li>
-                                    <a href="#">Washing machine </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Refrigerators</a>
-                                </li>
-                                <li>
-                                    <a href="#"> Freezers</a>
-                                </li>
-                                <li>
-                                    <a href="#">Water dispensers</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-item category_dropdown">
-                        <a class="nav-link category_title" href="#">Cooling</a>
-                        <div class="category_dropdown_list absolute_position border" style="width: 60%; left: 20%">
-                            <ul class="mx-2 my-3">
-                                <li>
-                                    <a href="#">Air conditioners - split unit, floor standing AC </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Refrigerators</a>
-                                </li>
-                                <li>
-                                    <a href="#"> Cassette air conditioner</a>
-                                </li>
-                                <li>
-                                    <a href="#">Air coolers</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-item category_dropdown">
-                        <a class="nav-link category_title" href="#">Kitchen appliances</a>
-                        <div class="category_dropdown_list absolute_position border" style="width: 60%; left: 20%">
-                            <ul class="mx-2 my-3 row">
-                                <li class="col-4">
-                                    <a href="#">Electric jugs </a>
-                                </li>
-                                <li class="col-4">
-                                    <a href="#">
-                                        Electric oven</a>
-                                </li>
-                                <li class="col-4">
-                                    <a href="#"> Gas stoves</a>
-                                </li>
-                                <li class="col-4">
-                                    <a href="#">Hot plates</a>
-                                </li>
-                                <li class="col-4">
-                                    <a href="#">Microwaves</a>
-                                </li>
-                                <li class="col-4">
-                                    <a href="#">Pressure cookers</a>
-                                </li>
-                                <li class="col-4">
-                                    <a href="#">Rice cookers</a>
-                                </li>
-                                <li class="col-4">
-                                    <a href="#">Sandwich makers</a>
-                                </li>
-                                <li class="col-4">
-                                    <a href="#">Blender </a>
-                                </li>
-                                <li class="col-4">
-                                    <a href="#">
-                                        Mixers</a>
-                                </li>
-                                <li class="col-4">
-                                    <a href="#">Juice extractor</a>
-                                </li>
-                                <li class="col-4">
-                                    <a href="#">Pressing iron</a>
-                                </li>
-                                <li class="col-4">
-                                    <a href="#">Electric kettle</a>
-                                </li>
-                                <li class="col-4">
-                                    <a href="#"> Deep fryer</a>
-                                </li>
-                                <li class="col-4">
-                                    <a href="#">Coffee maker</a>
-                                </li>
-                                <li class="col-4">
-                                    <a href="#">Toasters</a>
-                                </li>
-                                <li class="col-4">
-                                    <a href="#">Gas cooker </a>
-                                </li>
-                                <li class="col-4">
-                                    <a href="#">
-                                        Built in oven</a>
-                                </li>
-                                <li class="col-4">
-                                    <a href="#">Built in Hob</a>
-                                </li>
-                                <li class="col-4">
-                                    <a href="#">Built in chimney</a>
-                                </li>
-                                <li class="col-4">
-                                    <a href="#">Table top cooker</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-item category_dropdown">
-                        <a class="nav-link category_title" href="#">Power</a>
-                        <div class="category_dropdown_list absolute_position border" style="width: 40%; left: 50%">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col">
-                                        <ul class="mx-2 my-3">
-                                            <li>
-                                                <a href="#">Stabilizers </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    Generator set</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item category_dropdown">
-                        <a class="nav-link category_title" href="#">Groceries</a>
-                        <div class="category_dropdown_list absolute_position border" style="width: 40%; left: 70%">
-                            <ul class="mx-2 my-3">
-                                <li>
-                                    <a href="#">Cereal & beverages</a>
-                                </li>
-                                <li>
-                                    <a href="#">Food</a>
-                                </li>
-                                <li>
-                                    <a href="#">Canned Foods</a>
-                                </li>
-                                <li>
-                                    <a href="#">Fruits & Vegetables</a>
-                                </li>
-                                <li>
-                                    <a href="#">Fruit Juices and Drinks </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
         <!-- ##### -->
         <!--  -->
         <!-- b. small screen header -->
         <nav class="cust_nav navbar-expand-lg navbar-light p-0 sticky-top d-block d-md-none">
-            <div class="bg-white">
+            <div class="bg_deep_green">
                 <div class="cont_wrapper flex_just_spb right_0 left_0 align_center">
                     <span>
                         <!-- Brand-logo -->
-                        <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+                        <button class="navbar-toggler text-white border-0" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                            <div class="fas fa-bars"></div>
                         </button>
-                        <a class="navbar-brand" href="../index.html">
-                            <img src="../images/amazon_brand_logo.png" alt="AmazonLagos">
-                        </a></span>
+                        <a class="navbar-brand" href="../index.html"><img src="../images/madeinlagos_brand_logo.png"
+                                alt="made in Lagos brand logo">
+                        </a>
+                    </span>
                     <span>
                         <!-- <i class="fas fa-shopping-cart"> -->
                         <i class="fas fa-shopping-bag shopping_cart_icon">
@@ -475,7 +119,8 @@
                     <li class="nav-item bg-white py-4 my-2 inline_flex">
                         <div class="text-center margin-auto-0">
                             <a class="access_btn py-2 px-5 white_btn mr-2" href="../views/login.php">Login</a>
-                            <a class="access_btn py-2 px-5 white_btn" href="../views/register.php">Sign Up</a></div>
+                            <a class="access_btn py-2 px-5 white_btn" href="../views/register.php">Sign Up</a>
+                        </div>
                     </li>
                 </ul>
                 <h6 class="container bg-white py-3 text_capital">All Categories</h6>
@@ -734,7 +379,8 @@
                                     <div class="card-body py-0">
                                         <ul class="navbar-nav category_list_wrapper mr-auto">
                                             <li class="nav-item active">
-                                                <a class="nav-link text_capital" href="../views/contact-us.php">Contact Us</a>
+                                                <a class="nav-link text_capital" href="../views/contact-us.php">Contact
+                                                    Us</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link text_capital" href="../views/faq.php">FAQ</a>
